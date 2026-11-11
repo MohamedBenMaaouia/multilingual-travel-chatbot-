@@ -1,0 +1,198 @@
+{"lang": "en", "subcategory": "hotel_search", "text": "Can you suggest a few hotels in Nabeul for a weekend break?", "reason": "unlabeled date: weekend"}
+{"lang": "en", "subcategory": "hotel_search", "text": "Are there any nice resorts in Zarzis for couples?", "reason": "unlisted place: nice"}
+{"lang": "en", "subcategory": "hotel_search", "text": "Can you find accommodation in Montreal for the weekend?", "reason": "unlabeled date: weekend"}
+{"lang": "en", "subcategory": "hotel_price", "text": "What would a weekend in a resort in Djerba cost for a couple?", "reason": "unlabeled date: weekend"}
+{"lang": "en", "subcategory": "car_rental", "text": "Are winter tyres included when renting a car in Frankfurt?", "reason": "unlabeled date: winter"}
+{"lang": "en", "subcategory": "public_transport", "text": "Can you explain how louages work in Tunisia?", "reason": "unlisted place: tunisia"}
+{"lang": "en", "subcategory": "weather", "text": "Is December a good time to visit Paris weather-wise?", "reason": "unlabeled date: december"}
+{"lang": "en", "subcategory": "weather", "text": "How windy does it get in Sousse during the summer?", "reason": "unlabeled date: summer"}
+{"lang": "en", "subcategory": "weather", "text": "How hot does it get in Dubai during December?", "reason": "unlabeled date: december"}
+{"lang": "en", "subcategory": "weather", "text": "Is April usually rainy in Brussels?", "reason": "unlabeled date: april"}
+{"lang": "en", "subcategory": "weather", "text": "What's the weather usually like in Tabarka in autumn?", "reason": "unlabeled date: autumn"}
+{"lang": "en", "subcategory": "weather", "text": "How cold does it get in Frankfurt during the winter?", "reason": "unlabeled date: winter"}
+{"lang": "en", "subcategory": "weather", "text": "What's the climate like in Nabeul during the summer?", "reason": "unlabeled date: summer"}
+{"lang": "en", "subcategory": "weather", "text": "Is January a cold month in Lyon?", "reason": "unlabeled date: january"}
+{"lang": "en", "subcategory": "weather", "text": "Are evenings cold in Kairouan during the summer?", "reason": "unlabeled date: summer"}
+{"lang": "en", "subcategory": "weather", "text": "Can I expect snow in Berlin this winter?", "reason": "unlabeled date: winter"}
+{"lang": "en", "subcategory": "weather", "text": "Is it too hot to visit Douz in the summer?", "reason": "unlabeled date: summer"}
+{"lang": "en", "subcategory": "weather", "text": "Is October a good month for visiting Barcelona weather-wise?", "reason": "unlabeled date: october"}
+{"lang": "en", "subcategory": "weather", "text": "How cold does it get in Ain Draham during December?", "reason": "unlabeled date: december"}
+{"lang": "en", "subcategory": "activities", "text": "What should I visit during a weekend in Barcelona?", "reason": "unlabeled date: weekend"}
+{"lang": "en", "subcategory": "activities", "text": "Recommend a nice beach for a relaxing day in Kelibia.", "reason": "unlisted place: nice"}
+{"lang": "en", "subcategory": "activities", "text": "Are there any nice parks or gardens to visit in Lyon?", "reason": "unlisted place: nice"}
+{"lang": "en", "subcategory": "visa_documents", "text": "Can I get a visa on arrival in Doha?", "reason": "duplicate"}
+{"lang": "en", "subcategory": "trip_cost", "text": "I want to spend a weekend in Sousse. What's a reasonable budget?", "reason": "unlabeled date: weekend"}
+{"lang": "en", "subcategory": "trip_cost", "text": "Estimate the cost of a romantic weekend in Barcelona.", "reason": "unlabeled date: weekend"}
+{"lang": "en", "subcategory": "trip_cost", "text": "How much would a family of four spend on a summer holiday in Djerba?", "reason": "unlabeled date: summer"}
+{"lang": "en", "subcategory": "trip_cost", "text": "What's the average cost of a weekend getaway in Hammamet for a couple?", "reason": "unlabeled date: weekend"}
+{"lang": "en", "subcategory": "trip_cost", "text": "Is 300 euros enough for a weekend in Sfax?", "reason": "unlabeled date: weekend"}
+{"lang": "en", "subcategory": "trip_cost", "text": "Can you estimate my expenses for a weekend in Tabarka?", "reason": "unlabeled date: weekend"}
+{"lang": "fr", "subcategory": "weather", "text": "Je voudrais connaître les températures à Montréal en hiver.", "reason": "unlabeled date: hiver"}
+{"lang": "fr", "subcategory": "weather", "text": "Est-ce qu'il neige parfois à Ain Draham en hiver ?", "reason": "unlabeled date: hiver"}
+{"lang": "fr", "subcategory": "weather", "text": "Quel temps fait-il habituellement à Gabes au printemps ?", "reason": "unlabeled date: printemps"}
+{"lang": "fr", "subcategory": "weather", "text": "Je voudrais connaître les prévisions à Milan pour le week-end.", "reason": "unlabeled date: week-end"}
+{"lang": "fr", "subcategory": "activities", "text": "Quelles activités conseillez-vous à Lisbonne pour un week-end ?", "reason": "unlabeled date: week-end"}
+{"lang": "fr", "subcategory": "activities", "text": "Je cherche une visite guidée de la médina de Tunis.", "reason": "unlisted place: medina"}
+{"lang": "fr", "subcategory": "exchange_rate", "text": "Quel est le taux de change entre l'euro et le franc suisse ?", "reason": "unlisted place: suisse"}
+{"lang": "fr", "subcategory": "trip_cost", "text": "Je voudrais passer un week-end à Sousse. Quel budget prévoir ?", "reason": "unlabeled date: week-end"}
+{"lang": "fr", "subcategory": "trip_cost", "text": "Estimez le coût d'un week-end romantique à Barcelone.", "reason": "unlabeled date: week-end"}
+{"lang": "fr", "subcategory": "trip_cost", "text": "Quel est le coût moyen d'un week-end en couple à Hammamet ?", "reason": "unlabeled date: week-end"}
+{"lang": "fr", "subcategory": "trip_cost", "text": "Est-ce que 300 euros suffisent pour un week-end à Sfax ?", "reason": "unlabeled date: week-end"}
+{"lang": "fr", "subcategory": "trip_cost", "text": "Pouvez-vous estimer mes dépenses pour un week-end à Tabarka ?", "reason": "unlabeled date: week-end"}
+{"lang": "tn_latin", "subcategory": "flight_search", "text": "nheb n7جز billet l barcelona pour 3 adultes w tofla", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "flight_search", "text": "nheb na7جز zouz billets l amsterdam", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "flight_price", "text": "nheb billet l milano ma يفوتش 150 euro", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "baggage", "text": "kifech nzid valise ba3d ma 7جزت vol?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "hotel_search", "text": "nheb n7جز chambre fi tunis pour 3 nuits", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "hotel_search", "text": "a7سن hotel fi hammamet lel weekend hedha chnowa?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "hotel_facilities", "text": "hotel fi ain draham yوفر service de nettoyage quotidien?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "hotel_facilities", "text": "est-ce que petit déjeuner ينجم يكون servi fel chambre fi zarzis?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "transfer_taxi", "text": "najjem n7جز taxi m3a siège bébé fi monastir?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "transfer_taxi", "text": "kifech na3ref tarif course taxi avant ma narكب?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "weather", "text": "el jaw fi zarzis s5oun barcha walla معتدل?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "weather", "text": "el meteo fi tataouine fi chhar janvier kifech?", "reason": "unlabeled date: janvier"}
+{"lang": "tn_latin", "subcategory": "weather", "text": "chnowa nلبس fi tabarka fel weekend?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "activities", "text": "nheb nكتشف les marchés fi nabeul", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "activities", "text": "nheb n7جز sortie en quad fi tozeur", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "visa_documents", "text": "passeport mte3i yelزمou validité 6 mois bech ندخل l dubai?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "visa_documents", "text": "passeport mte3i yوفى nhar 20 decembre, najjem nsafer l milano?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "visa_documents", "text": "fama visa électronique bech ندخل l istanbul?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "visa_documents", "text": "fama documents zeydin lel mineur bech يمشي l london?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "visa_documents", "text": "kifech n7جز rendez-vous visa l geneve?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "visa_documents", "text": "lazemni autorisation parentale lel sghir bech يسافر l paris?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb net3alem nطيب couscous bel 3louch", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chneya a7سن طريقة bech norganizi bureau mte3i?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb na3mel pizza fel dar, chnowa recette pâte ناجحة?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "lyoum 3andi barcha khedma w moch 3aref menin نبدا", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb nكتب CV behi bech نقدم 3la stage", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "ba3d ghodwa 3andi examen histoire, chnowa a7سن méthode révision?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "3lech el chocolat ydouوب ki نحطou fel soleil?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb net3alem guitare, chnowa les bases elli نبدا bihom?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "fama idée projet sghir najm نبدا bih men dar?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "echhar ejjey bech نبدا formation informatique, chnowa lezemni نحضر?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chneya ahسن طريقة bech ننحي tache café men chemise?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb série policière ma فيهاش barcha violence", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb application bech نتبع بيها mes dépenses", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "ghodwa bech n3amel gâteau, najem nبدل beurre b huile?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "el khmis ejjey bech n3adi devoir philo, kifech nكتب introduction?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb nchouf match basket ama ma نفهمش les règles", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb nكتب message chokr lel prof mte3i", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "a5er echhar bech نبدا régime équilibré, tnajem ta3tini idées repas?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chneya a7سن طريقة bech نتعلم vocabulaire français?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech nصلح fermeture éclair mta3 sac?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb film animation نتفرج fih m3a sghar", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "3lech السماء زرقاء? fasarheli b kelmet sahla", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb n3aref kifech nزرع نعناع fel balcon", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "a3tini afkar activité lel sghar fi dar ki yملّو", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chneya les livres elli تنصحني بيhom bech نبدا نقرا?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb application gratuite bech نتبع programme sport", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "3andi problème fel micro mta3 laptop, souti ma yetسمعش", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech n3amel omelette fluffy w ma تلصقش fel poêle?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "salam, chnowa a7سن série tnajjem تنصحني بيها?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb nبدل routine mte3i bech nwalli ننوض بكري", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech na3mel compte rendu réunion بطريقة منظمة?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "3andi 7keya m3a voisin 3al dhaw, kifech نحكي m3ah b calme?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb نفهم chnowa ya3mel le processeur fel ordinateur", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chnowa najm nطيب bel thon w fromage? nheb recette rapide", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech nكتب lettre motivation bech نقدم 3la khedma?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "3andi entretien nhar el khmis, chnowa najem nلبس?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb nechri casque bluetooth, chnowa les critères elli nركز 3ليhom?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "a3tini des idées bech nزين chambre sghira", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb recette biscuits bel citron w ma تستحقش beurre", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chnowa a7سن exercice bech n9awi dhahri fel dar?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "3lech el bnet w el wled y7لمou ki yor9dou?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb application bech نتعلم dessin 3al tablette", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "el jem3a ejjeya 3andi examen droit, kifech nراجع les chapitres?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech na3mel crème chantilly ma تهبطش?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb nكتب histoire sghira lel sghar, 3tini idée", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech nبدل langue mta3 clavier fel Windows?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb net3alem nرسم portraits, chnowa les outils elli نستحقhom?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "lyoum rassi yوجعni men barcha écran, chnowa na3mel bech nرتاح?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech nكتب email professionnel b tari9a mo7tarma?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "el imprimante tخرج les pages m3awjin, win el mochkel?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "ghodwa bech n3amel couscous, kifech نخليه مفلفل?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb série tunisienne tdhahhek, chnowa تنصحني?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chnowa na3mel ki nنسى barcha les rendez-vous?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "el caméra mta3 laptop ma t5demch fel réunion, chnowa الحل?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "fama magasin livres مستعملة fi sfax?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "el compte Facebook mte3i t3attel, kifech nرجعو?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb nتعلم Excel men sifr, a3tini les bases", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech n9assem masroufi bech نوفر chwaya flous?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "a3tini recette crêpes ma تلصقش fel poêle", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb na3mel planning lel semaine bech ma nنساش chay", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nhar el tnin 3andi présentation projet, kifech nتحكم fel trac?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chnowa الفرق bin virus w bactérie?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb نكتب CV en français, tnajem tsa3edni fel formulation?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "3andi problème bech nركز fel 9raya, chnowa tnصحni?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb musique instrumentale bech nركز fel khedma", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "ba3d ghodwa 3andi examen géographie, a3tini tari9a bech nراجع les cartes", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech nبدل batterie télécommande mta3 climatiseur?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chnowa les étapes bech nفتح projet freelance?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb net3alem nكتب b clavier asra3, 3andek exercices?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "lyoum 3andi barcha stress fel khedma, a3tini tari9a bech nرتاح", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chnowa na3mel ki nنسى code mta3 téléphone?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech n7adher réunion bech nكون حاضر w ma نتلخبطش?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "chneya a7سن méthode bech nراجع vocabulaire w ma nensach?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "kifech n7مي compte mte3i men les messages frauduleux?", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "a3tini résumé sghir 3la دورة الماء fel nature", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "non_travel", "text": "nheb nكتب invitation simple lel fête mta3 weldi", "reason": "arabic script"}
+{"lang": "tn_latin", "subcategory": "exchange_rate", "text": "9adech ya3mel franc suisse bel dinar?", "reason": "unlisted place: suisse"}
+{"lang": "tn_latin", "subcategory": "trip_cost", "text": "9adech yelزمni lel hotel w l mekla fi Paris?", "reason": "arabic script"}
+{"lang": "en", "subcategory": "car_rental", "text": "Can I rent a small automatic car in Djerba this weekend?", "reason": "cell full"}
+{"lang": "en", "subcategory": "car_rental", "text": "Can I pick up a rental car in Tunis and return it in Sfax?", "reason": "cell full"}
+{"lang": "en", "subcategory": "exchange_rate", "text": "How much is 120 euros in Swiss francs?", "reason": "cell full"}
+{"lang": "en", "subcategory": "exchange_rate", "text": "How much is 75 euros in British pounds?", "reason": "cell full"}
+{"lang": "en", "subcategory": "exchange_rate", "text": "Convert 1,000 Tunisian dinars into US dollars, please.", "reason": "cell full"}
+{"lang": "en", "subcategory": "flight_price", "text": "What are the current ticket prices for flights to Geneva?", "reason": "cell full"}
+{"lang": "en", "subcategory": "flight_price", "text": "What's the cheapest ticket available for a flight to Doha?", "reason": "cell full"}
+{"lang": "en", "subcategory": "flight_price", "text": "Can you check the ticket price from Tunis to Rome next Monday?", "reason": "cell full"}
+{"lang": "en", "subcategory": "flight_search", "text": "I want to fly from Djerba to Paris. What options do I have?", "reason": "cell full"}
+{"lang": "en", "subcategory": "flight_search", "text": "Are there any evening flights from Sousse to Milan?", "reason": "cell full"}
+{"lang": "en", "subcategory": "flight_search", "text": "Can you check the flight schedules between Tunis and Rome?", "reason": "cell full"}
+{"lang": "en", "subcategory": "hotel_price", "text": "What's the cheapest accommodation available in Monastir?", "reason": "cell full"}
+{"lang": "en", "subcategory": "public_transport", "text": "Is there a public transport connection between Tozeur and Douz?", "reason": "cell full"}
+{"lang": "en", "subcategory": "public_transport", "text": "What is the earliest bus from Hammamet to Sousse tomorrow?", "reason": "cell full"}
+{"lang": "en", "subcategory": "transfer_taxi", "text": "Need a taxi with a child seat in London.", "reason": "cell full"}
+{"lang": "en", "subcategory": "transfer_taxi", "text": "What's the difference between a shared shuttle and a private transfer?", "reason": "cell full"}
+{"lang": "en", "subcategory": "visa_documents", "text": "What paperwork do I need for a tourist visa to Montreal?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "activities", "text": "Je voudrais découvrir les activités nautiques à Mahdia.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "activities", "text": "Quelles sont les meilleures activités pour un couple à Barcelone ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "car_rental", "text": "Je voudrais récupérer mon véhicule à Djerba et le rendre à Zarzis.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "car_rental", "text": "Je voudrais louer une voiture familiale à Tozeur la semaine prochaine.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "car_rental", "text": "Combien coûte une location de voiture pour une semaine à Sousse ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "exchange_rate", "text": "Quelle monnaie devrais-je emporter pour visiter Istanbul ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "exchange_rate", "text": "Quel est le taux actuel pour convertir des euros en livres turques ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "flight_price", "text": "Combien faut-il prévoir pour deux billets de Tunis à Milan ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "flight_price", "text": "Je cherche le tarif le plus bas pour un vol vers Genève.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "flight_price", "text": "Le billet pour Paris coûte combien pour un enfant de 8 ans ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "flight_search", "text": "Un vol de Tunis à Doha pour le week-end prochain, s'il vous plaît.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "flight_search", "text": "Je voudrais partir de Monastir à destination de Paris.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "flight_search", "text": "Je cherche un aller-retour Tunis-Malte pour deux personnes.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "hotel_price", "text": "Quel budget prévoir pour un hôtel de luxe à Doha ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "hotel_price", "text": "Pouvez-vous comparer les tarifs des hôtels à Paris et Lyon ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "hotel_price", "text": "Quel serait le coût total de six nuits à Lisbonne ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "hotel_search", "text": "Quels hôtels proposent des chambres non-fumeurs à Rome ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "hotel_search", "text": "Je cherche un hébergement économique à Tunis.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "hotel_search", "text": "Je voudrais un hôtel tout compris à Monastir cet été.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "public_transport", "text": "Quel est le prix d'un billet de train entre Sfax et Gabes ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "public_transport", "text": "Combien de temps faut-il pour aller de Tunis à Kairouan en bus ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "public_transport", "text": "Quel transport prendre pour aller de Tunis à Kairouan ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "transfer_taxi", "text": "Je voudrais une navette pour rejoindre mon hôtel à Tabarka.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "transfer_taxi", "text": "Pouvez-vous organiser un transfert de l'aéroport de Monastir à Mahdia ?", "reason": "cell full"}
+{"lang": "fr", "subcategory": "transfer_taxi", "text": "Je cherche une navette privée de l'aéroport de Tunis à Bizerte.", "reason": "cell full"}
+{"lang": "fr", "subcategory": "visa_documents", "text": "Puis-je voyager à Marseille si mon visa expire le lendemain de mon arrivée ?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "car_rental", "text": "fama location voiture fi djerba lyoum?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "car_rental", "text": "najjem n'annuli réservation location karhba sans frais?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "car_rental", "text": "najjem ne5ou karhba fi sfax w nrajja3ha fi tunis?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "exchange_rate", "text": "Nnajjem nbaddel dinar tounsi lel dirham?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "exchange_rate", "text": "Fama frais zeyda 3al conversion?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "flight_price", "text": "les tarifs geneve ar5es nhar el tnin?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "flight_price", "text": "fama promotions 3la vols l roma?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "flight_search", "text": "chnowa ahsen vols bech nemchi men tunis l london?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "hotel_price", "text": "prix hotel fi sfax pour 3 adultes nhar el tnin?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "hotel_price", "text": "fama reduction ken na5ou 10 nuits fi sousse?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "hotel_search", "text": "fama hotel familial fi nabeul pour 2 adultes w zouz sghar?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "public_transport", "text": "chnowa wa9t départ train men tunis l sfax?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "public_transport", "text": "transport public men tunis l kairouan, chnowa options?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "public_transport", "text": "fama train men mahdia l sousse fel weekend?", "reason": "cell full"}
+{"lang": "tn_latin", "subcategory": "trip_cost", "text": "B 500 dinar najjem na3mel weekend fi Mahdia?", "reason": "cell full"}

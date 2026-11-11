@@ -1,0 +1,14 @@
+{
+  "_note": "Key = ISO currency code (used to query mock exchange rates). Currency is NOT an NER label (only LOC and DATE are); it will be found with this list as a simple lookup. tn_latin entries are drafts and NEED USER REVIEW.",
+  "currencies": {
+    "TND": {"en": ["dinars", "Tunisian dinars", "TND", "DT"], "fr": ["dinars", "dinars tunisiens", "DT", "TND"], "tn_latin": ["dinar", "dinars", "dt", "flous tounsia"]},
+    "EUR": {"en": ["euros", "EUR", "€"],                       "fr": ["euros", "EUR", "€"],                        "tn_latin": ["euro", "euros", "ouro"]},
+    "USD": {"en": ["dollars", "US dollars", "USD", "$"],       "fr": ["dollars", "dollars américains", "USD"],    "tn_latin": ["dollar", "dolar"]},
+    "GBP": {"en": ["pounds", "British pounds", "GBP", "£"],    "fr": ["livres sterling", "livres", "GBP"],        "tn_latin": ["livre", "livre sterling", "pound"]},
+    "CHF": {"en": ["Swiss francs", "CHF"],                     "fr": ["francs suisses", "CHF"],                   "tn_latin": ["franc suisse"]},
+    "CAD": {"en": ["Canadian dollars", "CAD"],                 "fr": ["dollars canadiens", "CAD"],                "tn_latin": ["dollar canadien"]},
+    "TRY": {"en": ["Turkish lira", "TRY"],                     "fr": ["livres turques", "TRY"],                   "tn_latin": ["lira", "lira turque"]},
+    "AED": {"en": ["UAE dirhams", "dirhams", "AED"],           "fr": ["dirhams", "AED"],                          "tn_latin": ["dirham", "dirham emarati"]},
+    "SAR": {"en": ["Saudi riyals", "riyals", "SAR"],           "fr": ["riyals saoudiens", "riyals", "SAR"],       "tn_latin": ["riyal", "rial s3oudi"]}
+  }
+}

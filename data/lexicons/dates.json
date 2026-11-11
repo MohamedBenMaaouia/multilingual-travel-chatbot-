@@ -1,0 +1,85 @@
+{
+  "_note": "Used twice: (1) to generate queries, (2) later in Module 4 to turn a date phrase into an ISO date. 'rule' says how to compute the date relative to today. Entity convention: if a text has [ ], only the part inside [ ] is the DATE entity and the words outside (prepositions like on / in / at / à / en / fi / fel) stay in the sentence. If it has no [ ], the whole text is the entity. tn_latin entries are drafts and NEED USER REVIEW.",
+
+  "_rules": {
+    "today": "today's date",
+    "+Nd / +Nw / +Nm": "today plus N days / weeks / months",
+    "weekend": "the coming Saturday (this weekend)",
+    "next_weekend": "the Saturday of the following week",
+    "weekday:K": "the next occurrence of weekday K (0 = Monday ... 6 = Sunday)",
+    "end_of_month": "the last day of the current month",
+    "season:summer": "next 1 July if before summer, else today"
+  },
+
+  "relative": {
+    "en": [
+      {"text": "today",                    "rule": "today"},
+      {"text": "tonight",                  "rule": "today"},
+      {"text": "tomorrow",                 "rule": "+1d"},
+      {"text": "the day after tomorrow",   "rule": "+2d"},
+      {"text": "this weekend",             "rule": "weekend"},
+      {"text": "next weekend",             "rule": "next_weekend"},
+      {"text": "next week",                "rule": "+1w"},
+      {"text": "in two weeks",             "rule": "+2w"},
+      {"text": "next month",               "rule": "+1m"},
+      {"text": "this summer",              "rule": "season:summer"},
+      {"text": "at [the end of the month]", "rule": "end_of_month"}
+    ],
+    "fr": [
+      {"text": "aujourd'hui",              "rule": "today"},
+      {"text": "ce soir",                  "rule": "today"},
+      {"text": "demain",                   "rule": "+1d"},
+      {"text": "après-demain",             "rule": "+2d"},
+      {"text": "ce week-end",              "rule": "weekend"},
+      {"text": "le week-end prochain",     "rule": "next_weekend"},
+      {"text": "la semaine prochaine",     "rule": "+1w"},
+      {"text": "dans deux semaines",       "rule": "+2w"},
+      {"text": "le mois prochain",         "rule": "+1m"},
+      {"text": "cet été",                  "rule": "season:summer"},
+      {"text": "à [la fin du mois]",       "rule": "end_of_month"}
+    ],
+    "tn_latin": [
+      {"text": "lyoum",                    "rule": "today"},
+      {"text": "el youm",                  "rule": "today"},
+      {"text": "ellila",                   "rule": "today"},
+      {"text": "ghodwa",                   "rule": "+1d"},
+      {"text": "ghoudwa",                  "rule": "+1d"},
+      {"text": "8odwa",                    "rule": "+1d"},
+      {"text": "ba3d ghodwa",              "rule": "+2d"},
+      {"text": "fel [weekend]",            "rule": "weekend"},
+      {"text": "el weekend hedha",         "rule": "weekend"},
+      {"text": "el weekend ejjey",         "rule": "next_weekend"},
+      {"text": "el jem3a ejjeya",          "rule": "+1w"},
+      {"text": "jem3a jeya",               "rule": "+1w"},
+      {"text": "ba3d jem3tin",             "rule": "+2w"},
+      {"text": "echhar ejjey",             "rule": "+1m"},
+      {"text": "chhar jey",                "rule": "+1m"},
+      {"text": "fel [sif]",                "rule": "season:summer"},
+      {"text": "a5er echhar",              "rule": "end_of_month"}
+    ]
+  },
+
+  "weekdays": {
+    "en":       ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "fr":       ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"],
+    "tn_latin": ["el tnin", "ettleth", "larb3a", "el khmis", "el jem3a", "essebt", "el a7ad"]
+  },
+  "weekday_formats": {
+    "en":       ["[next {weekday}]", "on [{weekday}]"],
+    "fr":       ["[{weekday} prochain]", "[{weekday}]"],
+    "tn_latin": ["[nhar {weekday}]", "[{weekday} ejjey]"]
+  },
+
+  "months": {
+    "en":       ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "fr":       ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
+    "tn_latin": ["janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet", "aout", "septembre", "octobre", "novembre", "decembre"]
+  },
+  "months_tn_dialect_variants": ["jenfi", "fivri", "mars", "avril", "mai", "jwan", "juilia", "out", "septembre", "octobre", "novembre", "decembre"],
+
+  "absolute_formats": {
+    "en":       ["on [{month} {day}]", "on [{day} {month}]", "on [the {day_ord} of {month}]", "in [{month}]"],
+    "fr":       ["[le {day} {month}]", "[le {day}/{month_num}]", "en [{month}]", "[début {month}]"],
+    "tn_latin": ["[nhar {day} {month}]", "[{day} {month}]", "fi [{day}/{month_num}]", "fi [chhar {month_num}]", "fi [{month}]"]
+  }
+}

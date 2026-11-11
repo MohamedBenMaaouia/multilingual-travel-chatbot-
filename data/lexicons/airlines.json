@@ -1,0 +1,4 @@
+{
+  "_note": "Airlines used in baggage templates and later in mock flights.csv.",
+  "airlines": ["Tunisair", "Nouvelair", "Tunisair Express", "Air France", "Transavia", "Turkish Airlines", "Lufthansa", "ITA Airways", "Emirates", "Qatar Airways", "Saudia", "Air Algérie", "Royal Air Maroc"]
+}
