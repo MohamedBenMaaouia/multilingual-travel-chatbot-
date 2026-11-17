@@ -150,7 +150,11 @@ tests/            # unit + scenario tests
 - **Totals: ~1,500 per language** (en 720 template + 552 GPT travel + 227 non-travel; fr 717 + 563 + 234; tn_latin 721 + 559 + 226). 14 slot-poor cells are at 76–86 instead of 87, which is acceptable.
 - ✅ The user decided: no row-by-row review of the Tunisian rows; the data is accepted.
 - ✅ `src/preprocessing/build_dataset.py`: merges both sources, cleans safely (no lowercasing; each model normalizes its own input), re-checks spans, dedups, assigns ids `q_000001…`, and does the template-aware stratified split. Outputs `data/processed/{dataset,train,val,test}.jsonl` + `balance_report.md`. Result: **4,519 rows → train 3,161 / val 684 / test 674**, 11–14 test rows per language × subcategory cell, 34–35 non-travel test rows per language; 0 templates and 0 sentences shared across splits.
-- Next: mock API data (`data/mock_api/`: weather.csv, flights.csv, hotels.csv, exchange_rates.json). That completes Step 1; then Module 1 (the user picks the model).
+- ✅ `src/mock_api/generate_data.py` → `data/mock_api/`: `weather.csv` (43 cities × 12 months of climate averages: temp min/max, condition sunny/partly_cloudy/rainy/snowy/windy_sandy, rain days, humidity, sea temp), `hotels.csv` (176 fictional hotels: stars, low/high-season price in TND, high-season months, board, facilities, rating), `flights.csv` (140 weekly-timetable rows: flight_no, airline, IATA origin/destination, days_of_week 0=Mon, time, duration, stops/via, season all_year/summer/winter, base price in TND, cabin/checked bag kg, extra-bag price), `exchange_rates.json` (1 unit → TND). Cities map to airports through `places.json`'s `airport` field.
+- **Step 1 (Dataset) is complete.**
+- **Module 1 (language detection): the user chose fastText.** In progress.
+
+Note for Module 5: there is no mock data for `activities`, `visa_documents`, `payment_methods`, `public_transport`, `car_rental` or `transfer_taxi` (the plan only lists weather, exchange, flights and hotels). Decide with the user whether to add small static info files or let the LLM answer generally with a disclaimer.
 
 Extra fields beyond the plan's schema: each entity has `norm` (canonical city, or a date rule like `+1d`, `weekday:4`, `md:12-20`, `month:10`), used to evaluate Module 4 normalization. Each row has `template_id`, which can be used for a template-aware split so test sentences don't share templates with train (decide with the user at the split step).
 

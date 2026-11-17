@@ -1,0 +1,16 @@
+{
+  "_note": "MOCK rates. Value of 1 unit of each currency in TND. Convert A->B via TND.",
+  "base": "TND",
+  "as_of": "2026-11-01",
+  "rates_to_tnd": {
+    "TND": 1.0,
+    "EUR": 3.4,
+    "USD": 3.05,
+    "GBP": 3.95,
+    "CHF": 3.55,
+    "CAD": 2.2,
+    "TRY": 0.075,
+    "AED": 0.83,
+    "SAR": 0.81
+  }
+}

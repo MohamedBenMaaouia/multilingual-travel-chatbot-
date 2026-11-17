@@ -1,0 +1,141 @@
+flight_no,airline,origin,origin_name,destination,destination_name,days_of_week,departure_time,duration_min,stops,via,season,base_price_tnd,cabin_bag_kg,checked_bag_kg,extra_bag_price_tnd
+TU884,Tunisair,TUN,Tunis-Carthage,CDG,Paris-Charles de Gaulle,"0,1,2,3,4,5,6",19:45,145,0,,all_year,555,8,23,150
+TU858,Tunisair,CDG,Paris-Charles de Gaulle,TUN,Tunis-Carthage,"0,1,2,3,4,5,6",07:15,145,0,,all_year,555,8,23,150
+AF935,Air France,TUN,Tunis-Carthage,CDG,Paris-Charles de Gaulle,"0,1,2,3,4,6",15:15,145,0,,all_year,690,12,23,220
+AF407,Air France,CDG,Paris-Charles de Gaulle,TUN,Tunis-Carthage,"0,1,2,3,4,6",13:30,155,0,,all_year,730,12,23,220
+TO607,Transavia,TUN,Tunis-Carthage,CDG,Paris-Charles de Gaulle,"0,1,2,4,5",19:40,145,0,,all_year,415,10,0,120
+TO252,Transavia,CDG,Paris-Charles de Gaulle,TUN,Tunis-Carthage,"2,3,4,5,6",19:30,145,0,,all_year,415,10,0,120
+BJ978,Nouvelair,TUN,Tunis-Carthage,CDG,Paris-Charles de Gaulle,"0,1,3,4,6",13:20,145,0,,all_year,470,8,23,140
+BJ348,Nouvelair,CDG,Paris-Charles de Gaulle,TUN,Tunis-Carthage,"0,1,3,5,6",10:30,150,0,,all_year,485,8,23,140
+TU194,Tunisair,TUN,Tunis-Carthage,MRS,Marseille-Provence,"0,1,2,6",20:25,100,0,,all_year,410,8,23,150
+TU923,Tunisair,MRS,Marseille-Provence,TUN,Tunis-Carthage,"0,2,3,6",08:15,105,0,,all_year,425,8,23,150
+BJ313,Nouvelair,TUN,Tunis-Carthage,MRS,Marseille-Provence,5,12:35,100,0,,all_year,350,8,23,140
+BJ294,Nouvelair,MRS,Marseille-Provence,TUN,Tunis-Carthage,2,06:15,110,0,,all_year,375,8,23,140
+TU345,Tunisair,TUN,Tunis-Carthage,LYS,Lyon-Saint Exupéry,"0,1,3,5",12:30,110,0,,all_year,440,8,23,150
+TU367,Tunisair,LYS,Lyon-Saint Exupéry,TUN,Tunis-Carthage,"2,3,4,6",17:20,120,0,,all_year,475,8,23,150
+TO922,Transavia,TUN,Tunis-Carthage,LYS,Lyon-Saint Exupéry,"3,4",20:05,110,0,,all_year,330,10,0,120
+TO420,Transavia,LYS,Lyon-Saint Exupéry,TUN,Tunis-Carthage,"2,6",12:25,125,0,,all_year,370,10,0,120
+TU666,Tunisair,TUN,Tunis-Carthage,FCO,Rome-Fiumicino,"0,1,2,3,4",10:00,75,0,,all_year,330,8,23,150
+TU953,Tunisair,FCO,Rome-Fiumicino,TUN,Tunis-Carthage,"0,1,2,5,6",18:45,90,0,,all_year,380,8,23,150
+AZ757,ITA Airways,TUN,Tunis-Carthage,FCO,Rome-Fiumicino,"2,3,4,5",21:55,75,0,,all_year,380,8,23,200
+AZ659,ITA Airways,FCO,Rome-Fiumicino,TUN,Tunis-Carthage,"1,2,3,5",10:55,90,0,,all_year,435,8,23,200
+TU937,Tunisair,TUN,Tunis-Carthage,MXP,Milan-Malpensa,"0,1,3,4",07:05,105,0,,all_year,425,8,23,150
+TU824,Tunisair,MXP,Milan-Malpensa,TUN,Tunis-Carthage,"0,1,3,6",13:05,105,0,,all_year,425,8,23,150
+TK106,Turkish Airlines,TUN,Tunis-Carthage,IST,Istanbul,"0,1,2,3,4,5,6",21:00,165,0,,all_year,650,8,30,200
+TK209,Turkish Airlines,IST,Istanbul,TUN,Tunis-Carthage,"0,1,2,3,4,5,6",19:10,180,0,,all_year,700,8,30,200
+TU914,Tunisair,TUN,Tunis-Carthage,IST,Istanbul,"1,2,3,4,5,6",17:20,165,0,,all_year,620,8,23,150
+TU800,Tunisair,IST,Istanbul,TUN,Tunis-Carthage,"0,2,3,4,5,6",13:20,180,0,,all_year,665,8,23,150
+EK752,Emirates,TUN,Tunis-Carthage,DXB,Dubai International,"0,1,2,3,4,5,6",21:00,360,0,,all_year,1615,7,30,250
+EK316,Emirates,DXB,Dubai International,TUN,Tunis-Carthage,"0,1,2,3,4,5,6",07:15,360,0,,all_year,1615,7,30,250
+TU147,Tunisair,TUN,Tunis-Carthage,LHR,London-Heathrow,"4,5,6",21:20,170,0,,all_year,635,8,23,150
+TU970,Tunisair,LHR,London-Heathrow,TUN,Tunis-Carthage,"2,4,5",07:10,170,0,,all_year,635,8,23,150
+TU940,Tunisair,TUN,Tunis-Carthage,MAD,Madrid-Barajas,"0,1,2",10:55,125,0,,all_year,490,8,23,150
+TU954,Tunisair,MAD,Madrid-Barajas,TUN,Tunis-Carthage,"0,1,2",13:45,140,0,,all_year,540,8,23,150
+TU873,Tunisair,TUN,Tunis-Carthage,BCN,Barcelona-El Prat,"3,4,6",16:30,105,0,,all_year,425,8,23,150
+TU200,Tunisair,BCN,Barcelona-El Prat,TUN,Tunis-Carthage,"0,5,6",17:00,110,0,,all_year,440,8,23,150
+TU719,Tunisair,TUN,Tunis-Carthage,BER,Berlin-Brandenburg,"1,3",08:25,165,0,,all_year,620,8,23,150
+TU379,Tunisair,BER,Berlin-Brandenburg,TUN,Tunis-Carthage,"2,6",06:50,180,0,,all_year,665,8,23,150
+LH290,Lufthansa,TUN,Tunis-Carthage,FRA,Frankfurt,"1,3,4,5,6",18:30,140,0,,all_year,670,8,23,220
+LH374,Lufthansa,FRA,Frankfurt,TUN,Tunis-Carthage,"0,1,2,4,5",08:05,155,0,,all_year,730,8,23,220
+TU209,Tunisair,TUN,Tunis-Carthage,FRA,Frankfurt,"1,3,5,6",16:25,140,0,,all_year,540,8,23,150
+TU235,Tunisair,FRA,Frankfurt,TUN,Tunis-Carthage,"0,2,3,5",14:05,140,0,,all_year,540,8,23,150
+TU126,Tunisair,TUN,Tunis-Carthage,BRU,Brussels,"0,1,3,4",19:05,155,0,,all_year,585,8,23,150
+TU398,Tunisair,BRU,Brussels,TUN,Tunis-Carthage,"0,2,4,6",18:00,155,0,,all_year,585,8,23,150
+TU633,Tunisair,TUN,Tunis-Carthage,GVA,Geneva,"0,3,6",13:45,115,0,,all_year,460,8,23,150
+TU408,Tunisair,GVA,Geneva,TUN,Tunis-Carthage,"1,3,5",10:20,120,0,,all_year,475,8,23,150
+TU271,Tunisair,TUN,Tunis-Carthage,AMS,Amsterdam-Schiphol,"2,3",10:05,170,0,,all_year,635,8,23,150
+TU901,Tunisair,AMS,Amsterdam-Schiphol,TUN,Tunis-Carthage,"2,3",15:35,185,0,,all_year,680,8,23,150
+TU838,Tunisair,TUN,Tunis-Carthage,LIS,Lisbon,"0,2",14:15,175,0,,all_year,650,8,23,150
+TU238,Tunisair,LIS,Lisbon,TUN,Tunis-Carthage,"4,6",12:35,190,0,,all_year,700,8,23,150
+TU961,Tunisair,TUN,Tunis-Carthage,MLA,Malta International,"0,2",18:25,55,0,,all_year,265,8,23,150
+TU540,Tunisair,MLA,Malta International,TUN,Tunis-Carthage,"2,6",20:25,70,0,,all_year,315,8,23,150
+TU811,Tunisair,TUN,Tunis-Carthage,ALG,Algiers-Houari Boumediene,"1,3,4,5,6",16:45,80,0,,all_year,345,8,23,150
+TU748,Tunisair,ALG,Algiers-Houari Boumediene,TUN,Tunis-Carthage,"1,2,3,4,6",15:55,85,0,,all_year,360,8,23,150
+AH936,Air Algérie,TUN,Tunis-Carthage,ALG,Algiers-Houari Boumediene,"1,2,4",18:20,80,0,,all_year,330,10,30,150
+AH658,Air Algérie,ALG,Algiers-Houari Boumediene,TUN,Tunis-Carthage,"0,2,4",12:45,95,0,,all_year,375,10,30,150
+AT314,Royal Air Maroc,TUN,Tunis-Carthage,CMN,Casablanca-Mohammed V,"0,1,4,5",20:55,165,0,,all_year,620,10,23,180
+AT748,Royal Air Maroc,CMN,Casablanca-Mohammed V,TUN,Tunis-Carthage,"0,2,3,6",21:10,180,0,,all_year,665,10,23,180
+TU533,Tunisair,TUN,Tunis-Carthage,CMN,Casablanca-Mohammed V,"1,2",10:55,165,0,,all_year,620,8,23,150
+TU510,Tunisair,CMN,Casablanca-Mohammed V,TUN,Tunis-Carthage,"0,3",21:45,180,0,,all_year,665,8,23,150
+TU931,Tunisair,TUN,Tunis-Carthage,JED,Jeddah-King Abdulaziz,"0,3,4,6",17:55,260,0,,all_year,920,8,23,150
+TU760,Tunisair,JED,Jeddah-King Abdulaziz,TUN,Tunis-Carthage,"0,1,2,5",07:45,260,0,,all_year,920,8,23,150
+SV915,Saudia,TUN,Tunis-Carthage,JED,Jeddah-King Abdulaziz,5,18:25,260,0,,all_year,970,7,46,200
+SV364,Saudia,JED,Jeddah-King Abdulaziz,TUN,Tunis-Carthage,0,06:05,275,0,,all_year,1020,7,46,200
+QR702,Qatar Airways,TUN,Tunis-Carthage,DOH,Doha-Hamad,"0,1,2,3,4,5,6",20:50,285,0,,all_year,1200,7,30,250
+QR245,Qatar Airways,DOH,Doha-Hamad,TUN,Tunis-Carthage,"0,1,2,3,4,5,6",09:55,290,0,,all_year,1220,7,30,250
+TU903,Tunisair,TUN,Tunis-Carthage,YUL,Montreal-Trudeau,"2,6",16:35,520,0,,all_year,1755,8,23,150
+TU199,Tunisair,YUL,Montreal-Trudeau,TUN,Tunis-Carthage,"3,4",17:35,525,0,,all_year,1770,8,23,150
+UG451,Tunisair Express,TUN,Tunis-Carthage,DJE,Djerba-Zarzis,"0,1,2,3,4,5,6",09:00,65,0,,all_year,150,8,20,80
+UG337,Tunisair Express,DJE,Djerba-Zarzis,TUN,Tunis-Carthage,"0,1,2,3,4,5,6",19:35,65,0,,all_year,150,8,20,80
+UG302,Tunisair Express,TUN,Tunis-Carthage,DJE,Djerba-Zarzis,"0,1,2,3,4,5,6",06:55,65,0,,all_year,150,8,20,80
+UG164,Tunisair Express,DJE,Djerba-Zarzis,TUN,Tunis-Carthage,"0,1,2,3,4,5,6",14:55,65,0,,all_year,150,8,20,80
+UG433,Tunisair Express,TUN,Tunis-Carthage,TOE,Tozeur-Nefta,"0,4,6",11:25,65,0,,all_year,150,8,20,80
+UG420,Tunisair Express,TOE,Tozeur-Nefta,TUN,Tunis-Carthage,"0,2,3",21:40,70,0,,all_year,155,8,20,80
+UG216,Tunisair Express,TUN,Tunis-Carthage,SFA,Sfax-Thyna,"3,4,6",18:45,55,0,,all_year,135,8,20,80
+UG404,Tunisair Express,SFA,Sfax-Thyna,TUN,Tunis-Carthage,"2,3,4",11:50,65,0,,all_year,150,8,20,80
+UG237,Tunisair Express,TUN,Tunis-Carthage,TBJ,Tabarka-Ain Draham,"4,6",08:50,45,0,,summer,125,8,20,80
+UG287,Tunisair Express,TBJ,Tabarka-Ain Draham,TUN,Tunis-Carthage,"0,1",15:05,55,0,,summer,135,8,20,80
+UG497,Tunisair Express,TUN,Tunis-Carthage,GAE,Gabes-Matmata,"2,5",10:40,60,0,,all_year,140,8,20,80
+UG290,Tunisair Express,GAE,Gabes-Matmata,TUN,Tunis-Carthage,"1,4",18:30,75,0,,all_year,160,8,20,80
+TO395,Transavia,DJE,Djerba-Zarzis,CDG,Paris-Charles de Gaulle,"1,3,4,5",11:35,170,0,,all_year,475,10,0,120
+TO596,Transavia,CDG,Paris-Charles de Gaulle,DJE,Djerba-Zarzis,"0,1,2,3",17:00,175,0,,all_year,490,10,0,120
+BJ801,Nouvelair,DJE,Djerba-Zarzis,CDG,Paris-Charles de Gaulle,"1,3,4",21:30,170,0,,all_year,540,8,23,140
+BJ184,Nouvelair,CDG,Paris-Charles de Gaulle,DJE,Djerba-Zarzis,"3,5,6",21:10,185,0,,all_year,580,8,23,140
+TU133,Tunisair,DJE,Djerba-Zarzis,CDG,Paris-Charles de Gaulle,0,13:20,170,0,,all_year,635,8,23,150
+TU899,Tunisair,CDG,Paris-Charles de Gaulle,DJE,Djerba-Zarzis,1,15:10,180,0,,all_year,665,8,23,150
+TO216,Transavia,DJE,Djerba-Zarzis,LYS,Lyon-Saint Exupéry,"3,4,6",09:45,135,0,,all_year,390,10,0,120
+TO551,Transavia,LYS,Lyon-Saint Exupéry,DJE,Djerba-Zarzis,"2,4,6",07:55,145,0,,all_year,415,10,0,120
+BJ853,Nouvelair,DJE,Djerba-Zarzis,LYS,Lyon-Saint Exupéry,1,19:05,135,0,,all_year,445,8,23,140
+BJ369,Nouvelair,LYS,Lyon-Saint Exupéry,DJE,Djerba-Zarzis,2,07:35,140,0,,all_year,455,8,23,140
+BJ314,Nouvelair,DJE,Djerba-Zarzis,MRS,Marseille-Provence,"0,2,3",09:15,125,0,,all_year,415,8,23,140
+BJ730,Nouvelair,MRS,Marseille-Provence,DJE,Djerba-Zarzis,"4,5,6",19:10,135,0,,all_year,445,8,23,140
+TU683,Tunisair,DJE,Djerba-Zarzis,MRS,Marseille-Provence,"1,6",12:00,125,0,,all_year,490,8,23,150
+TU820,Tunisair,MRS,Marseille-Provence,DJE,Djerba-Zarzis,"2,4",11:25,135,0,,all_year,520,8,23,150
+TK795,Turkish Airlines,DJE,Djerba-Zarzis,IST,Istanbul,"2,4,6",14:40,190,0,,all_year,735,8,30,200
+TK229,Turkish Airlines,IST,Istanbul,DJE,Djerba-Zarzis,"0,1,3",14:50,190,0,,all_year,735,8,30,200
+TU828,Tunisair,DJE,Djerba-Zarzis,FRA,Frankfurt,"1,5",13:10,165,0,,summer,620,8,23,150
+TU245,Tunisair,FRA,Frankfurt,DJE,Djerba-Zarzis,"1,6",18:35,175,0,,summer,650,8,23,150
+BJ524,Nouvelair,DJE,Djerba-Zarzis,BRU,Brussels,"4,5",14:50,180,0,,summer,565,8,23,140
+BJ627,Nouvelair,BRU,Brussels,DJE,Djerba-Zarzis,"0,3",08:30,195,0,,summer,605,8,23,140
+BJ599,Nouvelair,DJE,Djerba-Zarzis,GVA,Geneva,"2,5",17:35,140,0,,summer,455,8,23,140
+BJ569,Nouvelair,GVA,Geneva,DJE,Djerba-Zarzis,"0,4",08:55,150,0,,summer,485,8,23,140
+BJ539,Nouvelair,MIR,Monastir Habib Bourguiba,CDG,Paris-Charles de Gaulle,"0,2,5,6",18:15,150,0,,all_year,485,8,23,140
+BJ691,Nouvelair,CDG,Paris-Charles de Gaulle,MIR,Monastir Habib Bourguiba,"2,3,4,5",16:40,155,0,,all_year,500,8,23,140
+TO201,Transavia,MIR,Monastir Habib Bourguiba,CDG,Paris-Charles de Gaulle,"2,3,4",07:00,150,0,,all_year,430,10,0,120
+TO100,Transavia,CDG,Paris-Charles de Gaulle,MIR,Monastir Habib Bourguiba,"0,1,6",20:35,165,0,,all_year,465,10,0,120
+BJ995,Nouvelair,MIR,Monastir Habib Bourguiba,LYS,Lyon-Saint Exupéry,"1,3,5",15:10,115,0,,summer,390,8,23,140
+BJ480,Nouvelair,LYS,Lyon-Saint Exupéry,MIR,Monastir Habib Bourguiba,"0,2,5",14:05,125,0,,summer,415,8,23,140
+BJ505,Nouvelair,MIR,Monastir Habib Bourguiba,MRS,Marseille-Provence,"5,6",11:00,105,0,,summer,360,8,23,140
+BJ771,Nouvelair,MRS,Marseille-Provence,MIR,Monastir Habib Bourguiba,"5,6",13:30,115,0,,summer,390,8,23,140
+BJ318,Nouvelair,MIR,Monastir Habib Bourguiba,BRU,Brussels,"0,5",09:00,160,0,,summer,510,8,23,140
+BJ796,Nouvelair,BRU,Brussels,MIR,Monastir Habib Bourguiba,"0,1",13:40,175,0,,summer,550,8,23,140
+BJ451,Nouvelair,MIR,Monastir Habib Bourguiba,FRA,Frankfurt,"0,3",06:55,145,0,,summer,470,8,23,140
+BJ172,Nouvelair,FRA,Frankfurt,MIR,Monastir Habib Bourguiba,"3,6",10:35,145,0,,summer,470,8,23,140
+BJ420,Nouvelair,NBE,Enfidha-Hammamet,CDG,Paris-Charles de Gaulle,"0,1,3",09:05,150,0,,summer,485,8,23,140
+BJ793,Nouvelair,CDG,Paris-Charles de Gaulle,NBE,Enfidha-Hammamet,"1,2,3",10:50,160,0,,summer,510,8,23,140
+TO765,Transavia,NBE,Enfidha-Hammamet,CDG,Paris-Charles de Gaulle,"0,4",06:45,150,0,,summer,430,10,0,120
+TO866,Transavia,CDG,Paris-Charles de Gaulle,NBE,Enfidha-Hammamet,"2,3",12:50,155,0,,summer,440,10,0,120
+BJ188,Nouvelair,NBE,Enfidha-Hammamet,LHR,London-Heathrow,"1,3",20:15,175,0,,summer,550,8,23,140
+BJ422,Nouvelair,LHR,London-Heathrow,NBE,Enfidha-Hammamet,"0,1",18:25,175,0,,summer,550,8,23,140
+BJ760,Nouvelair,NBE,Enfidha-Hammamet,BRU,Brussels,"1,6",13:20,160,0,,summer,510,8,23,140
+BJ127,Nouvelair,BRU,Brussels,NBE,Enfidha-Hammamet,"1,4",15:55,160,0,,summer,510,8,23,140
+BJ630,Nouvelair,NBE,Enfidha-Hammamet,FRA,Frankfurt,"5,6",15:15,145,0,,summer,470,8,23,140
+BJ155,Nouvelair,FRA,Frankfurt,NBE,Enfidha-Hammamet,"3,5",15:50,150,0,,summer,485,8,23,140
+BJ215,Nouvelair,NBE,Enfidha-Hammamet,AMS,Amsterdam-Schiphol,"1,6",21:30,175,0,,summer,550,8,23,140
+BJ112,Nouvelair,AMS,Amsterdam-Schiphol,NBE,Enfidha-Hammamet,"3,5",08:40,180,0,,summer,565,8,23,140
+TU530,Tunisair,SFA,Sfax-Thyna,CDG,Paris-Charles de Gaulle,"1,2,6",18:45,160,0,,all_year,600,8,23,150
+TU117,Tunisair,CDG,Paris-Charles de Gaulle,SFA,Sfax-Thyna,"1,4,5",21:05,170,0,,all_year,635,8,23,150
+BJ320,Nouvelair,SFA,Sfax-Thyna,CDG,Paris-Charles de Gaulle,0,06:20,160,0,,all_year,510,8,23,140
+BJ393,Nouvelair,CDG,Paris-Charles de Gaulle,SFA,Sfax-Thyna,0,18:40,160,0,,all_year,510,8,23,140
+TU818,Tunisair,SFA,Sfax-Thyna,LYS,Lyon-Saint Exupéry,"5,6",19:30,125,0,,all_year,490,8,23,150
+TU185,Tunisair,LYS,Lyon-Saint Exupéry,SFA,Sfax-Thyna,"0,5",10:20,140,0,,all_year,540,8,23,150
+TU649,Tunisair,SFA,Sfax-Thyna,MRS,Marseille-Provence,"0,2",12:10,115,0,,all_year,460,8,23,150
+TU815,Tunisair,MRS,Marseille-Provence,SFA,Sfax-Thyna,"3,4",08:20,125,0,,all_year,490,8,23,150
+TU350,Tunisair,TOE,Tozeur-Nefta,CDG,Paris-Charles de Gaulle,3,13:00,165,0,,winter,620,8,23,150
+TU726,Tunisair,CDG,Paris-Charles de Gaulle,TOE,Tozeur-Nefta,3,09:35,165,0,,winter,620,8,23,150
+TK608,Turkish Airlines,TUN,Tunis-Carthage,JFK,New York-JFK,"0,1,2,3,4,5,6",06:10,780,1,IST,all_year,2715,8,30,200
+TK220,Turkish Airlines,JFK,New York-JFK,TUN,Tunis-Carthage,"0,1,2,3,4,5,6",14:55,810,1,IST,all_year,2815,8,30,200
+QR566,Qatar Airways,TUN,Tunis-Carthage,JFK,New York-JFK,"0,1,2,3,4,5,6",08:35,900,1,DOH,all_year,3565,7,30,250
+QR891,Qatar Airways,JFK,New York-JFK,TUN,Tunis-Carthage,"0,1,2,3,4,5,6",11:20,930,1,DOH,all_year,3680,7,30,250
+AF979,Air France,TUN,Tunis-Carthage,JFK,New York-JFK,"0,1,4,6",06:00,690,1,CDG,all_year,2870,12,23,220
+AF492,Air France,JFK,New York-JFK,TUN,Tunis-Carthage,"0,1,5,6",21:25,720,1,CDG,all_year,2990,12,23,220

@@ -1,0 +1,177 @@
+city,name,stars,price_low_season_tnd,price_high_season_tnd,high_season_months,board,facilities,rating
+Tunis,Club Corail,2,90,135,"6,7,8,9",half_board,wifi;pool;air_conditioning;parking;breakfast_included,5.8
+Tunis,Hôtel Azur,3,145,220,"6,7,8,9",bed_and_breakfast,wifi;restaurant;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.5
+Tunis,Nour Beach Resort,4,245,370,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;pets_allowed;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.2
+Djerba,Résidence El Bahr,3,170,255,"6,7,8,9",bed_and_breakfast,wifi;restaurant;air_conditioning;private_beach;halal_food;breakfast_included,7.2
+Djerba,Hôtel El Manar,4,275,410,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.6
+Djerba,Club Yasmine,4,265,400,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;kids_club;hammam;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.2
+Djerba,Hôtel Marhaba,5,435,650,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;hammam;parking;halal_food;breakfast_included,7.5
+Djerba,Les Oliviers Beach Resort,5,480,720,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;kids_club;parking;pets_allowed;wheelchair_access;airport_shuttle;halal_food;breakfast_included,8.0
+Djerba,Club Nour,3,165,250,"6,7,8,9",half_board,wifi;restaurant;pool;private_beach;wheelchair_access;halal_food;breakfast_included,7.2
+Sousse,Les Oliviers Palace,3,175,260,"6,7,8,9",half_board,wifi;restaurant;pool;air_conditioning;private_beach;wheelchair_access;halal_food;breakfast_included,6.5
+Sousse,Hôtel Jasmin,4,280,420,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;kids_club;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.2
+Sousse,Hôtel Corail,4,290,435,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;kids_club;hammam;parking;halal_food;breakfast_included,7.4
+Sousse,Zitouna Beach Resort,5,470,705,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;private_beach;kids_club;wheelchair_access;halal_food;breakfast_included,7.7
+Sousse,Club Sidi Salem,5,440,660,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;private_beach;kids_club;hammam;parking;wheelchair_access;halal_food;breakfast_included,7.2
+Sousse,Hôtel El Bahr,3,175,260,"6,7,8,9",bed_and_breakfast,wifi;restaurant;air_conditioning;private_beach;parking;halal_food;breakfast_included,6.6
+Hammamet,Dar Nour,3,145,220,"6,7,8,9",bed_and_breakfast,wifi;restaurant;air_conditioning;private_beach;pets_allowed;halal_food;breakfast_included,6.3
+Hammamet,Club Marhaba,4,280,420,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;kids_club;hammam;parking;wheelchair_access;halal_food;breakfast_included,7.3
+Hammamet,Corail Palace,4,220,330,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;pets_allowed;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.3
+Hammamet,Hôtel Le Phare,5,430,645,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;kids_club;hammam;wheelchair_access;halal_food;breakfast_included,7.4
+Hammamet,Résidence Azur,5,510,765,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;private_beach;kids_club;hammam;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.9
+Hammamet,Yasmine Beach Resort,3,165,250,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;private_beach;parking;pets_allowed;wheelchair_access;halal_food;breakfast_included,7.0
+Monastir,Résidence Les Oliviers,3,145,220,"6,7,8,9",half_board,wifi;restaurant;pool;air_conditioning;parking;airport_shuttle;halal_food;breakfast_included,6.9
+Monastir,Sidi Salem Beach Resort,4,285,430,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;kids_club;halal_food;breakfast_included,6.7
+Monastir,Jasmin Palace,4,290,435,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;kids_club;hammam;parking;wheelchair_access;halal_food;breakfast_included,7.7
+Monastir,Ulysse Palace,5,415,620,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;private_beach;kids_club;hammam;wheelchair_access;halal_food;breakfast_included,7.9
+Monastir,Dar Les Palmiers,5,395,590,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;hammam;parking;pets_allowed;wheelchair_access;halal_food;breakfast_included,8.3
+Monastir,Hôtel Sidi Salem,3,145,220,"6,7,8,9",bed_and_breakfast,wifi;restaurant;air_conditioning;private_beach;halal_food;breakfast_included,6.6
+Mahdia,Le Phare Beach Resort,3,180,270,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;parking;airport_shuttle;halal_food;breakfast_included,6.5
+Mahdia,Dar El Bahr,4,285,430,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;hammam;wheelchair_access;halal_food;breakfast_included,7.3
+Mahdia,Résidence Yasmine,4,290,435,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;kids_club;wheelchair_access;halal_food;breakfast_included,7.1
+Mahdia,Nour Palace,5,425,640,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;kids_club;parking;pets_allowed;wheelchair_access;halal_food;breakfast_included,8.3
+Mahdia,Club Azur,5,430,645,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;kids_club;parking;wheelchair_access;halal_food;breakfast_included,7.6
+Mahdia,Club Jasmin,3,165,250,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;wheelchair_access;halal_food;breakfast_included,6.3
+Sfax,Dar Marhaba,2,105,160,"6,7,8,9",half_board,wifi;air_conditioning;breakfast_included,6.2
+Sfax,Azur Beach Resort,3,145,220,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;air_conditioning;pets_allowed;wheelchair_access;halal_food;breakfast_included,6.5
+Sfax,Club La Perle,4,255,380,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;parking;halal_food;breakfast_included,7.8
+Tozeur,Dunes d'Or Desert Lodge,3,175,260,"10,11,12,1,2,3,4",half_board,wifi;restaurant;air_conditioning;parking;wheelchair_access;halal_food;breakfast_included,7.2
+Tozeur,Dar El Wahat,4,265,400,"10,11,12,1,2,3,4",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;wheelchair_access;halal_food;breakfast_included,7.3
+Tozeur,Les Sables Desert Lodge,4,240,360,"10,11,12,1,2,3,4",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;kids_club;hammam;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,8.0
+Tozeur,Oasis Dunes d'Or,5,400,600,"10,11,12,1,2,3,4",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;hammam;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.7
+Tozeur,Oasis Ras El Ain,5,430,645,"10,11,12,1,2,3,4",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;kids_club;hammam;wheelchair_access;halal_food;breakfast_included,8.3
+Tozeur,El Wahat Desert Lodge,3,145,220,"10,11,12,1,2,3,4",half_board,wifi;restaurant;air_conditioning;parking;halal_food;breakfast_included,7.4
+Tabarka,Les Palmiers Beach Resort,3,180,270,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;air_conditioning;parking;wheelchair_access;halal_food;breakfast_included,6.7
+Tabarka,Dar Les Oliviers,4,275,410,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;kids_club;hammam;parking;wheelchair_access;halal_food;breakfast_included,7.8
+Tabarka,Club El Bahr,4,275,410,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;kids_club;hammam;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.7
+Tabarka,Résidence Le Phare,5,460,690,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;kids_club;hammam;parking;wheelchair_access;halal_food;breakfast_included,7.7
+Tabarka,El Bahr Palace,5,425,640,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;private_beach;kids_club;hammam;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,8.4
+Tabarka,Dar Zitouna,3,155,230,"6,7,8,9",half_board,wifi;restaurant;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,6.6
+Bizerte,Hôtel Les Oliviers,2,115,170,"6,7,8,9",bed_and_breakfast,wifi;air_conditioning;parking;wheelchair_access;airport_shuttle;breakfast_included,6.5
+Bizerte,Les Palmiers Palace,3,160,240,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;parking;halal_food;breakfast_included,6.9
+Bizerte,Hôtel Yasmine,4,240,360,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;halal_food;breakfast_included,7.3
+Nabeul,Résidence Les Mimosas,2,95,140,"6,7,8,9",half_board,wifi;pool;parking;breakfast_included,6.1
+Nabeul,Club Ulysse,3,150,225,"6,7,8,9",half_board,wifi;restaurant;parking;wheelchair_access;halal_food;breakfast_included,6.4
+Nabeul,Club Zitouna,4,265,400,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,8.1
+Kairouan,Résidence Ulysse,2,90,135,"6,7,8,9",bed_and_breakfast,wifi;air_conditioning;parking;wheelchair_access;airport_shuttle;breakfast_included,6.6
+Kairouan,Corail Beach Resort,3,165,250,"6,7,8,9",half_board,wifi;restaurant;wheelchair_access;halal_food;breakfast_included,6.9
+Kairouan,El Manar Beach Resort,4,230,345,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.1
+Gabes,Dar Corail,2,105,160,"6,7,8,9",bed_and_breakfast,wifi;parking;pets_allowed;wheelchair_access;breakfast_included,6.6
+Gabes,Hôtel Les Mimosas,3,170,255,"6,7,8,9",half_board,wifi;restaurant;air_conditioning;parking;pets_allowed;wheelchair_access;halal_food;breakfast_included,6.7
+Gabes,Résidence Les Palmiers,4,225,340,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;halal_food;breakfast_included,7.4
+Tataouine,Ksar Sahara Gate,2,95,140,"10,11,12,1,2,3,4",half_board,wifi;parking;pets_allowed;wheelchair_access;airport_shuttle;breakfast_included,6.7
+Tataouine,Sahara Gate Desert Lodge,3,155,230,"10,11,12,1,2,3,4",half_board,wifi;restaurant;air_conditioning;wheelchair_access;halal_food;breakfast_included,6.7
+Tataouine,Dar Palmeraie,4,290,435,"10,11,12,1,2,3,4",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;pets_allowed;halal_food;breakfast_included,6.8
+Douz,Dar Ras El Ain,2,110,165,"10,11,12,1,2,3,4",half_board,wifi;parking;breakfast_included,6.8
+Douz,Oasis Palmeraie,3,185,280,"10,11,12,1,2,3,4",bed_and_breakfast,wifi;restaurant;parking;pets_allowed;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.4
+Douz,Oasis El Wahat,4,290,435,"10,11,12,1,2,3,4",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;wheelchair_access;halal_food;breakfast_included,8.1
+Kelibia,Les Mimosas Beach Resort,2,105,160,"6,7,8,9",half_board,wifi;pool;air_conditioning;pets_allowed;wheelchair_access;breakfast_included,7.0
+Kelibia,Résidence Marhaba,3,160,240,"6,7,8,9",half_board,wifi;restaurant;pool;air_conditioning;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.3
+Kelibia,Marhaba Beach Resort,4,285,430,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;pets_allowed;wheelchair_access;halal_food;breakfast_included,8.1
+Sidi Bou Said,Hôtel Ulysse,2,115,170,"6,7,8,9",half_board,wifi;pool;parking;breakfast_included,6.3
+Sidi Bou Said,Yasmine Palace,3,145,220,"6,7,8,9",half_board,wifi;restaurant;parking;pets_allowed;halal_food;breakfast_included,6.9
+Sidi Bou Said,Résidence Sidi Salem,4,245,370,"6,7,8,9",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.6
+Ain Draham,Dar El Manar,2,105,160,"6,7,8,9",bed_and_breakfast,wifi;air_conditioning;parking;breakfast_included,6.5
+Ain Draham,Résidence Jasmin,3,165,250,"6,7,8,9",half_board,wifi;restaurant;parking;halal_food;breakfast_included,6.4
+Ain Draham,Dar Sidi Salem,4,260,390,"6,7,8,9",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;wheelchair_access;halal_food;breakfast_included,7.8
+Matmata,Ras El Ain Desert Lodge,2,115,170,"10,11,12,1,2,3,4",bed_and_breakfast,wifi;parking;breakfast_included,7.0
+Matmata,Oasis Les Sables,3,165,250,"10,11,12,1,2,3,4",half_board,wifi;restaurant;parking;wheelchair_access;halal_food;breakfast_included,6.7
+Matmata,Ksar Dunes d'Or,4,235,350,"10,11,12,1,2,3,4",half_board,wifi;restaurant;pool;gym;room_service;air_conditioning;hammam;wheelchair_access;halal_food;breakfast_included,7.4
+Zarzis,Hôtel Zitouna,3,170,255,"6,7,8,9",bed_and_breakfast,wifi;restaurant;wheelchair_access;halal_food;breakfast_included,6.3
+Zarzis,Club Les Oliviers,4,260,390,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;kids_club;hammam;parking;wheelchair_access;halal_food;breakfast_included,7.0
+Zarzis,Dar Les Mimosas,4,245,370,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;kids_club;hammam;wheelchair_access;halal_food;breakfast_included,7.6
+Zarzis,Résidence Corail,5,515,770,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;kids_club;hammam;parking;pets_allowed;halal_food;breakfast_included,8.1
+Zarzis,Club Les Palmiers,5,390,585,"6,7,8,9",all_inclusive,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;private_beach;kids_club;hammam;wheelchair_access;halal_food;breakfast_included,7.6
+Zarzis,Résidence Zitouna,3,185,280,"6,7,8,9",half_board,wifi;restaurant;air_conditioning;parking;halal_food;breakfast_included,6.3
+Paris,Central Suites Paris,2,300,390,"6,7,8,12",bed_and_breakfast,wifi;air_conditioning;breakfast_included,6.0
+Paris,Paris Aurora Hotel,3,450,585,"6,7,8,12",bed_and_breakfast,wifi;restaurant;air_conditioning;parking;wheelchair_access;breakfast_included,7.2
+Paris,Grand Hotel Imperial,4,935,1215,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;wheelchair_access;airport_shuttle,7.5
+Paris,Harbour Suites Paris,5,1670,2170,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;wheelchair_access;airport_shuttle;breakfast_included,8.4
+Marseille,Marseille Harbour Hotel,2,210,275,"6,7,8,12",room_only,wifi;pool;parking;wheelchair_access;airport_shuttle,6.2
+Marseille,Marseille Panorama Hotel,3,370,480,"6,7,8,12",room_only,wifi;restaurant;pool;air_conditioning;parking;wheelchair_access;airport_shuttle;halal_food,7.6
+Marseille,Panorama Suites Marseille,4,470,610,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;wheelchair_access;halal_food;breakfast_included,7.1
+Marseille,Garden Suites Marseille,5,815,1060,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;wheelchair_access;breakfast_included,8.2
+Lyon,Lyon Boulevard Hotel,2,205,265,"6,7,8,12",bed_and_breakfast,wifi;airport_shuttle;breakfast_included,7.1
+Lyon,Central Suites Lyon,3,290,375,"6,7,8,12",bed_and_breakfast,wifi;restaurant;wheelchair_access;airport_shuttle;breakfast_included,6.3
+Lyon,Hotel Park View Lyon,4,550,715,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;airport_shuttle,8.0
+Lyon,Hotel Central Lyon,5,805,1045,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;wheelchair_access;breakfast_included,7.5
+Rome,Hotel Garden Rome,2,265,345,"6,7,8,12",bed_and_breakfast,wifi;air_conditioning;parking;wheelchair_access;breakfast_included,5.9
+Rome,Rome Plaza Hotel,3,475,620,"6,7,8,12",room_only,wifi;restaurant;air_conditioning;parking;wheelchair_access;airport_shuttle,6.6
+Rome,Park View Suites Rome,4,650,845,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;pets_allowed;breakfast_included,7.5
+Rome,Grand Hotel Plaza,5,1040,1350,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access,7.8
+Milan,Hotel Old Town Milan,2,285,370,"6,7,8,12",bed_and_breakfast,wifi;air_conditioning;parking;wheelchair_access;airport_shuttle;breakfast_included,6.0
+Milan,Hotel Atlas Milan,3,450,585,"6,7,8,12",bed_and_breakfast,wifi;restaurant;air_conditioning;wheelchair_access;airport_shuttle;breakfast_included,6.5
+Milan,Milan Boulevard Hotel,4,775,1010,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access,7.3
+Milan,Station Suites Milan,5,1440,1870,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.9
+Istanbul,Lumière Suites Istanbul,2,145,190,"6,7,8",room_only,wifi;pool;air_conditioning;parking;wheelchair_access,6.3
+Istanbul,Hotel Lumière Istanbul,3,260,340,"6,7,8",bed_and_breakfast,wifi;restaurant;air_conditioning;parking;pets_allowed;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.5
+Istanbul,Imperial Suites Istanbul,4,320,415,"6,7,8",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;halal_food;breakfast_included,7.4
+Istanbul,Istanbul Garden Hotel,5,620,805,"6,7,8",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;wheelchair_access;halal_food;breakfast_included,7.6
+Dubai,Park View Suites Dubai,2,300,390,"11,12,1,2,3",bed_and_breakfast,wifi;pool;wheelchair_access;breakfast_included,6.0
+Dubai,Plaza Suites Dubai,3,515,670,"11,12,1,2,3",bed_and_breakfast,wifi;restaurant;air_conditioning;parking;airport_shuttle;halal_food;breakfast_included,6.4
+Dubai,Hotel Panorama Dubai,4,755,980,"11,12,1,2,3",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;parking;pets_allowed;wheelchair_access;halal_food;breakfast_included,7.4
+Dubai,Dubai Riverside Hotel,5,1130,1470,"11,12,1,2,3",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;airport_shuttle;halal_food;breakfast_included,7.6
+London,London Aurora Hotel,2,350,455,"6,7,8,12",room_only,wifi;air_conditioning;parking,5.9
+London,Panorama Suites London,3,595,775,"6,7,8,12",bed_and_breakfast,wifi;restaurant;wheelchair_access;airport_shuttle;breakfast_included,7.3
+London,London Garden Hotel,4,945,1230,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;wheelchair_access;airport_shuttle;breakfast_included,8.1
+London,London Boulevard Hotel,5,1615,2100,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;breakfast_included,7.3
+Madrid,Hotel Boulevard Madrid,2,220,285,"6,7,8,12",bed_and_breakfast,wifi;parking;airport_shuttle;breakfast_included,6.4
+Madrid,Central Suites Madrid,3,370,480,"6,7,8,12",bed_and_breakfast,wifi;restaurant;air_conditioning;parking;wheelchair_access;airport_shuttle;breakfast_included,7.4
+Madrid,Boulevard Suites Madrid,4,545,710,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;airport_shuttle,7.3
+Madrid,Hotel Park View Madrid,5,910,1185,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;airport_shuttle,7.6
+Barcelona,Hotel Old Town Barcelona,2,265,345,"6,7,8,12",bed_and_breakfast,wifi;pool;air_conditioning;parking;pets_allowed;airport_shuttle;breakfast_included,6.0
+Barcelona,Grand Hotel Central,3,435,565,"6,7,8,12",room_only,wifi;restaurant;air_conditioning;parking,7.0
+Barcelona,Hotel Harbour Barcelona,4,745,970,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;wheelchair_access,7.7
+Barcelona,Hotel Boulevard Barcelona,5,1205,1565,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;private_beach;parking;breakfast_included,7.8
+Berlin,Berlin Boulevard Hotel,2,215,280,"6,7,8,12",bed_and_breakfast,wifi;parking;wheelchair_access;airport_shuttle;breakfast_included,5.9
+Berlin,Atlas Suites Berlin,3,360,470,"6,7,8,12",bed_and_breakfast,wifi;restaurant;air_conditioning;parking;wheelchair_access;halal_food;breakfast_included,7.2
+Berlin,Park View Suites Berlin,4,645,840,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;airport_shuttle;breakfast_included,7.4
+Berlin,Grand Hotel Garden,5,1170,1520,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;wheelchair_access;breakfast_included,7.6
+Frankfurt,Hotel Park View Frankfurt,2,245,320,"6,7,8,12",bed_and_breakfast,wifi;air_conditioning;parking;airport_shuttle;breakfast_included,5.9
+Frankfurt,Aurora Suites Frankfurt,3,460,600,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pets_allowed;breakfast_included,7.3
+Frankfurt,Frankfurt Central Hotel,4,570,740,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;airport_shuttle;breakfast_included,7.2
+Frankfurt,Hotel Aurora Frankfurt,5,1005,1305,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;breakfast_included,8.1
+Brussels,Brussels Park View Hotel,2,210,275,"6,7,8,12",room_only,wifi;air_conditioning;parking;wheelchair_access;airport_shuttle,6.4
+Brussels,Imperial Suites Brussels,3,425,550,"6,7,8,12",bed_and_breakfast,wifi;restaurant;air_conditioning;parking;pets_allowed;wheelchair_access;breakfast_included,7.4
+Brussels,Panorama Suites Brussels,4,580,755,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;airport_shuttle,7.7
+Brussels,Brussels Boulevard Hotel,5,1020,1325,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;pets_allowed;wheelchair_access;airport_shuttle,7.7
+Geneva,Geneva Aurora Hotel,2,435,565,"6,7,8,12",room_only,wifi;air_conditioning,7.0
+Geneva,Hotel Riverside Geneva,3,685,890,"6,7,8,12",bed_and_breakfast,wifi;restaurant;air_conditioning;parking;wheelchair_access;breakfast_included,7.1
+Geneva,Geneva Harbour Hotel,4,960,1250,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;wheelchair_access;airport_shuttle,7.0
+Geneva,Station Suites Geneva,5,1470,1910,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;pets_allowed;wheelchair_access,7.4
+Amsterdam,Amsterdam Riverside Hotel,2,340,440,"6,7,8,12",bed_and_breakfast,wifi;parking;wheelchair_access;breakfast_included,5.9
+Amsterdam,Panorama Suites Amsterdam,3,455,590,"6,7,8,12",bed_and_breakfast,wifi;restaurant;air_conditioning;parking;airport_shuttle;breakfast_included,6.9
+Amsterdam,Grand Hotel Park View,4,845,1100,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access,7.7
+Amsterdam,Harbour Suites Amsterdam,5,1245,1620,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;wheelchair_access;halal_food;breakfast_included,7.2
+Lisbon,Grand Hotel Station,2,235,305,"6,7,8,12",room_only,wifi;airport_shuttle,6.0
+Lisbon,Grand Hotel Lumière,3,390,505,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,6.9
+Lisbon,Hotel Station Lisbon,4,495,645,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;airport_shuttle,7.5
+Lisbon,Lisbon Garden Hotel,5,995,1295,"6,7,8,12",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking,7.3
+Malta,Hotel Harbour Malta,2,190,245,"6,7,8,12",bed_and_breakfast,wifi;air_conditioning;private_beach;parking;wheelchair_access;airport_shuttle;breakfast_included,6.8
+Malta,Grand Hotel Atlas,3,295,385,"6,7,8,12",bed_and_breakfast,wifi;restaurant;air_conditioning;parking;breakfast_included,7.0
+Malta,Lumière Suites Malta,4,525,680,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;private_beach;parking;wheelchair_access;breakfast_included,7.6
+Malta,Malta Imperial Hotel,5,725,940,"6,7,8,12",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;wheelchair_access;halal_food;breakfast_included,8.5
+Algiers,Hotel Old Town Algiers,2,120,155,"6,7,8",bed_and_breakfast,wifi;pool;air_conditioning;parking;breakfast_included,7.0
+Algiers,Hotel Imperial Algiers,3,195,255,"6,7,8",room_only,wifi;restaurant;parking;halal_food,7.0
+Algiers,Panorama Suites Algiers,4,380,495,"6,7,8",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;halal_food;breakfast_included,8.0
+Algiers,Atlas Suites Algiers,5,580,755,"6,7,8",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;wheelchair_access;halal_food;breakfast_included,7.9
+Casablanca,Plaza Suites Casablanca,2,140,180,"6,7,8",bed_and_breakfast,wifi;parking;airport_shuttle;breakfast_included,5.9
+Casablanca,Hotel Garden Casablanca,3,270,350,"6,7,8",bed_and_breakfast,wifi;restaurant;pool;air_conditioning;parking;halal_food;breakfast_included,6.4
+Casablanca,Casablanca Old Town Hotel,4,330,430,"6,7,8",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;airport_shuttle;halal_food;breakfast_included,7.4
+Casablanca,Casablanca Central Hotel,5,765,995,"6,7,8",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;wheelchair_access;airport_shuttle;halal_food,8.5
+Jeddah,Plaza Suites Jeddah,2,235,305,"11,12,1,2,3",room_only,wifi;air_conditioning;wheelchair_access,6.4
+Jeddah,Jeddah Central Hotel,3,400,520,"11,12,1,2,3",bed_and_breakfast,wifi;restaurant;air_conditioning;wheelchair_access;airport_shuttle;halal_food;breakfast_included,6.7
+Jeddah,Hotel Garden Jeddah,4,525,680,"11,12,1,2,3",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;halal_food;breakfast_included,7.4
+Jeddah,Jeddah Boulevard Hotel,5,865,1125,"11,12,1,2,3",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;wheelchair_access;airport_shuttle;halal_food,7.6
+Doha,Doha Riverside Hotel,2,280,365,"11,12,1,2,3",bed_and_breakfast,wifi;parking;pets_allowed;airport_shuttle;breakfast_included,6.0
+Doha,Old Town Suites Doha,3,360,470,"11,12,1,2,3",bed_and_breakfast,wifi;restaurant;pool;airport_shuttle;halal_food;breakfast_included,7.2
+Doha,Doha Central Hotel,4,705,915,"11,12,1,2,3",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;halal_food;breakfast_included,7.7
+Doha,Imperial Suites Doha,5,1040,1350,"11,12,1,2,3",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;wheelchair_access;halal_food;breakfast_included,8.5
+Montreal,Harbour Suites Montreal,2,310,405,"6,7,8",bed_and_breakfast,wifi;breakfast_included,6.6
+Montreal,Hotel Atlas Montreal,3,445,580,"6,7,8",bed_and_breakfast,wifi;restaurant;air_conditioning;pets_allowed;breakfast_included,7.0
+Montreal,Montreal Garden Hotel,4,795,1035,"6,7,8",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;parking;wheelchair_access;airport_shuttle;breakfast_included,7.8
+Montreal,Grand Hotel Riverside,5,1265,1645,"6,7,8",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;parking;wheelchair_access;airport_shuttle;breakfast_included,7.2
+New York,New York Aurora Hotel,2,370,480,"6,7,8",bed_and_breakfast,wifi;air_conditioning;parking;airport_shuttle;breakfast_included,7.1
+New York,Hotel Plaza New York,3,630,820,"6,7,8",room_only,wifi;restaurant;wheelchair_access,7.5
+New York,Grand Hotel Harbour,4,910,1185,"6,7,8",bed_and_breakfast,wifi;restaurant;pool;gym;room_service;air_conditioning;pets_allowed;airport_shuttle;breakfast_included,7.3
+New York,New York Imperial Hotel,5,2080,2705,"6,7,8",room_only,wifi;restaurant;pool;gym;room_service;air_conditioning;spa;wheelchair_access,7.5
