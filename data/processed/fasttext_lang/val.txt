@@ -1,0 +1,684 @@
+__label__en what's the next flight to hammamet ?
+__label__en do you have flights from sousse to algiers in two weeks ?
+__label__en can you find me a flight to hammamet
+__label__en flight nabeul zarzis today
+__label__en what's the next flight to malta ?
+__label__en do you have flights from hammamet to madrid in two weeks
+__label__en can you find me a flight to monastir ?
+__label__en flight douz madrid this weekend
+__label__en what's the next flight to marseille ?
+__label__en do you have flights from tabarka to mahdia on june 1 ?
+__label__en any promotions on flights to sidi bou said ?
+__label__en i have 300 € , can i afford a return flight to tozeur
+__label__en what are ticket prices to zarzis like this summer ?
+__label__en i'm looking for a cheap flight from tunis to sidi bou said
+__label__en any promotions on flights to ain draham
+__label__en i have 1000 tunisian dinars , can i afford a return flight to douz ?
+__label__en what are ticket prices to jeddah like on november 3 ?
+__label__en i'm looking for a cheap flight from kairouan to new york
+__label__en any promotions on flights to frankfurt ?
+__label__en i have 2000 dt , can i afford a return flight to barcelona ?
+__label__en what's the baggage allowance on turkish airlines
+__label__en how many kilos of luggage can i take with ita airways
+__label__en what's the baggage allowance on saudia ?
+__label__en how many kilos of luggage can i take with transavia
+__label__en what's the baggage allowance on air france ?
+__label__en how many kilos of luggage can i take with air algérie
+__label__en i want a beachfront hotel in nabeul
+__label__en we're a family of 4 , looking for a hotel in lyon tomorrow
+__label__en can you find me a hotel in barcelona for 9 nights ?
+__label__en i want a beachfront hotel in marseille
+__label__en we're a family of 5 , looking for a hotel in tabarka next week
+__label__en can you find me a hotel in madrid for 9 nights
+__label__en i want a beachfront hotel in brussels
+__label__en we're a family of 3 , looking for a hotel in tabarka in two weeks
+__label__en how much is a double room in monastir in two weeks ?
+__label__en price of a 4-star hotel in tabarka per night ?
+__label__en i want a hotel in gabes under 300 turkish lira per night
+__label__en how much is a double room in rome on march 20 ?
+__label__en price of a 5-star hotel in tozeur per night ?
+__label__en i want a hotel in doha under 300 euros per night
+__label__en how much is a double room in nabeul on january 27 ?
+__label__en price of a 3-star hotel in istanbul per night ?
+__label__en i want a hotel in bizerte under 20 dt per night
+__label__en is there room service at the hotel ?
+__label__en does the hotel provide a baby cot ?
+__label__en do 5-star hotels in douz have a heated pool
+__label__en do 3-star hotels in malta have a heated pool ?
+__label__en any car rental deals in rome ?
+__label__en car hire in tozeur for 13 days
+__label__en how much is a small car for 8 days in jeddah
+__label__en any car rental deals in malta ?
+__label__en car hire in dubai for 13 days
+__label__en how much is a small car for 6 days in new york ?
+__label__en any car rental deals in bizerte ?
+__label__en car hire in sousse for 3 days
+__label__en is there uber or bolt in gabes ?
+__label__en how long is the taxi ride from the airport to bizerte ?
+__label__en how do i get from the airport to my hotel in istanbul ?
+__label__en is there uber or bolt in amsterdam ?
+__label__en how long is the taxi ride from the airport to paris
+__label__en how do i get from the airport to my hotel in rome ?
+__label__en is there uber or bolt in frankfurt
+__label__en how long is the taxi ride from the airport to lyon ?
+__label__en where is the louage station in hammamet
+__label__en what time does the train to sfax leave next week ?
+__label__en where is the louage station in sidi bou said
+__label__en what time does the train to hammamet leave in two weeks
+__label__en where is the louage station in matmata ?
+__label__en is it cold in douz tonight ?
+__label__en will it rain in brussels at the end of the month ?
+__label__en is it cold in milan on 4 march
+__label__en will it rain in paris on 22 june ?
+__label__en is it cold in istanbul the day after tomorrow
+__label__en what are the best places to visit in algiers ?
+__label__en any guided tours in hammamet ?
+__label__en things to do in nabeul with kids
+__label__en what are the best places to visit in douz ?
+__label__en any guided tours in marseille
+__label__en things to do in jeddah with kids
+__label__en what are the best places to visit in brussels ?
+__label__en any guided tours in berlin
+__label__en things to do in istanbul with kids
+__label__en what vaccines do i need for dubai ?
+__label__en can i travel to montreal with a residence permit ?
+__label__en what vaccines do i need for frankfurt ?
+__label__en can i travel to casablanca with a residence permit ?
+__label__en what vaccines do i need for madrid ?
+__label__en can i travel to lisbon with a residence permit ?
+__label__en should i buy dinars before going to casablanca ?
+__label__en what's 1500 euros worth in tnd ?
+__label__en how many tnd will i get for 500 chf
+__label__en should i buy saudi riyals before going to dubai ?
+__label__en what's 150 dinars worth in british pounds
+__label__en how many cad will i get for 2000 dt ?
+__label__en should i buy sar before going to doha ?
+__label__en what's 20 tnd worth in £ ?
+__label__en how many riyals will i get for 3000 dt
+__label__en how much money should i take to sousse
+__label__en how much is food per day in milan ?
+__label__en how much money should i take to mahdia
+__label__en how much is food per day in matmata ?
+__label__en how much money should i take to malta ?
+__label__en does apple pay work in bizerte
+__label__en which payment methods do you accept ?
+__label__en should i bring cash to barcelona ?
+__label__en does apple pay work in berlin ?
+__label__en should i bring cash to doha
+__label__en does apple pay work in montreal ?
+__label__fr on est 4 , on cherche un vol pour istanbul dimanche
+__label__fr quels vols partent pour zarzis en février
+__label__fr on est 3 , on cherche un vol pour gabès le 20 juin
+__label__fr quels vols partent pour djerba lundi prochain ?
+__label__fr on est 2 , on cherche un vol pour tozeur cet été
+__label__fr quels vols partent pour amsterdam le week-end prochain ?
+__label__fr les vols pour malte sont chers début décembre
+__label__fr quand est-ce que c'est le moins cher pour aller à new york ?
+__label__fr les prix des billets pour tunis augmentent à la fin du mois ?
+__label__fr les vols pour rome sont chers mercredi prochain ?
+__label__fr quand est-ce que c'est le moins cher pour aller a zarzis
+__label__fr les prix des billets pour amsterdam augmentent le 7 septembre ?
+__label__fr les vols pour nabeul sont chers après-demain ?
+__label__fr quand est-ce que c'est le moins cher pour aller à kairouan ?
+__label__fr poids maximum du bagage à main chez transavia ?
+__label__fr je peux prendre une poussette sur mon vol royal air maroc ?
+__label__fr c'est quoi la politique bagages pour les vols vers sidi bou said ?
+__label__fr poids maximum du bagage à main chez ita airways ?
+__label__fr je peux prendre une poussette sur mon vol air algérie
+__label__fr c'est quoi la politique bagages pour les vols vers douz ?
+__label__fr poids maximum du bagage à main chez turkish airlines
+__label__fr je cherche une maison d'hôtes à bizerte pour 9 nuits
+__label__fr je veux un hôtel calme près de la plage à rome
+__label__fr je cherche une maison d'hotes a bruxelles pour 9 nuits
+__label__fr je veux un hôtel calme près de la plage à ain draham
+__label__fr je cherche une maison d'hôtes à tabarka pour 7 nuits
+__label__fr je veux un hotel calme pres de la plage a casablanca
+__label__fr c'est quoi l'hôtel le moins cher à djeddah
+__label__fr prix d'un 4 étoiles à monastir par nuit ?
+__label__fr c'est quoi l'hôtel le moins cher à francfort ?
+__label__fr prix d'un 5 étoiles à alger par nuit
+__label__fr c'est quoi l'hotel le moins cher a lisbonne ?
+__label__fr prix d'un 5 étoiles à nabeul par nuit ?
+__label__fr je veux un hotel a nabeul avec wifi gratuit
+__label__fr mon hotel a hammamet a la climatisation ?
+__label__fr le petit-déjeuner est inclus dans les hôtels à kelibia ?
+__label__fr je veux un hôtel à doha avec wifi gratuit
+__label__fr mon hôtel à matmata a la climatisation ?
+__label__fr le petit-dejeuner est inclus dans les hotels a mahdia ?
+__label__fr je veux un hôtel à tabarka avec wifi gratuit
+__label__fr mon hôtel à zarzis a la climatisation ?
+__label__fr je peux louer une voiture automatique à monastir
+__label__fr l'assurance est comprise dans la location de voiture à zarzis ?
+__label__fr location de voiture a casablanca pour 3 jours le mois prochain
+__label__fr je peux louer une voiture automatique à francfort ?
+__label__fr l'assurance est comprise dans la location de voiture à tabarka
+__label__fr location de voiture à zarzis pour 6 jours samedi
+__label__fr je peux louer une voiture automatique à sfax ?
+__label__fr l'assurance est comprise dans la location de voiture a bizerte ?
+__label__fr location de voiture à sousse pour 2 jours en août
+__label__fr j'ai besoin d'un taxi de monastir à milan
+__label__fr combien coûte un taxi à gabès ?
+__label__fr j'ai besoin d'un taxi de hammamet a monastir
+__label__fr combien coûte un taxi à istanbul
+__label__fr j'ai besoin d'un taxi de tabarka a barcelone
+__label__fr combien coûte un taxi à hammamet ?
+__label__fr comment aller de matmata a sfax en bus ?
+__label__fr il y a un bac pour aller à zarzis ?
+__label__fr où est la station de louage à sousse ?
+__label__fr à quelle heure part le train pour monastir mardi ?
+__label__fr comment aller de nabeul à zarzis en bus ?
+__label__fr il y a un bac pour aller a mahdia ?
+__label__fr où est la station de louage à tunis ?
+__label__fr a quelle heure part le train pour tabarka demain
+__label__fr comment aller de bizerte à kelibia en bus
+__label__fr il y a un bac pour aller à tabarka
+__label__fr il fait beau a amsterdam cet ete ?
+__label__fr il fait froid à malte dans deux semaines ?
+__label__fr les previsions meteo pour monastir apres-demain ?
+__label__fr il fait beau à lyon en juillet ?
+__label__fr il fait froid à mahdia en mars ?
+__label__fr les prévisions météo pour nabeul samedi
+__label__fr il fait beau à bruxelles aujourd'hui
+__label__fr il fait froid à londres samedi ?
+__label__fr où goûter la cuisine traditionnelle à kélibia ?
+__label__fr ou gouter la cuisine traditionnelle a bizerte ?
+__label__fr ou gouter la cuisine traditionnelle a istanbul ?
+__label__fr mon passeport suffit pour aller à londres
+__label__fr combien coute le visa pour milan
+__label__fr dossier visa paris quels papiers
+__label__fr mon passeport suffit pour aller à malte
+__label__fr combien coûte le visa pour new york
+__label__fr dossier visa genève quels papiers ?
+__label__fr mon passeport suffit pour aller à berlin ?
+__label__fr combien coûte le visa pour malte
+__label__fr convertir 800 francs suisses en usd
+__label__fr ou changer de l'argent a barcelone ?
+__label__fr convertissez 1000 gbp en dinars tunisiens svp
+__label__fr combien de dinars je reçois pour 20 cad
+__label__fr convertir 1000 riyals saoudiens en usd
+__label__fr ou changer de l'argent a francfort ?
+__label__fr convertissez 2000 dinars tunisiens en aed svp
+__label__fr combien d'euros je reçois pour 150 try ?
+__label__fr convertir 200 francs suisses en dinars tunisiens
+__label__fr où changer de l'argent à geneve ?
+__label__fr convertissez 50 livres sterling en dinars tunisiens svp
+__label__fr des vacances pas chères à rome pour moins de 800 francs suisses ?
+__label__fr la vie est chère à hammamet pour un touriste ?
+__label__fr des vacances pas cheres a gabes pour moins de 200 gbp ?
+__label__fr la vie est chere a sousse pour un touriste
+__label__fr des vacances pas cheres a sidi bou said pour moins de 300 cad ?
+__label__fr la vie est chere a dubai pour un touriste
+__label__fr on peut payer le voyage en plusieurs fois
+__label__fr il faut prendre du liquide pour mahdia
+__label__fr il faut prendre du liquide pour rome
+__label__fr il faut prendre du liquide pour bizerte ?
+__label__tn_latin nheb aller simple l malta 8odwa
+__label__tn_latin vol dubai tounes fi jwan
+__label__tn_latin nheb aller simple l tbarka el weekend ejjey
+__label__tn_latin vol monastir tunis el weekend hedha
+__label__tn_latin qatar airways arkhas mel compagniet lo5rin l casablanca
+__label__tn_latin chhal soum billet tayara l alger fel sif
+__label__tn_latin qatar airways arkhas mel compagniet lo5rin l tozeur
+__label__tn_latin chhal soum billet tayara l 3in draham nhar el a7ad
+__label__tn_latin tunisair arkhas mel compagniet lo5rin l monastir
+__label__tn_latin chhal soum billet tayara l casa fel sif ?
+__label__tn_latin air algérie t9abel sac golf
+__label__tn_latin el valise mte3i 25 kilo , y9ablouha nouvelair
+__label__tn_latin 9adech men valise fel soute fel vol l londres fi chhar 12 ?
+__label__tn_latin air france t9abel sac golf ?
+__label__tn_latin el valise mte3i 32 kilo , y9ablouha nouvelair
+__label__tn_latin 9adech men valise fel soute fel vol l doha ba3d ghodwa ?
+__label__tn_latin tunisair express t9abel sac golf
+__label__tn_latin el valise mte3i 24 kilo , y9ablouha royal air maroc
+__label__tn_latin lawajli 3la hotel f tataouine 7 lyeli
+__label__tn_latin nlawej 3la maison d'hôte f soussa 2 lyeli
+__label__tn_latin nheb hotel 3 etoiles f jarba
+__label__tn_latin lawajli 3la hotel f jedda 4 lyeli
+__label__tn_latin nlawej 3la maison d'hôte f marsilia 3 lyeli
+__label__tn_latin nheb hotel 4 etoiles f sousa
+__label__tn_latin lawajli 3la hotel f marsilia 2 lyeli
+__label__tn_latin nlawej 3la maison d'hôte f jeddah 2 lyeli
+__label__tn_latin nheb hotel f gabes a9al men 150 dinars el lila
+__label__tn_latin ama hotel arkhas f malte
+__label__tn_latin ghali el hotel f bnzart el tnin ejjey ?
+__label__tn_latin nheb hotel f sousse a9al men 100 euro el lila
+__label__tn_latin ama hotel arkhas f geneve ?
+__label__tn_latin ghali el hotel f 3in draham fel sif ?
+__label__tn_latin nheb hotel f geneva a9al men 50 riyal el lila
+__label__tn_latin ama hotel arkhas f new york
+__label__tn_latin el restaurant mta3 el hotel fih makla halal ?
+__label__tn_latin 9adech el 3omr el minimum bech nkri karhba f douz ?
+__label__tn_latin fama promo 3al kre el karhabet f marseille ?
+__label__tn_latin 9adech el 3omr el minimum bech nkri karhba f zarzis ?
+__label__tn_latin fama promo 3al kre el karhabet f bruxelles
+__label__tn_latin 9adech el 3omr el minimum bech nkri karhba f soussa ?
+__label__tn_latin fama promo 3al kre el karhabet f doha ?
+__label__tn_latin tnajmou tab3thouli taxi lel hotel mte3i f dzayer
+__label__tn_latin kifech nemchi mel matar lel hotel f barcelone
+__label__tn_latin tnajmou tab3thouli taxi lel hotel mte3i f madrid ?
+__label__tn_latin kifech nemchi mel matar lel hotel f tbarka
+__label__tn_latin win station el louage f ain draham
+__label__tn_latin fama car bel lil l tatawin
+__label__tn_latin win station el louage f kairouan ?
+__label__tn_latin fama car bel lil l sidi bousaid
+__label__tn_latin win station el louage f sidi bousaid ?
+__label__tn_latin fama car bel lil l zarzis ?
+__label__tn_latin el b7ar s5oun bech n3oum f paris ghoudwa ?
+__label__tn_latin chnowa nelbes f paris ghoudwa
+__label__tn_latin bered f paris lyoum ?
+__label__tn_latin el b7ar s5oun bech n3oum f madrid fi chhar 11 ?
+__label__tn_latin chnowa nelbes f geneva fel sif ?
+__label__tn_latin bered f londres essebt ejjey ?
+__label__tn_latin el b7ar s5oun bech n3oum f frankfurt ba3d jem3tin ?
+__label__tn_latin chnowa nelbes f kelibia ba3d ghodwa
+__label__tn_latin chnowa nzour f casablanca chhar jey ?
+__label__tn_latin chnouma les activités lel sghar f casa ?
+__label__tn_latin chnowa nzour f milan ghodwa
+__label__tn_latin chnouma les activités lel sghar f el hammamet
+__label__tn_latin chnowa nzour f douz chhar jey ?
+__label__tn_latin kifech na3mel demande visa schengen ?
+__label__tn_latin chnouma el wra9 elli lazmin bech nsafer l lyon
+__label__tn_latin el sghar lazmhom passeport bech yemchiw l rome ?
+__label__tn_latin dossier visa jedda chnowa lazmou ?
+__label__tn_latin chnouma el wra9 elli lazmin bech nsafer l dzayer
+__label__tn_latin el sghar lazmhom passeport bech yemchiw l alger
+__label__tn_latin dossier visa marsilia chnowa lazmou
+__label__tn_latin chnouma el wra9 elli lazmin bech nsafer l londres ?
+__label__tn_latin el sghar lazmhom passeport bech yemchiw l brussel ?
+__label__tn_latin a7sebli 1000 lira turque bel flous tounsia
+__label__tn_latin 200 dirham emarati 9adech ta3mel bel pound
+__label__tn_latin nheb nbadel 500 dinar , 9adech nekhou franc suisse ?
+__label__tn_latin 1500 dinars 9adech yjiw bel dollar canadien ?
+__label__tn_latin a7sebli 50 lira bel dollar canadien
+__label__tn_latin 300 franc suisse 9adech ta3mel bel livre
+__label__tn_latin nheb nbadel 100 dt , 9adech nekhou euros
+__label__tn_latin 1500 dinars 9adech yjiw bel riyal
+__label__tn_latin a7sebli 150 pound bel dinars
+__label__tn_latin 800 livre sterling 9adech ta3mel bel flous tounsia ?
+__label__tn_latin 9adech el makla fel nhar f tabarka
+__label__tn_latin 3otla rkhisa f mestir b a9al men 200 ouro
+__label__tn_latin 9adech el makla fel nhar f 9abes ?
+__label__tn_latin 3otla rkhisa f bruxelles b a9al men 1000 dollar canadien ?
+__label__tn_latin 9adech el makla fel nhar f barcelone ?
+__label__tn_latin 3otla rkhisa f jedda b a9al men 1000 dt
+__label__tn_latin najem nesta3mel el carte visa mte3i fel 5arej
+__label__en what outdoor activities are available in tozeur ?
+__label__en are there any interesting day trips from tunis ?
+__label__en what can i do in berlin if i enjoy art and architecture ?
+__label__en where can i enjoy a boat trip in bizerte ?
+__label__en can you recommend a guided walking tour in marseille ?
+__label__en how many kilos of checked luggage can i take on an international flight ?
+__label__en what's the hand luggage allowance for a flight to istanbul ?
+__label__en is food allowed inside my cabin bag ?
+__label__en does the baggage allowance change for business class passengers ?
+__label__en are sharp objects like nail scissors allowed in checked luggage ?
+__label__en can i take medication and a bottle of water in my hand luggage ?
+__label__en are baby car seats accepted as checked baggage ?
+__label__en looking for a car rental in bizerte for four adults and luggage .
+__label__en how much extra does full insurance cost for a rental car in rome ?
+__label__en what are the daily rates for economy cars in tunis ?
+__label__en do i need an international driving permit to rent a car in rome ?
+__label__en looking for a convertible to rent in barcelona this summer .
+__label__en what's the exchange rate between pounds and tunisian dinars ?
+__label__en what's the exchange rate between the euro and the swiss franc ?
+__label__en are exchange offices in paris open on sundays ?
+__label__en is the exchange rate at airports usually worse than at banks ?
+__label__en how much does a return flight from tunis to lisbon cost this weekend ?
+__label__en how much do flights from tunis to amsterdam cost tonight ?
+__label__en what's the price difference between economy and business class to istanbul ?
+__label__en what are the available connections from tunis to montreal on december 20 ?
+__label__en looking for flights to london this weekend , preferably without stopovers .
+__label__en are there morning departures from monastir to lyon next monday ?
+__label__en are there family hotels in sousse with kids' clubs ?
+__label__en i'm interested in a resort in monastir with an all-inclusive option .
+__label__en does the hotel have a restaurant serving vegetarian meals ?
+__label__en are there hotels in amsterdam with electric vehicle charging stations ?
+__label__en do rooms in marseille come with a minibar and a safe ?
+__label__en does the hotel offer laundry and dry-cleaning services ?
+__label__en does the resort in kelibia offer water sports activities ?
+__label__en can i find a hotel in frankfurt with a business centre and meeting rooms ?
+__label__en could i get a hotel room in bizerte for 60 euros ?
+__label__en i have a budget of 300 euros for four nights in barcelona . what can i get ?
+__label__en how much is a standard room in marseille this weekend ?
+__label__en looking for an affordable hotel in paris for three nights .
+__label__en show me available hotels in istanbul for december 20 .
+__label__en i'm travelling alone and need a safe hotel in berlin .
+__label__en need a hotel in gabes for a work trip , preferably near the centre .
+__label__en can you suggest a hotel in douz with availability this weekend ?
+__label__en can you give me a simple recipe for creamy mushroom pasta ?
+__label__en i keep losing motivation to exercise . any advice ?
+__label__en what's the difference between a metaphor and a simile ?
+__label__en what are common signs of seasonal allergies ?
+__label__en is it normal to feel tired after a large meal ?
+__label__en my laptop keeps freezing when i open several tabs .
+__label__en what should i do if an app keeps crashing ?
+__label__en how do i ask my manager for feedback ?
+__label__en what should i look for when buying a washing machine ?
+__label__en can you compare ceramic and stainless steel cookware ?
+__label__en suggest activities to do with children on a rainy afternoon .
+__label__en can you help me plan a weekly household chore schedule ?
+__label__en write a short congratulations message for my cousin .
+__label__en what are some classic rock bands worth listening to ?
+__label__en suggest a few family-friendly comedy films .
+__label__en what's the difference between a documentary and a biopic ?
+__label__en who are some influential jazz musicians ?
+__label__en why is the sky blue during the day ?
+__label__en what's the difference between a planet and a star ?
+__label__en i need a little motivation to finish my homework .
+__label__en what happened on december 20 in science history ?
+__label__en what is the difference between baking soda and baking powder ?
+__label__en which football club has the most passionate fans in sousse ?
+__label__en how is a marathon distance measured ?
+__label__en turn these lecture notes into concise revision cards .
+__label__en what could cause my hands to feel cold indoors ?
+__label__en how do i make a spreadsheet calculate totals automatically ?
+__label__en is it safe to use public wi-fi for online banking ?
+__label__en could you turn my work experience into strong cv bullet points ?
+__label__en suggest some questions i can ask at the end of an interview .
+__label__en are refurbished phones a sensible purchase ?
+__label__en write a kind note to a neighbour who helped us .
+__label__en which famous writers were born in london ?
+__label__en can you help me make a simple monthly household budget ?
+__label__en do hotels in paris accept cash at check-in ?
+__label__en can i use a prepaid card to book a flight ?
+__label__en are there extra fees when paying with a credit card ?
+__label__en can i pay for my reservation using someone else's bank card ?
+__label__en what happens if my online payment is declined ?
+__label__en can i pay the remaining balance at the agency next monday ?
+__label__en how do i get from bizerte to tunis without renting a car ?
+__label__en i need the train timetable between sousse and sfax .
+__label__en do trains run between tunis and sfax on sundays ?
+__label__en is there a metro connection from tunis city centre to nearby neighbourhoods ?
+__label__en can i take a louage from monastir to sfax this weekend ?
+__label__en is there a direct train between sousse and mahdia ?
+__label__en how long does the journey from sousse to monastir take by bus ?
+__label__en are there night buses in tunis ?
+__label__en can i pay my airport transfer driver in cash ?
+__label__en can i arrange a return transfer from my hotel in djerba ?
+__label__en taxi prices from sfax to mahdia , please .
+__label__en do taxis in rome accept card payments ?
+__label__en are taxis easy to find in nabeul at night ?
+__label__en do you provide shared airport shuttles in dubai ?
+__label__en what's the average total cost of a week in djerba for two people ?
+__label__en how much does a luxury holiday in dubai usually cost ?
+__label__en how much should i save for a two-week holiday in montreal ?
+__label__en could you estimate the cost of a beach holiday in mahdia for five days ?
+__label__en give me a rough budget for a solo trip to berlin next month .
+__label__en i need a budget for a holiday in zarzis for two adults and two children .
+__label__en i have 1 , 500 euros for ten days in montreal , including flights . is it enough ?
+__label__en can i enter london with a valid residence permit ?
+__label__en can i submit my visa application for amsterdam without an employment certificate ?
+__label__en can my child travel to london with only one parent's consent ?
+__label__en do i need a transit visa when changing planes in istanbul ?
+__label__en how do i apply for a tourist visa to new york ?
+__label__en can i use an emergency travel document to visit brussels ?
+__label__en what are the visa requirements for tunisian citizens visiting milan ?
+__label__en what's the weather like in tunis today ?
+__label__en what's the average temperature in rome in december ?
+__label__en is the sea warm enough for swimming in monastir this summer ?
+__label__en is the weather in hammamet suitable for outdoor activities next weekend ?
+__label__en what is the weather forecast for milan on december 20 ?
+__label__en what's the temperature in marseille today ?
+__label__fr y a-t-il des activités pour les enfants à hammamet ?
+__label__fr que peut-on faire à tabarka avec des adolescents ?
+__label__fr quelles activités de plein air sont disponibles à monastir ?
+__label__fr quelles sorties sont possibles à marseille le dimanche ?
+__label__fr que peut-on faire à genève avec un petit budget ?
+__label__fr existe-t-il des circuits à vélo à tunis ?
+__label__fr existe-t-il des excursions en bateau à sidi bou said ?
+__label__fr peut-on faire une balade à cheval à djerba ?
+__label__fr y a-t-il des visites gastronomiques à sfax ?
+__label__fr je voudrais découvrir les environs de bizerte avec un guide .
+__label__fr quel est le tarif pour un excédent de bagages ?
+__label__fr est-ce que je peux enregistrer une poussette gratuitement ?
+__label__fr combien de bagages sont compris dans un billet en classe économique ?
+__label__fr puis-je transporter des liquides dans mon bagage cabine ?
+__label__fr y a-t-il une franchise spéciale pour les bagages des bébés ?
+__label__fr est-ce que le kilométrage est illimité pour une location à paris ?
+__label__fr avez-vous des véhicules électriques disponibles à amsterdam ?
+__label__fr quels modèles sont proposés pour une location à la journée à sfax ?
+__label__fr je cherche un véhicule sept places à bruxelles .
+__label__fr combien valent 2 500 euros en dollars américains ?
+__label__fr peut-on convertir des dirhams marocains en dinars tunisiens ?
+__label__fr combien coûte un billet pour istanbul demain ?
+__label__fr quel est le tarif d'un aller-retour tunis-malte pour une personne ?
+__label__fr combien coûte un vol de monastir à lyon cet été ?
+__label__fr quel serait le prix de trois billets entre tunis et bruxelles ?
+__label__fr combien coûte un billet en classe affaires pour londres ?
+__label__fr un aller-retour entre sousse et paris , s'il vous plaît .
+__label__fr est-ce possible de trouver un vol tunis-rome ce soir ?
+__label__fr je voudrais partir de tunis pour bruxelles le 20 décembre .
+__label__fr quels vols relient tunis à marseille sans escale ?
+__label__fr y a-t-il des vols directs de tunis à istanbul ?
+__label__fr je cherche un vol de tunis à paris pour deux personnes .
+__label__fr quels sont les vols les plus pratiques pour aller de tunis à londres ?
+__label__fr l'hôtel propose-t-il un service de navette ?
+__label__fr l'établissement dispose-t-il d'un club pour enfants ?
+__label__fr l'hôtel possède-t-il des salles de réunion à tunis ?
+__label__fr est-ce que le restaurant propose des menus végétariens ?
+__label__fr avez-vous des offres spéciales pour les hôtels à marseille ?
+__label__fr combien coûte un séjour de sept nuits à monastir ?
+__label__fr quel est le tarif d'un hôtel cinq étoiles à dubaï ?
+__label__fr quel est le tarif d'un hôtel quatre étoiles à madrid ?
+__label__fr quel est le prix d'une chambre avec vue sur mer à mahdia ?
+__label__fr quel est le supplément pour une chambre avec vue sur mer à hammamet ?
+__label__fr combien coûte une nuit dans un hôtel près de la plage à nabeul ?
+__label__fr avez-vous des hébergements disponibles à tozeur pour le week-end prochain ?
+__label__fr avez-vous des hôtels avec piscine à dubaï ?
+__label__fr quels hôtels sont disponibles à djerba ce week-end ?
+__label__fr quels hôtels proposent des chambres familiales à istanbul ?
+__label__fr quels hôtels sont adaptés aux familles à mahdia ?
+__label__fr je voudrais un hôtel de luxe à new york .
+__label__fr je cherche un hôtel proche du centre de milan .
+__label__fr mon riz est toujours trop collant , tu as une astuce ?
+__label__fr comment fonctionne le système de points au tennis ?
+__label__fr je débute la course à pied , comment progresser sans me blesser ?
+__label__fr quelles sont les règles principales du volley-ball ?
+__label__fr comment améliorer mon endurance en natation ?
+__label__fr peux-tu m'expliquer les fractions avec des exemples faciles ?
+__label__fr que faire pour soulager un léger mal de tête ?
+__label__fr mon téléphone chauffe beaucoup pendant la recharge , est-ce normal ?
+__label__fr mon ordinateur portable se bloque sans raison apparente .
+__label__fr comment mieux organiser mes tâches professionnelles ?
+__label__fr est-ce qu'un clavier mécanique est utile pour écrire longtemps ?
+__label__fr comment vérifier si une boutique en ligne est fiable ?
+__label__fr des idées de jeux à faire en famille sans écran ?
+__label__fr que dire à une amie qui traverse une période difficile ?
+__label__fr comment commencer à apprendre le dessin avec peu de matériel ?
+__label__fr peux-tu expliquer simplement le principe de l'offre et de la demande ?
+__label__fr salut , tu peux m'aider à résoudre un petit problème ?
+__label__fr quelle compétence serait la plus utile à apprendre selon toi ?
+__label__fr comment établir un budget mensuel pour les dépenses du foyer ?
+__label__fr que s'est-il passé le 20 décembre dans l'histoire des sciences ?
+__label__fr j'aimerais apprendre à mieux gérer mon temps libre .
+__label__fr comment éviter que les légumes perdent leur couleur à la cuisson ?
+__label__fr comment améliorer ma technique de tir au basketball ?
+__label__fr peux-tu me donner des exercices pour réviser les verbes irréguliers anglais ?
+__label__fr j'ai une toux sèche , quelles mesures simples peuvent m'aider ?
+__label__fr est-ce que la caféine peut perturber le sommeil ?
+__label__fr peux-tu rédiger une courte description de mon profil linkedin ?
+__label__fr comment demander un délai supplémentaire pour terminer une tâche ?
+__label__fr comment comparer les garanties de deux appareils électroménagers ?
+__label__fr que faire quand deux enfants se disputent constamment ?
+__label__fr pourquoi les océans sont-ils salés ?
+__label__fr pourquoi les volcans entrent-ils en éruption ?
+__label__fr quel est le rôle des musées dans la préservation du patrimoine ?
+__label__fr peux-tu me raconter un fait historique intéressant sur tunis ?
+__label__fr que s'est-il passé le 20 décembre dans l'histoire de la littérature ?
+__label__fr les paiements en ligne sont-ils sécurisés lors d'une réservation auprès d'une agence ?
+__label__fr puis-je utiliser paypal pour payer mon billet d'avion ?
+__label__fr est-il possible de verser un acompte maintenant et le solde plus tard ?
+__label__fr acceptez-vous les paiements sans contact ?
+__label__fr acceptez-vous les cartes american express pour les paiements d'hôtel ?
+__label__fr puis-je payer mon vol en espèces dans votre agence à tunis ?
+__label__fr y a-t-il un supplément selon le moyen de paiement choisi ?
+__label__fr puis-je payer deux chambres d'hôtel avec deux cartes bancaires différentes ?
+__label__fr quels moyens de paiement sont proposés pour réserver un vol à la dernière minute ?
+__label__fr combien coûte le transport public de tunis à hammamet ?
+__label__fr y a-t-il des bus entre sfax et tunis aujourd'hui ?
+__label__fr où prendre un louage pour aller de sousse à kairouan ?
+__label__fr je cherche une liaison en transport public entre mahdia et monastir .
+__label__fr je voudrais connaître les horaires des louages à sousse .
+__label__fr je voudrais réserver un transfert privé à rome ce week-end .
+__label__fr je cherche un taxi disponible à kairouan ce soir .
+__label__fr je voudrais réserver une navette privée pour deux personnes à hammamet .
+__label__fr combien coûte un taxi de djerba à zarzis ?
+__label__fr je cherche un taxi pour deux personnes avec beaucoup de bagages à sfax .
+__label__fr je cherche un transfert pour quatre adultes avec plusieurs valises .
+__label__fr pouvez-vous estimer le budget pour des vacances en famille à hammamet ?
+__label__fr combien dois-je économiser pour deux semaines de vacances à montréal ?
+__label__fr est-ce que 600 euros suffisent pour l'hébergement , les repas et les activités à lisbonne ?
+__label__fr pouvez-vous préparer un budget pour un voyage professionnel à francfort ?
+__label__fr pouvez-vous estimer le coût de cinq jours de vacances à mahdia ?
+__label__fr combien d'argent de poche emporter pour une semaine à rome ?
+__label__fr puis-je visiter genève pendant quatre jours avec 500 euros ?
+__label__fr quel est le coût d'une excursion de trois jours à tozeur , transport compris ?
+__label__fr mon enfant peut-il voyager à paris avec une autorisation parentale ?
+__label__fr ai-je besoin d'un visa pour un séjour touristique à lisbonne ?
+__label__fr mon passeport doit-il être valable six mois pour aller à dubaï ?
+__label__fr faut-il prendre rendez-vous pour déposer un dossier de visa à bruxelles ?
+__label__fr quels documents sont nécessaires pour un séjour touristique à lisbonne ?
+__label__fr dois-je fournir des relevés bancaires pour un visa à paris ?
+__label__fr est-ce qu'il pleut souvent à londres en décembre ?
+__label__fr faut-il prévoir des vêtements chauds pour un séjour à rome ?
+__label__fr les températures seront-elles élevées à madrid cet été ?
+__label__fr quelle météo est prévue à genève pour les prochains jours ?
+__label__fr est-ce que la météo sera favorable pour une excursion à douz demain ?
+__label__tn_latin win najjem nemchi lel plage fi hammamet ?
+__label__tn_latin chnowa najjem nzour fi kairouan ?
+__label__tn_latin fama parc aquatique fi hammamet ?
+__label__tn_latin win nal9a plage calme fi kelibia ?
+__label__tn_latin nheb na3mel tour fi matmata
+__label__tn_latin fama balade à cheval fi hammamet ?
+__label__tn_latin nheb nzour les oasis fi tozeur
+__label__tn_latin chnowa les activités elli najmou na3mlouhom fi djerba ?
+__label__tn_latin 9adech frais excédent bagage ?
+__label__tn_latin najjem ne7ot pc portable fi bagage cabine ?
+__label__tn_latin najjem nkhalles bagage zeyed fel matar ?
+__label__tn_latin najjem ne5ou liquides fi bagage cabine ?
+__label__tn_latin nheb automatique men tunis l jem3a ejjeya
+__label__tn_latin 9adech caution mta3 location karhba fi djerba ?
+__label__tn_latin fama voiture familiale disponible fi monastir ?
+__label__tn_latin 9adech location karhba fi sousse pour 3 jours ?
+__label__tn_latin fama voiture électrique lel location fi tunis ?
+__label__tn_latin najem nekri karhba b carte bancaire mta3 omi ?
+__label__tn_latin nheb karhba men sfax ba3d ghodwa
+__label__tn_latin chnowa taux de change mta3 pound sterling ?
+__label__tn_latin 9adech ya3mel euro bel dinar tounsi lyoum ?
+__label__tn_latin taux euro yetbaddel barcha bin nhar w nhar ?
+__label__tn_latin 9adech yji 250 euro bel dinar tounsi ?
+__label__tn_latin 9adech le prix bech nemchi l new york ?
+__label__tn_latin 9adech billet tunis barcelona m3a valise en soute ?
+__label__tn_latin 9adech zouz aller retour bin tunis w paris ?
+__label__tn_latin chnowa ar5es vol men tunis l marseille ?
+__label__tn_latin 9adech 3 billets men tunis l bruxelles ?
+__label__tn_latin aller retour paris b 250 euro , fama prix hakka ?
+__label__tn_latin 9adech billet business class l london ?
+__label__tn_latin tarif billet tunis casa nhar el tnin 9adech ?
+__label__tn_latin nheb vol men tunis l milano avec départ fel sif
+__label__tn_latin chnowa les vols men djerba l lyon ?
+__label__tn_latin fama vols men tunis l geneve pour zouz adultes ?
+__label__tn_latin vol men tunis l casa nhar el tnin , fama disponibilité ?
+__label__tn_latin najjem nal9a vol men tunis l new york b escale wa7da ?
+__label__tn_latin fama vol direct bin tunis w frankfurt ?
+__label__tn_latin nheb nerja3 men paris l tunis
+__label__tn_latin fama vols men tunis l bruxelles lyoum ?
+__label__tn_latin billet aller retour men sousse l paris pour zouz personnes
+__label__tn_latin chnowa les équipements fi chambre fi monastir ?
+__label__tn_latin fama ascenseur fi hotel fi kairouan ?
+__label__tn_latin hotel fi nabeul fih club enfants ?
+__label__tn_latin hotel fi tozeur fih piscine chauffée ?
+__label__tn_latin nheb na3ref ken fama service room service fi monastir
+__label__tn_latin les chambres fi tataouine fihom chauffage ?
+__label__tn_latin nheb hotel fi matmata fih wifi fi les chambres
+__label__tn_latin hotel fi nabel fih salle de conférence ?
+__label__tn_latin est-ce que hotel fi monastir fih animation lel sghar ?
+__label__tn_latin najem nesta3mel piscine hotel fi djerba bla ma nokhles extra ?
+__label__tn_latin fama kitchenette w frigo fi chambre fi hotel fi tunis ?
+__label__tn_latin prix total 4 nuits fi hotel fi zarzis 9adech ?
+__label__tn_latin prix chambre triple fi nabeul 9adech ?
+__label__tn_latin tarif nuit fi hotel 5 etoiles fi monastir ?
+__label__tn_latin 9adech tetkalef chambre pour zouz fi tunis fi sif ?
+__label__tn_latin fama hotel fi sfax ynajem y9abel groupe mta3 6 personnes ?
+__label__tn_latin nheb hotel 5 etoiles fi djerba
+__label__tn_latin nheb hotel 9rib lel b7ar fi djerba
+__label__tn_latin nheb reservation fi hammamet pour zouz adultes
+__label__tn_latin hotel fi bizerte l zouz personnes , fama disponibilité ?
+__label__tn_latin 3andkom suggestions mta3 hotels fi sfax ?
+__label__tn_latin nheb chambre double fi hammamet ghodwa
+__label__tn_latin chnowa najm na3mel bel batata w 3adhma 3ala 3cha ?
+__label__tn_latin fama salle de sport behia fi tunis b abonnement mahouche ghaly ?
+__label__tn_latin 3lech el wifi ywalli bti2 ki barcha nes yesta3mlouh ?
+__label__tn_latin sma3t chanson jdida w 3ajbetni barcha , a3tini suggestions kifha
+__label__tn_latin nheb application gratuite bech net3alem anglais
+__label__tn_latin el clavier mta3 pc ma3adech yekteb ba3dh les lettres
+__label__tn_latin kifech na3mel sauce tomate lel pasta b dho9 behi ?
+__label__tn_latin a3tini recette salade mechouia bel goût mta3 dar
+__label__tn_latin kifech n3amel budget mensuel w n9allel masroufi ?
+__label__tn_latin nheb recette mlawi maison yji mor9a9 w bnine
+__label__tn_latin kifech na3mel compte professionnel 3al linkedin ?
+__label__tn_latin 3andi entretien nhar 20 decembre , a3tini questions possibles
+__label__tn_latin fi paris fama magasin ybi3 accessoires dessin ? nlawwej 3la cadeau
+__label__tn_latin fama magasin chaussures sport behi fi djerba ?
+__label__tn_latin fama club natation behi fi bizerte ?
+__label__tn_latin fama cours soutien physique fi sfax ?
+__label__tn_latin kifech n7assen prononciation mte3i fel anglais ?
+__label__tn_latin fama club équestre fi sousse ?
+__label__tn_latin fama club athlétisme fi monastir ?
+__label__tn_latin echhar ejjey bech nabda formation design , chnowa matériel lezemni ?
+__label__tn_latin nheb netfarrej fi match tennis , fasarli système de points
+__label__tn_latin fama cours couture fi mahdia ?
+__label__tn_latin chnowa najm na3mel bel banane elli wallat tayba barcha ?
+__label__tn_latin nheb film romantique ma fihouch fin triste
+__label__tn_latin fama cours pâtisserie fi sousse ?
+__label__tn_latin nheb n3aref kifech na3mel tri lel déchets fel dar
+__label__tn_latin chnowa a7sen tari9a bech n3allem kalbi yesta3mel el laisse ?
+__label__tn_latin nheb nechri cage lel 3asfour , chnowa lezemni nra3i ?
+__label__tn_latin kifech na3ref ken el 7out mte3i fi aquarium merte7 ?
+__label__tn_latin chnowa na3mel bech n9allel consommation mta3 el me fel dar ?
+__label__tn_latin kifech nratteb placard sghir b barcha 7weyej ?
+__label__tn_latin el machine a laver ta3mel vibration barcha , 3lech ?
+__label__tn_latin chnowa far9 bin peinture acrylique w peinture a l'huile ?
+__label__tn_latin chnowa a7sen tari9a bech net3allem calligraphie ?
+__label__tn_latin kifech najjem nkhalles reservation mta3 hotel ?
+__label__tn_latin nheb n5alles reservation b carte edahabia .
+__label__tn_latin najjem n9assem paiement 3la zouz marat ?
+__label__tn_latin chnowa les cartes elli ta9blouhom ?
+__label__tn_latin lezemni carte bancaire bech na3mel reservation ?
+__label__tn_latin chnowa na3mel ken carte mte3i ma t3addich ?
+__label__tn_latin nheb nbadal moyen de paiement mta3 reservation .
+__label__tn_latin fama commission 3al paiement bel carte ?
+__label__tn_latin najjem n5alles b mastercard ?
+__label__tn_latin chnowa el 7al ken ma3andich carte bancaire ?
+__label__tn_latin nheb na3ref ken paiement b cheque bancaire ma9boul .
+__label__tn_latin nheb nemchi men zarzis l gabes b louage
+__label__tn_latin fama train rapide men sfax l tunis ?
+__label__tn_latin kifech nemchi men bizerte l tunis b transport public ?
+__label__tn_latin nheb na3ref tarif train men sfax l gabes
+__label__tn_latin fama transport public fi djerba ?
+__label__tn_latin fama bus men sousse l kairouan nhar el jem3a ?
+__label__tn_latin fama train men sfax l mahdia ?
+__label__tn_latin kifech nal9a taxi fi sousse ellila ?
+__label__tn_latin 9adech course taxi men sfax l centre ?
+__label__tn_latin taxi collectif men nabeul l sousse , win nal9ah ?
+__label__tn_latin nheb chauffeur yestanna fi sousse pendant 3 sweya3
+__label__tn_latin 9adech taxi privé men zarzis l djerba ?
+__label__tn_latin najjem na3mel réservation taxi pour nhar 20 decembre ?
+__label__tn_latin nheb transfert aller simple men djerba l zarzis
+__label__tn_latin 9adech ykallef taxi men mahdia l monastir ?
+__label__tn_latin nheb budget l 3otla mta3 10 iyem .
+__label__tn_latin tkalef akther safra fi sif wala fi chte ?
+__label__tn_latin nnajjem n3addi 4 iyem fi djerba b 400 dinar ?
+__label__tn_latin nheb na3ref ken 700 euro yekfiw l jem3a fi milan .
+__label__tn_latin kifech na9sem budget mta3 vacances ?
+__label__tn_latin chnowa budget ma39oul l 5 iyem fi istanbul ?
+__label__tn_latin ken nemchi l djerba 5 iyem , 9adech na7seb ?
+__label__tn_latin chnowa les documents lel voyage l london ?
+__label__tn_latin kifech na3mel demande visa l istanbul ?
+__label__tn_latin nheb na3ref ken lazem rendez-vous lel visa l lyon
+__label__tn_latin najem n9addem dossier visa l madrid nhar el khmis ?
+__label__tn_latin fama chte fi sfax nhar el tnin ?
+__label__tn_latin fi kelibia fama barcha soleil lyoum ?
+__label__tn_latin fama différence fel température bin tunis w sousse ?
+__label__tn_latin chnowa prévisions mta3 ri7 fi kelibia lyoum ?
+__label__tn_latin fama chte prévue fi hammamet nhar 20 decembre ?

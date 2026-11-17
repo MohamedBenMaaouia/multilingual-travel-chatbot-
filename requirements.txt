@@ -1,0 +1,14 @@
+# Python 3.11. Install with:  pip install -r requirements.txt
+# Versions are pinned so results can be reproduced.
+
+# data + classic ML
+numpy==1.26.4          # < 2 on purpose: fastText's predict() is not compatible with numpy 2
+pandas==2.3.3
+scikit-learn==1.8.0
+
+# Module 1: language detection
+fasttext-wheel==0.9.2  # pre-built fastText for Windows
+
+# graphs + notebooks
+matplotlib==3.10.8
+ipykernel==7.1.0

@@ -1,0 +1,60 @@
+{
+  "model": "fastText supervised classifier, whole words only",
+  "settings": {
+    "epoch": 10,
+    "lr": 1.0,
+    "dim": 50,
+    "bucket": 200000,
+    "minn": 0,
+    "maxn": 0,
+    "wordNgrams": 1,
+    "loss": "softmax",
+    "thread": 1,
+    "seed": 42
+  },
+  "data": {
+    "train": 3161,
+    "val": 684,
+    "challenge": 60
+  },
+  "train": {
+    "accuracy": 1.0,
+    "loss": 0.0001807594041362927
+  },
+  "val": {
+    "accuracy": 0.9970760233918129,
+    "loss": 0.005308201609398219,
+    "recall_per_language": {
+      "en": 0.9955555555555555,
+      "fr": 0.9956709956709957,
+      "tn_latin": 1.0
+    },
+    "mistakes": [
+      {
+        "truth": "en",
+        "predicted": "tn_latin",
+        "text": "flight nabeul zarzis today"
+      },
+      {
+        "truth": "fr",
+        "predicted": "en",
+        "text": "dossier visa paris quels papiers"
+      }
+    ]
+  },
+  "challenge": {
+    "accuracy": 0.9833333333333333,
+    "recall_per_language": {
+      "en": 1.0,
+      "fr": 0.95,
+      "tn_latin": 1.0
+    },
+    "mistakes": [
+      {
+        "truth": "fr",
+        "predicted": "tn_latin",
+        "text": "vol direct tunis istanbul svp"
+      }
+    ]
+  }
+}

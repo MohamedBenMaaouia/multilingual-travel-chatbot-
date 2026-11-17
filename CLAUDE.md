@@ -30,7 +30,8 @@ Out of scope: Modern Standard Arabic, Tunisian in Arabic script (everything is L
 
 ## Hardware and environment
 
-- Windows 11, PowerShell, Python 3.11. Git repo (branch `main`).
+- Windows 11, PowerShell, Python 3.11. Git repo (branch `main`), pushed to GitHub: `https://github.com/MohamedBenMaaouia/multilingual-travel-chatbot-.git` (remote `origin`).
+- **Virtual environment (use it for everything):** `C:\Users\medbe\venvs\travel-chatbot`, deliberately **outside OneDrive** so OneDrive doesn't sync thousands of package files. Run scripts with `C:\Users\medbe\venvs\travel-chatbot\Scripts\python.exe -m src....`. Packages are pinned in `requirements.txt`; add new ones there with exact versions. **numpy is pinned < 2** because fastText's `predict()` breaks with numpy 2. The Jupyter kernel is registered as **"Python (travel-chatbot)"**, and `.vscode/settings.json` (gitignored, machine-specific) points VS Code to the venv.
 - **Local GPU: 4 GB VRAM**, which is too weak for transformer fine-tuning and too small to fully hold a 7B model.
 - Only **~28 GB free** on C:. The user does **not** want to download more models for now, so work with what exists:
   - Ollama: `qwen2.5:14b` (9 GB) and `mistral:7b-instruct` (4.4 GB). No Qwen 7B or 3B is pulled.
@@ -97,7 +98,7 @@ The repo root is this folder (`travel chatbot/`).
 
 ```
 data/{lexicons,templates,generated,processed,mock_api}/
-notebooks/        # Colab fine-tuning notebooks (self-contained)
+notebooks/        # local training/evaluation notebooks (VS Code) + Colab fine-tuning notebooks (self-contained)
 models/           # trained models (gitignore large files)
 src/{data_gen,preprocessing,lang_detect,travel_filter,classifier,ner,mock_api,llm,pipeline,options,app}/
 eval/             # metrics scripts, benchmark tables, human-eval sheet
@@ -129,7 +130,7 @@ tests/            # unit + scenario tests
 ## Open decisions (ask the user, don't pick silently)
 
 - **One model per module (decided by the user):** don't train two models to compare them. When a module starts, the user says which approach to use (e.g. fastText *or* XLM-R for language detection); build only that one. The approaches in the Modules table are options, not a to-do list. Note: the original brief asks for a benchmark table with ≥ 2 models; the user has chosen to override that.
-- Which LLM the app uses (decide from measurements; see Hardware)
+- Which LLM the app uses (decide from measurements; see Hardware). **Idea to propose at Module 5:** fine-tune a small model (e.g. Qwen2.5 1.5B/3B) with **QLoRA on Colab** on a few hundred good example answers (Tunisian ones written or validated by the user), then convert it for Ollama. It would fit in 4 GB VRAM (faster, toward < 2 s) and be better at Tunisian. Costs: example answers to write, more complex steps, a ~2 GB download.
 - Gradio vs Streamlit
 - NER: spaCy vs XLM-R, or compare both
 - Which optional modules to build (7, 8, 9)
@@ -152,7 +153,9 @@ tests/            # unit + scenario tests
 - ✅ `src/preprocessing/build_dataset.py`: merges both sources, cleans safely (no lowercasing; each model normalizes its own input), re-checks spans, dedups, assigns ids `q_000001…`, and does the template-aware stratified split. Outputs `data/processed/{dataset,train,val,test}.jsonl` + `balance_report.md`. Result: **4,519 rows → train 3,161 / val 684 / test 674**, 11–14 test rows per language × subcategory cell, 34–35 non-travel test rows per language; 0 templates and 0 sentences shared across splits.
 - ✅ `src/mock_api/generate_data.py` → `data/mock_api/`: `weather.csv` (43 cities × 12 months of climate averages: temp min/max, condition sunny/partly_cloudy/rainy/snowy/windy_sandy, rain days, humidity, sea temp), `hotels.csv` (176 fictional hotels: stars, low/high-season price in TND, high-season months, board, facilities, rating), `flights.csv` (140 weekly-timetable rows: flight_no, airline, IATA origin/destination, days_of_week 0=Mon, time, duration, stops/via, season all_year/summer/winter, base price in TND, cabin/checked bag kg, extra-bag price), `exchange_rates.json` (1 unit → TND). Cities map to airports through `places.json`'s `airport` field.
 - **Step 1 (Dataset) is complete.**
-- **Module 1 (language detection): the user chose fastText.** In progress.
+- **Module 1 (language detection): the user chose fastText.** In progress. Installed `fasttext-wheel` and `matplotlib`. Done: `src/preprocessing/normalize.py` (NFC, lowercase, straight apostrophes, spaces around punctuation; keeps digits, accents, in-word ' and -) and `src/lang_detect/prepare_data.py` → `data/processed/fasttext_lang/{train,val}.txt` (train shuffled with seed 42; no test file yet). Notebook `notebooks/01_lang_detect_fasttext.ipynb` (cells appended with scratchpad scripts so the user's outputs are kept) has sections 0–7: setup, data look, language clues, first training (words only), accuracy (val 99.85%), loss + learning curves (figures in `eval/figures/`), character pieces (slow start: right-by-a-whisker underfitting at lr 0.1), and the tuning grid (words/pieces × lr 0.1/0.5/1.0 × epochs 5/10/25 — all 99.4–99.85% on val, so val cannot separate them). Findings: content-free messages like `paris ?` → Tunisian with high confidence (default-class shortcut, poor calibration). Decision: handle in the orchestrator with the conversation's language, plus a deliberate default for a first message with no evidence. **Challenge set** drafted at `data/challenge/lang_challenge.jsonl`: 60 tricky messages (typos, sms style, no accents, code-switching, short), used only for choosing settings, never as the final test. The user approved the tn_latin lines. Section 8 scores all 18 settings on it (55–59/60). **Final settings (chosen by the user): whole words only, `lr=1.0`, `epoch=10`, `dim=50`, `bucket=200000`, `thread=1`, `seed=42`.** Results: challenge 59/60, val 99.71% (682/684), train ≈ 100%. On `paris ?` it gives en 62% / tn 37% (not over-confident), while most other settings say tn 83–98%. The same setting at 25 epochs is practically identical (tied 59/60, val loss 0.0047 vs 0.0053, `paris ?` en 52%); the user chose to keep 10 epochs. Section 9 shows the final model's confusion matrices (val + challenge) and precision/recall/F1 per language. Remaining val mistakes: `flight nabeul zarzis today` (en→tn) and `dossier visa paris quels papiers` (fr→en); challenge mistake: `vol direct tunis istanbul svp` (fr→tn). Section 10: diagnosis = **good fit** (no under/overfitting; mild over-confidence; remaining errors are content-free keyword messages). Section 11 saves the model to `models/lang_detect/fasttext_lang.bin` (gitignored by the user's choice; recreate it by running the notebook) and the metrics to `eval/metrics/lang_detect_fasttext.json`. The user chose **not** to measure speed/size.
+- ✅ `src/lang_detect/detect.py`: `detect_language(text) -> (lang | None, confidence)`. It loads the model once (`lru_cache`), uses `normalize()`, caps confidence at 1.0, and returns `(None, 0.0)` for empty text. The low-confidence rule (keep the conversation's language) belongs in the orchestrator.
+- **Module 1 is complete.** Next: Module 2 (travel filter); the user picks the approach.
 
 Note for Module 5: there is no mock data for `activities`, `visa_documents`, `payment_methods`, `public_transport`, `car_rental` or `transfer_taxi` (the plan only lists weather, exchange, flights and hotels). Decide with the user whether to add small static info files or let the LLM answer generally with a disclaimer.
 
@@ -160,5 +163,6 @@ Extra fields beyond the plan's schema: each entity has `norm` (canonical city, o
 
 ## Conventions
 
-- Run scripts as modules from the repo root: `python -m src.data_gen.fill_templates`. Imports are `from src.labels import ...`.
+- Run scripts as modules from the repo root with the venv's Python: `C:\Users\medbe\venvs\travel-chatbot\Scripts\python.exe -m src.data_gen.fill_templates`. Imports are `from src.labels import ...`.
 - Put temporary check scripts in the session scratchpad, not in the repo.
+- **Training happens in notebooks (decided by the user):** each module's training, metrics, graphs and error analysis live in a local Jupyter notebook run in VS Code (`notebooks/NN_<module>.ipynb`), built **one or two cells per turn**, with plain-language markdown before each code cell. The user runs the cells and asks questions before the next ones are added. Reusable code (`normalize()`, data prep, `detect_language()`…) stays in `src/` and the notebook imports it; the trained model is saved to `models/<module>/`. Before trusting final numbers, "Restart & Run All". The user wants training and metrics explained slowly, assuming no prior knowledge.
