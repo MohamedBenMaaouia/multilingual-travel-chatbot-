@@ -1,0 +1,684 @@
+{"id": "q_000010", "lang": "en", "text": "What's the next flight to Hammamet?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6086787000531331}
+{"id": "q_000011", "lang": "en", "text": "Do you have flights from Sousse to Algiers in two weeks?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7012416999787092}
+{"id": "q_000014", "lang": "en", "text": "can you find me a flight to hammamet", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5544646999333054}
+{"id": "q_000017", "lang": "en", "text": "flight Nabeul Zarzis today", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5655932000372559}
+{"id": "q_000029", "lang": "en", "text": "what's the next flight to malta?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5837426000507548}
+{"id": "q_000030", "lang": "en", "text": "Do you have flights from Hammamet to Madrid in two weeks", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6939434000523761}
+{"id": "q_000033", "lang": "en", "text": "Can you find me a flight to Monastir?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5995522999437526}
+{"id": "q_000036", "lang": "en", "text": "flight douz madrid this weekend", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5925226000836119}
+{"id": "q_000048", "lang": "en", "text": "What's the next flight to Marseille?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6176246999530122}
+{"id": "q_000049", "lang": "en", "text": "Do you have flights from Tabarka to Mahdia on June 1?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7621408998966217}
+{"id": "q_000057", "lang": "en", "text": "Any promotions on flights to Sidi Bou Said?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6530271999072284}
+{"id": "q_000059", "lang": "en", "text": "I have 300 €, can I afford a return flight to Tozeur", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8191185999894515}
+{"id": "q_000065", "lang": "en", "text": "What are ticket prices to Zarzis like this summer?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6437901000026613}
+{"id": "q_000068", "lang": "en", "text": "I'm looking for a cheap flight from Tunis to Sidi Bou Said", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7638788000913337}
+{"id": "q_000075", "lang": "en", "text": "Any promotions on flights to Ain Draham", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6477845000335947}
+{"id": "q_000077", "lang": "en", "text": "I have 1000 Tunisian dinars, can I afford a return flight to Douz?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9007425999734551}
+{"id": "q_000083", "lang": "en", "text": "What are ticket prices to Jeddah like on November 3?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7012047000462189}
+{"id": "q_000086", "lang": "en", "text": "I'm looking for a cheap flight from Kairouan to New York", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8359050999861211}
+{"id": "q_000093", "lang": "en", "text": "Any promotions on flights to Frankfurt?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5563471999485046}
+{"id": "q_000095", "lang": "en", "text": "I have 2000 DT, can I afford a return flight to Barcelona?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7941166000673547}
+{"id": "q_000113", "lang": "en", "text": "what's the baggage allowance on turkish airlines", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7393453000113368}
+{"id": "q_000114", "lang": "en", "text": "how many kilos of luggage can i take with ita airways", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.742395699955523}
+{"id": "q_000128", "lang": "en", "text": "what's the baggage allowance on saudia?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7065704999258742}
+{"id": "q_000129", "lang": "en", "text": "How many kilos of luggage can I take with Transavia", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4950195000274107}
+{"id": "q_000142", "lang": "en", "text": "What's the baggage allowance on Air France?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6476095999823883}
+{"id": "q_000143", "lang": "en", "text": "How many kilos of luggage can I take with Air Algérie", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.73628519999329}
+{"id": "q_000145", "lang": "en", "text": "I want a beachfront hotel in Nabeul", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6330396999837831}
+{"id": "q_000150", "lang": "en", "text": "we're a family of 4, looking for a hotel in lyon tomorrow", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7986338000046089}
+{"id": "q_000158", "lang": "en", "text": "Can you find me a hotel in Barcelona for 9 nights?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7188658999511972}
+{"id": "q_000164", "lang": "en", "text": "I want a beachfront hotel in Marseille", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6446754999924451}
+{"id": "q_000169", "lang": "en", "text": "We're a family of 5, looking for a hotel in Tabarka next week", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8412708999821916}
+{"id": "q_000177", "lang": "en", "text": "can you find me a hotel in madrid for 9 nights", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7366815999848768}
+{"id": "q_000183", "lang": "en", "text": "I want a beachfront hotel in Brussels", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6094643999822438}
+{"id": "q_000188", "lang": "en", "text": "We're a family of 3, looking for a hotel in Tabarka in two weeks", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9275161999976262}
+{"id": "q_000194", "lang": "en", "text": "how much is a double room in monastir in two weeks?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7680188999511302}
+{"id": "q_000197", "lang": "en", "text": "Price of a 4-star hotel in Tabarka per night?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7186765000224113}
+{"id": "q_000201", "lang": "en", "text": "I want a hotel in Gabes under 300 Turkish lira per night", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9582578999688849}
+{"id": "q_000212", "lang": "en", "text": "How much is a double room in Rome on March 20?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7018994999816641}
+{"id": "q_000215", "lang": "en", "text": "Price of a 5-star hotel in Tozeur per night?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7416894999332726}
+{"id": "q_000219", "lang": "en", "text": "I want a hotel in Doha under 300 euros per night", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7928790000732988}
+{"id": "q_000230", "lang": "en", "text": "how much is a double room in nabeul on january 27?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8136843000538647}
+{"id": "q_000233", "lang": "en", "text": "Price of a 3-star hotel in Istanbul per night?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.77119529992342}
+{"id": "q_000237", "lang": "en", "text": "I want a hotel in Bizerte under 20 DT per night", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7610178999602795}
+{"id": "q_000244", "lang": "en", "text": "Is there room service at the hotel?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4589272999437526}
+{"id": "q_000259", "lang": "en", "text": "Does the hotel provide a baby cot?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4024813000578433}
+{"id": "q_000260", "lang": "en", "text": "Do 5-star hotels in Douz have a heated pool", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6912599999923259}
+{"id": "q_000271", "lang": "en", "text": "Do 3-star hotels in Malta have a heated pool?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6492887000786141}
+{"id": "q_000287", "lang": "en", "text": "any car rental deals in rome?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6310567000182346}
+{"id": "q_000291", "lang": "en", "text": "car hire in tozeur for 13 days", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6338044999865815}
+{"id": "q_000296", "lang": "en", "text": "How much is a small car for 8 days in Jeddah", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7839585000183433}
+{"id": "q_000305", "lang": "en", "text": "Any car rental deals in Malta?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5790368999587372}
+{"id": "q_000309", "lang": "en", "text": "Car hire in Dubai for 13 days", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7159218000015244}
+{"id": "q_000314", "lang": "en", "text": "how much is a small car for 6 days in new york?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7652242999756709}
+{"id": "q_000323", "lang": "en", "text": "Any car rental deals in Bizerte?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6058784000342712}
+{"id": "q_000327", "lang": "en", "text": "Car hire in Sousse for 3 days", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6230363000649959}
+{"id": "q_000338", "lang": "en", "text": "Is there Uber or Bolt in Gabes?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6283287999685854}
+{"id": "q_000339", "lang": "en", "text": "how long is the taxi ride from the airport to bizerte?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7000600000610575}
+{"id": "q_000349", "lang": "en", "text": "how do i get from the airport to my hotel in istanbul?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6798826000886038}
+{"id": "q_000356", "lang": "en", "text": "Is there Uber or Bolt in Amsterdam?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5841999999247491}
+{"id": "q_000357", "lang": "en", "text": "how long is the taxi ride from the airport to paris", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6415489999344572}
+{"id": "q_000367", "lang": "en", "text": "How do I get from the airport to my hotel in Rome?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6421001999406144}
+{"id": "q_000374", "lang": "en", "text": "Is there Uber or Bolt in Frankfurt", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5959255999187008}
+{"id": "q_000375", "lang": "en", "text": "how long is the taxi ride from the airport to lyon?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6708834000164643}
+{"id": "q_000382", "lang": "en", "text": "where is the louage station in hammamet", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6060236999765038}
+{"id": "q_000397", "lang": "en", "text": "what time does the train to sfax leave next week?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6254527000710368}
+{"id": "q_000400", "lang": "en", "text": "Where is the louage station in Sidi Bou Said", "truth": true, "pred": false, "raw": "OTHER (Louage stations", "unclear": false, "seconds": 0.7312713999999687}
+{"id": "q_000415", "lang": "en", "text": "What time does the train to Hammamet leave in two weeks", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6636346000013873}
+{"id": "q_000418", "lang": "en", "text": "Where is the louage station in Matmata?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6185230000410229}
+{"id": "q_000442", "lang": "en", "text": "Is it cold in Douz tonight?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.36237180000171065}
+{"id": "q_000446", "lang": "en", "text": "Will it rain in Brussels at the end of the month?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5071691999910399}
+{"id": "q_000460", "lang": "en", "text": "Is it cold in Milan on 4 March", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5666507999412715}
+{"id": "q_000464", "lang": "en", "text": "Will it rain in Paris on 22 June?", "truth": true, "pred": true, "raw": "WEATHER", "unclear": true, "seconds": 0.6253083000192419}
+{"id": "q_000478", "lang": "en", "text": "Is it cold in Istanbul the day after tomorrow", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6086014999309555}
+{"id": "q_000487", "lang": "en", "text": "What are the best places to visit in Algiers?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7079364999663085}
+{"id": "q_000489", "lang": "en", "text": "any guided tours in hammamet?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5826126000611112}
+{"id": "q_000490", "lang": "en", "text": "Things to do in Nabeul with kids", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6344795000040904}
+{"id": "q_000506", "lang": "en", "text": "What are the best places to visit in Douz?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6239351000403985}
+{"id": "q_000508", "lang": "en", "text": "Any guided tours in Marseille", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5822495000902563}
+{"id": "q_000509", "lang": "en", "text": "Things to do in Jeddah with kids", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5929919999325648}
+{"id": "q_000525", "lang": "en", "text": "what are the best places to visit in brussels?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6335875999648124}
+{"id": "q_000527", "lang": "en", "text": "Any guided tours in Berlin", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5364417000673711}
+{"id": "q_000528", "lang": "en", "text": "Things to do in Istanbul with kids", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6052225000457838}
+{"id": "q_000536", "lang": "en", "text": "What vaccines do I need for Dubai?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6092057999921963}
+{"id": "q_000541", "lang": "en", "text": "Can I travel to Montreal with a residence permit?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5828195000067353}
+{"id": "q_000554", "lang": "en", "text": "what vaccines do i need for frankfurt?", "truth": true, "pred": true, "raw": "VACCINES", "unclear": true, "seconds": 0.7031398999970406}
+{"id": "q_000559", "lang": "en", "text": "Can I travel to Casablanca with a residence permit?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6384494999656454}
+{"id": "q_000571", "lang": "en", "text": "what vaccines do i need for madrid?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6364634000929072}
+{"id": "q_000576", "lang": "en", "text": "Can I travel to Lisbon with a residence permit?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.62526360002812}
+{"id": "q_000582", "lang": "en", "text": "Should I buy dinars before going to Casablanca?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6778807999799028}
+{"id": "q_000584", "lang": "en", "text": "What's 1500 euros worth in TND?", "truth": true, "pred": false, "raw": "OTHER (Currency exchange is", "unclear": false, "seconds": 0.8908409998985007}
+{"id": "q_000589", "lang": "en", "text": "How many TND will I get for 500 CHF", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5003560999175534}
+{"id": "q_000600", "lang": "en", "text": "Should I buy Saudi riyals before going to Dubai?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6802550000138581}
+{"id": "q_000602", "lang": "en", "text": "What's 150 dinars worth in British pounds", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.48370550002437085}
+{"id": "q_000607", "lang": "en", "text": "How many CAD will I get for 2000 DT?", "truth": true, "pred": false, "raw": "OTHER (Currency exchange is", "unclear": false, "seconds": 0.802376399980858}
+{"id": "q_000618", "lang": "en", "text": "Should I buy SAR before going to Doha?", "truth": true, "pred": false, "raw": "OTHER (Currency exchange)", "unclear": false, "seconds": 0.7643121000146493}
+{"id": "q_000620", "lang": "en", "text": "What's 20 TND worth in £?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.48701500007882714}
+{"id": "q_000625", "lang": "en", "text": "how many riyals will i get for 3000 dt", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5169693999923766}
+{"id": "q_000634", "lang": "en", "text": "How much money should I take to Sousse", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6170521000167355}
+{"id": "q_000646", "lang": "en", "text": "How much is food per day in Milan?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.39735580002889037}
+{"id": "q_000652", "lang": "en", "text": "How much money should I take to Mahdia", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5551064000464976}
+{"id": "q_000664", "lang": "en", "text": "How much is food per day in Matmata?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4070902999956161}
+{"id": "q_000670", "lang": "en", "text": "How much money should I take to Malta?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5883876000298187}
+{"id": "q_000683", "lang": "en", "text": "does apple pay work in bizerte", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5821518000448123}
+{"id": "q_000691", "lang": "en", "text": "which payment methods do you accept?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4484282999765128}
+{"id": "q_000696", "lang": "en", "text": "should i bring cash to barcelona?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5786393999587744}
+{"id": "q_000700", "lang": "en", "text": "Does Apple Pay work in Berlin?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5634628999978304}
+{"id": "q_000709", "lang": "en", "text": "Should I bring cash to Doha", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5479819999309257}
+{"id": "q_000713", "lang": "en", "text": "Does Apple Pay work in Montreal?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.38401839998550713}
+{"id": "q_000723", "lang": "fr", "text": "On est 4, on cherche un vol pour Istanbul dimanche", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7277675999794155}
+{"id": "q_000727", "lang": "fr", "text": "Quels vols partent pour Zarzis en février", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6310672999825329}
+{"id": "q_000742", "lang": "fr", "text": "On est 3, on cherche un vol pour Gabès le 20 juin", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7605235000373796}
+{"id": "q_000746", "lang": "fr", "text": "Quels vols partent pour Djerba lundi prochain?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7439285999862477}
+{"id": "q_000761", "lang": "fr", "text": "on est 2, on cherche un vol pour tozeur cet été", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7272151000797749}
+{"id": "q_000765", "lang": "fr", "text": "Quels vols partent pour Amsterdam le week-end prochain ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7258807000471279}
+{"id": "q_000776", "lang": "fr", "text": "les vols pour malte sont chers début décembre", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6305431000655517}
+{"id": "q_000780", "lang": "fr", "text": "Quand est-ce que c'est le moins cher pour aller à New York?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8041381000075489}
+{"id": "q_000787", "lang": "fr", "text": "Les prix des billets pour Tunis augmentent à la fin du mois ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8404375000391155}
+{"id": "q_000794", "lang": "fr", "text": "les vols pour rome sont chers mercredi prochain?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.728763599996455}
+{"id": "q_000798", "lang": "fr", "text": "Quand est-ce que c'est le moins cher pour aller a Zarzis", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7937228999799117}
+{"id": "q_000805", "lang": "fr", "text": "Les prix des billets pour Amsterdam augmentent le 7 septembre?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7451830999925733}
+{"id": "q_000812", "lang": "fr", "text": "Les vols pour Nabeul sont chers après-demain?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7271488000405952}
+{"id": "q_000816", "lang": "fr", "text": "Quand est-ce que c'est le moins cher pour aller à Kairouan ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9284940999932587}
+{"id": "q_000830", "lang": "fr", "text": "Poids maximum du bagage à main chez Transavia ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6815424000378698}
+{"id": "q_000835", "lang": "fr", "text": "je peux prendre une poussette sur mon vol royal air maroc?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8221441000932828}
+{"id": "q_000836", "lang": "fr", "text": "C'est quoi la politique bagages pour les vols vers Sidi Bou Said ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8689825999317691}
+{"id": "q_000844", "lang": "fr", "text": "Poids maximum du bagage à main chez ITA Airways?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.751943500014022}
+{"id": "q_000849", "lang": "fr", "text": "je peux prendre une poussette sur mon vol air algérie", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.743960399995558}
+{"id": "q_000850", "lang": "fr", "text": "C'est quoi la politique bagages pour les vols vers Douz?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7844658000394702}
+{"id": "q_000858", "lang": "fr", "text": "poids maximum du bagage à main chez turkish airlines", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6850064001046121}
+{"id": "q_000871", "lang": "fr", "text": "Je cherche une maison d'hôtes à Bizerte pour 9 nuits", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8501993999816477}
+{"id": "q_000872", "lang": "fr", "text": "Je veux un hôtel calme près de la plage à Rome", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.727654300048016}
+{"id": "q_000890", "lang": "fr", "text": "Je cherche une maison d'hotes a Bruxelles pour 9 nuits", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7937440000241622}
+{"id": "q_000891", "lang": "fr", "text": "Je veux un hôtel calme près de la plage à Ain Draham", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.883810400031507}
+{"id": "q_000909", "lang": "fr", "text": "Je cherche une maison d'hôtes à Tabarka pour 7 nuits", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8215293000685051}
+{"id": "q_000910", "lang": "fr", "text": "Je veux un hotel calme pres de la plage a Casablanca", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7196443999418989}
+{"id": "q_000919", "lang": "fr", "text": "C'est quoi l'hôtel le moins cher à Djeddah", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7922837999649346}
+{"id": "q_000922", "lang": "fr", "text": "Prix d'un 4 étoiles à Monastir par nuit?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8191300000762567}
+{"id": "q_000937", "lang": "fr", "text": "C'est quoi l'hôtel le moins cher à Francfort ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7894348000409082}
+{"id": "q_000940", "lang": "fr", "text": "Prix d'un 5 étoiles à Alger par nuit", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7613988999510184}
+{"id": "q_000955", "lang": "fr", "text": "c'est quoi l'hotel le moins cher a lisbonne?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7947771999752149}
+{"id": "q_000958", "lang": "fr", "text": "Prix d'un 5 étoiles à Nabeul par nuit ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7970508000580594}
+{"id": "q_000964", "lang": "fr", "text": "je veux un hotel a nabeul avec wifi gratuit", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7037975999992341}
+{"id": "q_000972", "lang": "fr", "text": "Mon hotel a Hammamet a la climatisation ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7123919998994097}
+{"id": "q_000980", "lang": "fr", "text": "Le petit-déjeuner est inclus dans les hôtels à Kelibia ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0118519999086857}
+{"id": "q_000982", "lang": "fr", "text": "Je veux un hôtel à Doha avec wifi gratuit", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8305085999891162}
+{"id": "q_000988", "lang": "fr", "text": "mon hôtel à matmata a la climatisation ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7018873000051826}
+{"id": "q_000991", "lang": "fr", "text": "Le petit-dejeuner est inclus dans les hotels a Mahdia?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9686846999684349}
+{"id": "q_000993", "lang": "fr", "text": "Je veux un hôtel à Tabarka avec wifi gratuit", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7994031000416726}
+{"id": "q_000999", "lang": "fr", "text": "mon hôtel à zarzis a la climatisation ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6820263999979943}
+{"id": "q_001003", "lang": "fr", "text": "je peux louer une voiture automatique à monastir", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7852116000140086}
+{"id": "q_001009", "lang": "fr", "text": "L'assurance est comprise dans la location de voiture à Zarzis ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8417600999819115}
+{"id": "q_001010", "lang": "fr", "text": "Location de voiture a Casablanca pour 3 jours le mois prochain", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7488955000881106}
+{"id": "q_001021", "lang": "fr", "text": "je peux louer une voiture automatique à francfort?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6765183999668807}
+{"id": "q_001027", "lang": "fr", "text": "l'assurance est comprise dans la location de voiture à tabarka", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7768550999462605}
+{"id": "q_001028", "lang": "fr", "text": "Location de voiture à Zarzis pour 6 jours samedi", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7246185999829322}
+{"id": "q_001039", "lang": "fr", "text": "je peux louer une voiture automatique à sfax?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6833793999394402}
+{"id": "q_001045", "lang": "fr", "text": "l'assurance est comprise dans la location de voiture a bizerte ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7969331999775022}
+{"id": "q_001046", "lang": "fr", "text": "Location de voiture à Sousse pour 2 jours en août", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7103821999626234}
+{"id": "q_001056", "lang": "fr", "text": "J'ai besoin d'un taxi de Monastir à Milan", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.796838799957186}
+{"id": "q_001058", "lang": "fr", "text": "Combien coûte un taxi à Gabès ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6324003000045195}
+{"id": "q_001074", "lang": "fr", "text": "J'ai besoin d'un taxi de Hammamet a Monastir", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8271042000269517}
+{"id": "q_001076", "lang": "fr", "text": "Combien coûte un taxi à Istanbul", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6410099000204355}
+{"id": "q_001092", "lang": "fr", "text": "j'ai besoin d'un taxi de tabarka a barcelone", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7945272999349982}
+{"id": "q_001094", "lang": "fr", "text": "combien coûte un taxi à hammamet?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6954967000056058}
+{"id": "q_001102", "lang": "fr", "text": "Comment aller de Matmata a Sfax en bus?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7042198999552056}
+{"id": "q_001105", "lang": "fr", "text": "Il y a un bac pour aller à Zarzis?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6726800000760704}
+{"id": "q_001114", "lang": "fr", "text": "Où est la station de louage à Sousse?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7239250000566244}
+{"id": "q_001115", "lang": "fr", "text": "à quelle heure part le train pour monastir mardi ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7363083999371156}
+{"id": "q_001120", "lang": "fr", "text": "comment aller de nabeul à zarzis en bus ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6852332999696955}
+{"id": "q_001123", "lang": "fr", "text": "Il y a un bac pour aller a Mahdia?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6799697000533342}
+{"id": "q_001132", "lang": "fr", "text": "où est la station de louage à tunis ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6379470999818295}
+{"id": "q_001133", "lang": "fr", "text": "A quelle heure part le train pour Tabarka demain", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6778277999255806}
+{"id": "q_001138", "lang": "fr", "text": "comment aller de bizerte à kelibia en bus", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6955480999313295}
+{"id": "q_001141", "lang": "fr", "text": "Il y a un bac pour aller à Tabarka", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.712558800005354}
+{"id": "q_001151", "lang": "fr", "text": "Il fait beau a Amsterdam cet ete?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5835392998997122}
+{"id": "q_001158", "lang": "fr", "text": "il fait froid à malte dans deux semaines?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.46300899994093925}
+{"id": "q_001167", "lang": "fr", "text": "les previsions meteo pour monastir apres-demain?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7812073999084532}
+{"id": "q_001169", "lang": "fr", "text": "Il fait beau à Lyon en juillet?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6205055000027642}
+{"id": "q_001176", "lang": "fr", "text": "Il fait froid à Mahdia en mars ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6141078999498859}
+{"id": "q_001185", "lang": "fr", "text": "Les prévisions météo pour Nabeul samedi", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7544682000298053}
+{"id": "q_001187", "lang": "fr", "text": "Il fait beau à Bruxelles aujourd'hui", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7334855999797583}
+{"id": "q_001194", "lang": "fr", "text": "il fait froid à londres samedi ?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.46759080002084374}
+{"id": "q_001205", "lang": "fr", "text": "Où goûter la cuisine traditionnelle à Kélibia?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7737028000410646}
+{"id": "q_001224", "lang": "fr", "text": "Ou gouter la cuisine traditionnelle a Bizerte ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.758462900063023}
+{"id": "q_001243", "lang": "fr", "text": "Ou gouter la cuisine traditionnelle a Istanbul?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5182610000483692}
+{"id": "q_001252", "lang": "fr", "text": "Mon passeport suffit pour aller à Londres", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6078200000338256}
+{"id": "q_001260", "lang": "fr", "text": "Combien coute le visa pour Milan", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5630472999764606}
+{"id": "q_001267", "lang": "fr", "text": "dossier visa Paris quels papiers", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6294684999156743}
+{"id": "q_001270", "lang": "fr", "text": "mon passeport suffit pour aller à malte", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6349693000083789}
+{"id": "q_001277", "lang": "fr", "text": "combien coûte le visa pour new york", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6367505000671372}
+{"id": "q_001284", "lang": "fr", "text": "dossier visa Genève quels papiers ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6332908000331372}
+{"id": "q_001287", "lang": "fr", "text": "Mon passeport suffit pour aller à Berlin?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6453870000550523}
+{"id": "q_001294", "lang": "fr", "text": "Combien coûte le visa pour Malte", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5990257000084966}
+{"id": "q_001299", "lang": "fr", "text": "convertir 800 francs suisses en usd", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5268804000224918}
+{"id": "q_001301", "lang": "fr", "text": "Ou changer de l'argent a Barcelone ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6638535000383854}
+{"id": "q_001310", "lang": "fr", "text": "Convertissez 1000 GBP en dinars tunisiens svp", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6267552999779582}
+{"id": "q_001313", "lang": "fr", "text": "combien de dinars je reçois pour 20 cad", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7064877999946475}
+{"id": "q_001317", "lang": "fr", "text": "Convertir 1000 riyals saoudiens en USD", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5755840000929311}
+{"id": "q_001319", "lang": "fr", "text": "ou changer de l'argent a francfort ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6716956000309438}
+{"id": "q_001328", "lang": "fr", "text": "Convertissez 2000 dinars tunisiens en AED svp", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6362270000390708}
+{"id": "q_001331", "lang": "fr", "text": "Combien d'euros je reçois pour 150 TRY ?", "truth": true, "pred": true, "raw": "CURRENCY", "unclear": true, "seconds": 0.9393923999741673}
+{"id": "q_001335", "lang": "fr", "text": "Convertir 200 francs suisses en dinars tunisiens", "truth": true, "pred": true, "raw": "CURRENCY", "unclear": true, "seconds": 0.9257573999930173}
+{"id": "q_001337", "lang": "fr", "text": "Où changer de l'argent à Geneve ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7057863000081852}
+{"id": "q_001346", "lang": "fr", "text": "Convertissez 50 livres sterling en dinars tunisiens svp", "truth": true, "pred": true, "raw": "CURRENCY", "unclear": true, "seconds": 0.9553855999838561}
+{"id": "q_001352", "lang": "fr", "text": "Des vacances pas chères à Rome pour moins de 800 francs suisses ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.885058999992907}
+{"id": "q_001357", "lang": "fr", "text": "La vie est chère à Hammamet pour un touriste ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7390884000342339}
+{"id": "q_001370", "lang": "fr", "text": "Des vacances pas cheres a Gabes pour moins de 200 GBP?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8953372000250965}
+{"id": "q_001375", "lang": "fr", "text": "La vie est chere a Sousse pour un touriste", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7211316999746487}
+{"id": "q_001388", "lang": "fr", "text": "Des vacances pas cheres a Sidi Bou Said pour moins de 300 CAD ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8798541999422014}
+{"id": "q_001393", "lang": "fr", "text": "La vie est chere a Dubai pour un touriste", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6729781999019906}
+{"id": "q_001404", "lang": "fr", "text": "On peut payer le voyage en plusieurs fois", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6021816999418661}
+{"id": "q_001407", "lang": "fr", "text": "Il faut prendre du liquide pour Mahdia", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6353107000468299}
+{"id": "q_001421", "lang": "fr", "text": "Il faut prendre du liquide pour Rome", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.40690179995726794}
+{"id": "q_001434", "lang": "fr", "text": "Il faut prendre du liquide pour Bizerte ?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.28672610002104193}
+{"id": "q_001450", "lang": "tn_latin", "text": "nheb aller simple l malta 8odwa", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6181423000525683}
+{"id": "q_001453", "lang": "tn_latin", "text": "vol dubai tounes fi jwan", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5875294000143185}
+{"id": "q_001469", "lang": "tn_latin", "text": "nheb aller simple l tbarka el weekend ejjey", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7162033999338746}
+{"id": "q_001472", "lang": "tn_latin", "text": "vol monastir tunis el weekend hedha", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6085604999680072}
+{"id": "q_001490", "lang": "tn_latin", "text": "Qatar Airways arkhas mel compagniet lo5rin l casablanca", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7843904999317601}
+{"id": "q_001497", "lang": "tn_latin", "text": "chhal soum billet tayara l alger fel sif", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7449716000119224}
+{"id": "q_001508", "lang": "tn_latin", "text": "Qatar Airways arkhas mel compagniet lo5rin l tozeur", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8308640000177547}
+{"id": "q_001515", "lang": "tn_latin", "text": "chhal soum billet tayara l 3in draham nhar el a7ad", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8679435999365523}
+{"id": "q_001526", "lang": "tn_latin", "text": "Tunisair arkhas mel compagniet lo5rin l monastir", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.83098909992259}
+{"id": "q_001533", "lang": "tn_latin", "text": "chhal soum billet tayara l casa fel sif?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7169999999459833}
+{"id": "q_001547", "lang": "tn_latin", "text": "Air Algérie t9abel sac golf", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5982884000986814}
+{"id": "q_001549", "lang": "tn_latin", "text": "el valise mte3i 25 kilo, y9ablouha Nouvelair", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8994187000207603}
+{"id": "q_001552", "lang": "tn_latin", "text": "9adech men valise fel soute fel vol l londres fi chhar 12?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9112407999346033}
+{"id": "q_001563", "lang": "tn_latin", "text": "Air France t9abel sac golf?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5803666999563575}
+{"id": "q_001565", "lang": "tn_latin", "text": "el valise mte3i 32 kilo, y9ablouha Nouvelair", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9070330000249669}
+{"id": "q_001567", "lang": "tn_latin", "text": "9adech men valise fel soute fel vol l doha ba3d ghodwa?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9196521000703797}
+{"id": "q_001577", "lang": "tn_latin", "text": "Tunisair Express t9abel sac golf", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6380680999718606}
+{"id": "q_001579", "lang": "tn_latin", "text": "el valise mte3i 24 kilo, y9ablouha Royal Air Maroc", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9283533000852913}
+{"id": "q_001581", "lang": "tn_latin", "text": "lawajli 3la hotel f tataouine 7 lyeli", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8132349000079557}
+{"id": "q_001589", "lang": "tn_latin", "text": "nlawej 3la maison d'hôte f soussa 2 lyeli", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9008714000228792}
+{"id": "q_001593", "lang": "tn_latin", "text": "nheb hotel 3 etoiles f jarba", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6795034999959171}
+{"id": "q_001600", "lang": "tn_latin", "text": "lawajli 3la hotel f jedda 4 lyeli", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7822271999903023}
+{"id": "q_001608", "lang": "tn_latin", "text": "nlawej 3la maison d'hôte f marsilia 3 lyeli", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0138282999396324}
+{"id": "q_001612", "lang": "tn_latin", "text": "nheb hotel 4 etoiles f sousa", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6715785999549553}
+{"id": "q_001619", "lang": "tn_latin", "text": "lawajli 3la hotel f marsilia 2 lyeli", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7223632000386715}
+{"id": "q_001627", "lang": "tn_latin", "text": "nlawej 3la maison d'hôte f jeddah 2 lyeli", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9418374999659136}
+{"id": "q_001634", "lang": "tn_latin", "text": "nheb hotel f gabes a9al men 150 dinars el lila", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.889723900007084}
+{"id": "q_001643", "lang": "tn_latin", "text": "ama hotel arkhas f malte", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5849806000478566}
+{"id": "q_001645", "lang": "tn_latin", "text": "ghali el hotel f bnzart el tnin ejjey?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8997280000476167}
+{"id": "q_001652", "lang": "tn_latin", "text": "nheb hotel f sousse a9al men 100 euro el lila", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8959260999690741}
+{"id": "q_001661", "lang": "tn_latin", "text": "ama hotel arkhas f geneve?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6030789000215009}
+{"id": "q_001663", "lang": "tn_latin", "text": "ghali el hotel f 3in draham fel sif?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7030999000417069}
+{"id": "q_001670", "lang": "tn_latin", "text": "nheb hotel f geneva a9al men 50 riyal el lila", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8228602999588475}
+{"id": "q_001679", "lang": "tn_latin", "text": "ama hotel arkhas f new york", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5819043000228703}
+{"id": "q_001694", "lang": "tn_latin", "text": "el restaurant mta3 el hotel fih makla halal?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8051718999631703}
+{"id": "q_001722", "lang": "tn_latin", "text": "9adech el 3omr el minimum bech nkri karhba f douz?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9022654999280348}
+{"id": "q_001728", "lang": "tn_latin", "text": "fama promo 3al kre el karhabet f marseille?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8030417999252677}
+{"id": "q_001740", "lang": "tn_latin", "text": "9adech el 3omr el minimum bech nkri karhba f zarzis?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9134796001017094}
+{"id": "q_001746", "lang": "tn_latin", "text": "fama promo 3al kre el karhabet f bruxelles", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.779320599976927}
+{"id": "q_001758", "lang": "tn_latin", "text": "9adech el 3omr el minimum bech nkri karhba f soussa?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9720850000157952}
+{"id": "q_001764", "lang": "tn_latin", "text": "fama promo 3al kre el karhabet f doha?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8293846999295056}
+{"id": "q_001783", "lang": "tn_latin", "text": "tnajmou tab3thouli taxi lel hotel mte3i f dzayer", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8911621000152081}
+{"id": "q_001785", "lang": "tn_latin", "text": "kifech nemchi mel matar lel hotel f barcelone", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7047799000283703}
+{"id": "q_001801", "lang": "tn_latin", "text": "tnajmou tab3thouli taxi lel hotel mte3i f madrid?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8678061000537127}
+{"id": "q_001803", "lang": "tn_latin", "text": "kifech nemchi mel matar lel hotel f tbarka", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7213639999972656}
+{"id": "q_001819", "lang": "tn_latin", "text": "win station el louage f ain draham", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5897073999512941}
+{"id": "q_001830", "lang": "tn_latin", "text": "fama car bel lil l tatawin", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6065407000714913}
+{"id": "q_001837", "lang": "tn_latin", "text": "win station el louage f kairouan?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6228588999947533}
+{"id": "q_001848", "lang": "tn_latin", "text": "fama car bel lil l sidi bousaid", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6736642000032589}
+{"id": "q_001855", "lang": "tn_latin", "text": "win station el louage f sidi bousaid?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6612279999535531}
+{"id": "q_001866", "lang": "tn_latin", "text": "fama car bel lil l zarzis?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6187230999348685}
+{"id": "q_001875", "lang": "tn_latin", "text": "el b7ar s5oun bech n3oum f paris ghoudwa?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9117777000647038}
+{"id": "q_001879", "lang": "tn_latin", "text": "chnowa nelbes f paris ghoudwa", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6572379999561235}
+{"id": "q_001884", "lang": "tn_latin", "text": "bered f paris lyoum?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5917437999742106}
+{"id": "q_001893", "lang": "tn_latin", "text": "el b7ar s5oun bech n3oum f madrid fi chhar 11?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.918111800099723}
+{"id": "q_001897", "lang": "tn_latin", "text": "chnowa nelbes f geneva fel sif?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.642000799998641}
+{"id": "q_001902", "lang": "tn_latin", "text": "bered f londres essebt ejjey?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6633648000424728}
+{"id": "q_001911", "lang": "tn_latin", "text": "el b7ar s5oun bech n3oum f frankfurt ba3d jem3tin?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9922335000010207}
+{"id": "q_001915", "lang": "tn_latin", "text": "chnowa nelbes f kelibia ba3d ghodwa", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7580219999654219}
+{"id": "q_001923", "lang": "tn_latin", "text": "chnowa nzour f casablanca chhar jey?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6703258000779897}
+{"id": "q_001931", "lang": "tn_latin", "text": "chnouma les activités lel sghar f casa?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7430103999795392}
+{"id": "q_001942", "lang": "tn_latin", "text": "chnowa nzour f milan ghodwa", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6872447000350803}
+{"id": "q_001950", "lang": "tn_latin", "text": "chnouma les activités lel sghar f el hammamet", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8377670000772923}
+{"id": "q_001961", "lang": "tn_latin", "text": "chnowa nzour f douz chhar jey?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7130425999639556}
+{"id": "q_001975", "lang": "tn_latin", "text": "kifech na3mel demande visa schengen?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7217266999650747}
+{"id": "q_001978", "lang": "tn_latin", "text": "chnouma el wra9 elli lazmin bech nsafer l lyon", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9885559000540525}
+{"id": "q_001980", "lang": "tn_latin", "text": "el sghar lazmhom passeport bech yemchiw l rome?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9324900000356138}
+{"id": "q_001985", "lang": "tn_latin", "text": "dossier visa jedda chnowa lazmou?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7122633000835776}
+{"id": "q_001995", "lang": "tn_latin", "text": "chnouma el wra9 elli lazmin bech nsafer l dzayer", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8926394999725744}
+{"id": "q_001997", "lang": "tn_latin", "text": "el sghar lazmhom passeport bech yemchiw l alger", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.856577800004743}
+{"id": "q_002002", "lang": "tn_latin", "text": "dossier visa marsilia chnowa lazmou", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.675074499915354}
+{"id": "q_002012", "lang": "tn_latin", "text": "chnouma el wra9 elli lazmin bech nsafer l londres?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.912984799942933}
+{"id": "q_002014", "lang": "tn_latin", "text": "el sghar lazmhom passeport bech yemchiw l brussel?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8689548000693321}
+{"id": "q_002017", "lang": "tn_latin", "text": "a7sebli 1000 lira turque bel flous tounsia", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9530390000436455}
+{"id": "q_002018", "lang": "tn_latin", "text": "200 dirham emarati 9adech ta3mel bel pound", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8031020000344142}
+{"id": "q_002032", "lang": "tn_latin", "text": "nheb nbadel 500 dinar, 9adech nekhou franc suisse?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0211755000054836}
+{"id": "q_002033", "lang": "tn_latin", "text": "1500 dinars 9adech yjiw bel dollar canadien?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8516177999554202}
+{"id": "q_002035", "lang": "tn_latin", "text": "a7sebli 50 lira bel dollar canadien", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5992824999848381}
+{"id": "q_002036", "lang": "tn_latin", "text": "300 franc suisse 9adech ta3mel bel livre", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8540290999226272}
+{"id": "q_002050", "lang": "tn_latin", "text": "nheb nbadel 100 dt, 9adech nekhou euros", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9701809999532998}
+{"id": "q_002051", "lang": "tn_latin", "text": "1500 dinars 9adech yjiw bel riyal", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8052128000417724}
+{"id": "q_002053", "lang": "tn_latin", "text": "a7sebli 150 pound bel dinars", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.732173900003545}
+{"id": "q_002054", "lang": "tn_latin", "text": "800 livre sterling 9adech ta3mel bel flous tounsia?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0684692000504583}
+{"id": "q_002070", "lang": "tn_latin", "text": "9adech el makla fel nhar f tabarka", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7208253999706358}
+{"id": "q_002077", "lang": "tn_latin", "text": "3otla rkhisa f mestir b a9al men 200 ouro", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8965904000215232}
+{"id": "q_002088", "lang": "tn_latin", "text": "9adech el makla fel nhar f 9abes?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7856480000773445}
+{"id": "q_002095", "lang": "tn_latin", "text": "3otla rkhisa f bruxelles b a9al men 1000 dollar canadien?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9900560999521986}
+{"id": "q_002106", "lang": "tn_latin", "text": "9adech el makla fel nhar f barcelone?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7319709999719635}
+{"id": "q_002113", "lang": "tn_latin", "text": "3otla rkhisa f jedda b a9al men 1000 dt", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8584454000229016}
+{"id": "q_002133", "lang": "tn_latin", "text": "najem nesta3mel el carte visa mte3i fel 5arej", "truth": true, "pred": true, "raw": "VISA", "unclear": true, "seconds": 0.8926839000778273}
+{"id": "q_002167", "lang": "en", "text": "What outdoor activities are available in Tozeur?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6092688000062481}
+{"id": "q_002179", "lang": "en", "text": "Are there any interesting day trips from Tunis?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6064287000335753}
+{"id": "q_002187", "lang": "en", "text": "What can I do in Berlin if I enjoy art and architecture?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6968366000801325}
+{"id": "q_002189", "lang": "en", "text": "Where can I enjoy a boat trip in Bizerte?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6483028000220656}
+{"id": "q_002193", "lang": "en", "text": "Can you recommend a guided walking tour in Marseille?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7352520000422373}
+{"id": "q_002196", "lang": "en", "text": "How many kilos of checked luggage can I take on an international flight?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7846166000235826}
+{"id": "q_002202", "lang": "en", "text": "What's the hand luggage allowance for a flight to Istanbul?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8091542000183836}
+{"id": "q_002216", "lang": "en", "text": "Is food allowed inside my cabin bag?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.3976642000488937}
+{"id": "q_002220", "lang": "en", "text": "Does the baggage allowance change for business class passengers?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6774915000423789}
+{"id": "q_002223", "lang": "en", "text": "Are sharp objects like nail scissors allowed in checked luggage?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5238303999649361}
+{"id": "q_002225", "lang": "en", "text": "Can I take medication and a bottle of water in my hand luggage?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5623126000864431}
+{"id": "q_002231", "lang": "en", "text": "Are baby car seats accepted as checked baggage?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.45179890003055334}
+{"id": "q_002251", "lang": "en", "text": "Looking for a car rental in Bizerte for four adults and luggage.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8677937999600545}
+{"id": "q_002253", "lang": "en", "text": "How much extra does full insurance cost for a rental car in Rome?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7352866999572143}
+{"id": "q_002266", "lang": "en", "text": "What are the daily rates for economy cars in Tunis?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6684753000736237}
+{"id": "q_002267", "lang": "en", "text": "Do I need an international driving permit to rent a car in Rome?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7212227999698371}
+{"id": "q_002272", "lang": "en", "text": "Looking for a convertible to rent in Barcelona this summer.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6977356999414042}
+{"id": "q_002288", "lang": "en", "text": "What's the exchange rate between pounds and Tunisian dinars?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5550428999122232}
+{"id": "q_002289", "lang": "en", "text": "What's the exchange rate between the euro and the Swiss franc?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.3791749000083655}
+{"id": "q_002291", "lang": "en", "text": "Are exchange offices in Paris open on Sundays?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6194721999345347}
+{"id": "q_002303", "lang": "en", "text": "Is the exchange rate at airports usually worse than at banks?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.623852499993518}
+{"id": "q_002313", "lang": "en", "text": "How much does a return flight from Tunis to Lisbon cost this weekend?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8515868000686169}
+{"id": "q_002314", "lang": "en", "text": "How much do flights from Tunis to Amsterdam cost tonight?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6478266000049189}
+{"id": "q_002322", "lang": "en", "text": "What's the price difference between economy and business class to Istanbul?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8576502000214532}
+{"id": "q_002353", "lang": "en", "text": "What are the available connections from Tunis to Montreal on December 20?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7902893999125808}
+{"id": "q_002380", "lang": "en", "text": "Looking for flights to London this weekend, preferably without stopovers.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8323538999538869}
+{"id": "q_002382", "lang": "en", "text": "Are there morning departures from Monastir to Lyon next Monday?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7449585000285879}
+{"id": "q_002391", "lang": "en", "text": "Are there family hotels in Sousse with kids' clubs?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6424483999144286}
+{"id": "q_002395", "lang": "en", "text": "I'm interested in a resort in Monastir with an all-inclusive option.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.833532499964349}
+{"id": "q_002407", "lang": "en", "text": "Does the hotel have a restaurant serving vegetarian meals?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6335549000650644}
+{"id": "q_002408", "lang": "en", "text": "Are there hotels in Amsterdam with electric vehicle charging stations?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6273833999875933}
+{"id": "q_002411", "lang": "en", "text": "Do rooms in Marseille come with a minibar and a safe?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7531319999834523}
+{"id": "q_002413", "lang": "en", "text": "Does the hotel offer laundry and dry-cleaning services?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.47925849992316216}
+{"id": "q_002419", "lang": "en", "text": "Does the resort in Kelibia offer water sports activities?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6105656999861822}
+{"id": "q_002421", "lang": "en", "text": "Can I find a hotel in Frankfurt with a business centre and meeting rooms?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7421330000506714}
+{"id": "q_002427", "lang": "en", "text": "Could I get a hotel room in Bizerte for 60 euros?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7993925999617204}
+{"id": "q_002433", "lang": "en", "text": "I have a budget of 300 euros for four nights in Barcelona. What can I get?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9529457000317052}
+{"id": "q_002434", "lang": "en", "text": "How much is a standard room in Marseille this weekend?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6921500000171363}
+{"id": "q_002455", "lang": "en", "text": "Looking for an affordable hotel in Paris for three nights.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6883989999769256}
+{"id": "q_002467", "lang": "en", "text": "Show me available hotels in Istanbul for December 20.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7252960000187159}
+{"id": "q_002479", "lang": "en", "text": "I'm travelling alone and need a safe hotel in Berlin.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6790709000779316}
+{"id": "q_002494", "lang": "en", "text": "Need a hotel in Gabes for a work trip, preferably near the centre.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7730481999460608}
+{"id": "q_002497", "lang": "en", "text": "Can you suggest a hotel in Douz with availability this weekend?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6938712999690324}
+{"id": "q_002498", "lang": "en", "text": "Can you give me a simple recipe for creamy mushroom pasta?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5057472999906167}
+{"id": "q_002516", "lang": "en", "text": "I keep losing motivation to exercise. Any advice?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.42190189997199923}
+{"id": "q_002519", "lang": "en", "text": "What's the difference between a metaphor and a simile?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5209172000177205}
+{"id": "q_002532", "lang": "en", "text": "What are common signs of seasonal allergies?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.40520480007398874}
+{"id": "q_002535", "lang": "en", "text": "Is it normal to feel tired after a large meal?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.46738209994509816}
+{"id": "q_002542", "lang": "en", "text": "My laptop keeps freezing when I open several tabs.", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4812953999498859}
+{"id": "q_002547", "lang": "en", "text": "What should I do if an app keeps crashing?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4513294999487698}
+{"id": "q_002551", "lang": "en", "text": "How do I ask my manager for feedback?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4113599999109283}
+{"id": "q_002560", "lang": "en", "text": "What should I look for when buying a washing machine?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.46307629998773336}
+{"id": "q_002561", "lang": "en", "text": "Can you compare ceramic and stainless steel cookware?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5506238000234589}
+{"id": "q_002573", "lang": "en", "text": "Suggest activities to do with children on a rainy afternoon.", "truth": false, "pred": true, "raw": "ACTIVITIES", "unclear": true, "seconds": 0.7746960000367835}
+{"id": "q_002575", "lang": "en", "text": "Can you help me plan a weekly household chore schedule?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4794888000469655}
+{"id": "q_002577", "lang": "en", "text": "Write a short congratulations message for my cousin.", "truth": false, "pred": true, "raw": "CONGRATULATION", "unclear": true, "seconds": 0.7275968000758439}
+{"id": "q_002579", "lang": "en", "text": "What are some classic rock bands worth listening to?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4336763999890536}
+{"id": "q_002581", "lang": "en", "text": "Suggest a few family-friendly comedy films.", "truth": false, "pred": true, "raw": "MOVIES", "unclear": true, "seconds": 0.6166606000624597}
+{"id": "q_002582", "lang": "en", "text": "What's the difference between a documentary and a biopic?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5599882999667898}
+{"id": "q_002583", "lang": "en", "text": "Who are some influential jazz musicians?", "truth": false, "pred": true, "raw": "MUSICIAN", "unclear": true, "seconds": 0.6840112999780104}
+{"id": "q_002594", "lang": "en", "text": "Why is the sky blue during the day?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.40486929996404797}
+{"id": "q_002595", "lang": "en", "text": "What's the difference between a planet and a star?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.474473400041461}
+{"id": "q_002606", "lang": "en", "text": "I need a little motivation to finish my homework.", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.435158499982208}
+{"id": "q_002607", "lang": "en", "text": "What happened on December 20 in science history?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.45344569999724627}
+{"id": "q_002617", "lang": "en", "text": "What is the difference between baking soda and baking powder?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.46668399998452514}
+{"id": "q_002619", "lang": "en", "text": "Which football club has the most passionate fans in Sousse?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4940246999030933}
+{"id": "q_002624", "lang": "en", "text": "How is a marathon distance measured?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4119906999403611}
+{"id": "q_002630", "lang": "en", "text": "Turn these lecture notes into concise revision cards.", "truth": false, "pred": true, "raw": "Flight:\n- \"", "unclear": true, "seconds": 0.7554959999397397}
+{"id": "q_002645", "lang": "en", "text": "What could cause my hands to feel cold indoors?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4903770999517292}
+{"id": "q_002653", "lang": "en", "text": "How do I make a spreadsheet calculate totals automatically?", "truth": false, "pred": false, "raw": "OTHER (The question is", "unclear": false, "seconds": 0.7372456000884995}
+{"id": "q_002658", "lang": "en", "text": "Is it safe to use public Wi-Fi for online banking?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4966691000154242}
+{"id": "q_002662", "lang": "en", "text": "Could you turn my work experience into strong CV bullet points?", "truth": false, "pred": false, "raw": "OTHER (This is a", "unclear": false, "seconds": 0.786032099975273}
+{"id": "q_002667", "lang": "en", "text": "Suggest some questions I can ask at the end of an interview.", "truth": false, "pred": true, "raw": "1. Are there", "unclear": true, "seconds": 0.7969931999687105}
+{"id": "q_002670", "lang": "en", "text": "Are refurbished phones a sensible purchase?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4311554000014439}
+{"id": "q_002682", "lang": "en", "text": "Write a kind note to a neighbour who helped us.", "truth": false, "pred": true, "raw": "Note\n\nDear", "unclear": true, "seconds": 0.7493537999689579}
+{"id": "q_002713", "lang": "en", "text": "Which famous writers were born in London?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5594930000370368}
+{"id": "q_002719", "lang": "en", "text": "Can you help me make a simple monthly household budget?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4884830000810325}
+{"id": "q_002730", "lang": "en", "text": "Do hotels in Paris accept cash at check-in?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.671275999979116}
+{"id": "q_002731", "lang": "en", "text": "Can I use a prepaid card to book a flight?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6977674000663683}
+{"id": "q_002743", "lang": "en", "text": "Are there extra fees when paying with a credit card?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6601816000184044}
+{"id": "q_002744", "lang": "en", "text": "Can I pay for my reservation using someone else's bank card?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5570867999922484}
+{"id": "q_002752", "lang": "en", "text": "What happens if my online payment is declined?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4191055999835953}
+{"id": "q_002756", "lang": "en", "text": "Can I pay the remaining balance at the agency next Monday?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6900660999817774}
+{"id": "q_002767", "lang": "en", "text": "How do I get from Bizerte to Tunis without renting a car?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8094160999171436}
+{"id": "q_002768", "lang": "en", "text": "I need the train timetable between Sousse and Sfax.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8526387000456452}
+{"id": "q_002769", "lang": "en", "text": "Do trains run between Tunis and Sfax on Sundays?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7289404000621289}
+{"id": "q_002778", "lang": "en", "text": "Is there a metro connection from Tunis city centre to nearby neighbourhoods?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7739904000191018}
+{"id": "q_002780", "lang": "en", "text": "Can I take a louage from Monastir to Sfax this weekend?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.829277400043793}
+{"id": "q_002783", "lang": "en", "text": "Is there a direct train between Sousse and Mahdia?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6993192000081763}
+{"id": "q_002789", "lang": "en", "text": "How long does the journey from Sousse to Monastir take by bus?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7762398000340909}
+{"id": "q_002793", "lang": "en", "text": "Are there night buses in Tunis?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6081735000479966}
+{"id": "q_002804", "lang": "en", "text": "Can I pay my airport transfer driver in cash?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5654999000253156}
+{"id": "q_002807", "lang": "en", "text": "Can I arrange a return transfer from my hotel in Djerba?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6770585000049323}
+{"id": "q_002818", "lang": "en", "text": "Taxi prices from Sfax to Mahdia, please.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7060803000349551}
+{"id": "q_002820", "lang": "en", "text": "Do taxis in Rome accept card payments?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.600440000067465}
+{"id": "q_002828", "lang": "en", "text": "Are taxis easy to find in Nabeul at night?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6609981000656262}
+{"id": "q_002832", "lang": "en", "text": "Do you provide shared airport shuttles in Dubai?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6650464000413194}
+{"id": "q_002840", "lang": "en", "text": "What's the average total cost of a week in Djerba for two people?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8981051999144256}
+{"id": "q_002844", "lang": "en", "text": "How much does a luxury holiday in Dubai usually cost?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6640339000150561}
+{"id": "q_002847", "lang": "en", "text": "How much should I save for a two-week holiday in Montreal?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6639213999733329}
+{"id": "q_002854", "lang": "en", "text": "Could you estimate the cost of a beach holiday in Mahdia for five days?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8172837999882177}
+{"id": "q_002858", "lang": "en", "text": "Give me a rough budget for a solo trip to Berlin next month.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.728005800046958}
+{"id": "q_002863", "lang": "en", "text": "I need a budget for a holiday in Zarzis for two adults and two children.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8662945999531075}
+{"id": "q_002872", "lang": "en", "text": "I have 1,500 euros for ten days in Montreal, including flights. Is it enough?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.909133999957703}
+{"id": "q_002874", "lang": "en", "text": "Can I enter London with a valid residence permit?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6175891000311822}
+{"id": "q_002882", "lang": "en", "text": "Can I submit my visa application for Amsterdam without an employment certificate?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6812918999930844}
+{"id": "q_002883", "lang": "en", "text": "Can my child travel to London with only one parent's consent?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6807199000613764}
+{"id": "q_002892", "lang": "en", "text": "Do I need a transit visa when changing planes in Istanbul?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.702802799991332}
+{"id": "q_002897", "lang": "en", "text": "How do I apply for a tourist visa to New York?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6717511999886483}
+{"id": "q_002906", "lang": "en", "text": "Can I use an emergency travel document to visit Brussels?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6912233999464661}
+{"id": "q_002909", "lang": "en", "text": "What are the visa requirements for Tunisian citizens visiting Milan?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.719406200107187}
+{"id": "q_002911", "lang": "en", "text": "What's the weather like in Tunis today?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6301389000145718}
+{"id": "q_002915", "lang": "en", "text": "What's the average temperature in Rome in December?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4030126000288874}
+{"id": "q_002917", "lang": "en", "text": "Is the sea warm enough for swimming in Monastir this summer?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.720848900033161}
+{"id": "q_002924", "lang": "en", "text": "Is the weather in Hammamet suitable for outdoor activities next weekend?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6878035999834538}
+{"id": "q_002926", "lang": "en", "text": "What is the weather forecast for Milan on December 20?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7113574999384582}
+{"id": "q_002932", "lang": "en", "text": "What's the temperature in Marseille today?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4448927999474108}
+{"id": "q_002938", "lang": "fr", "text": "Y a-t-il des activités pour les enfants à Hammamet ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8401063000783324}
+{"id": "q_002947", "lang": "fr", "text": "Que peut-on faire à Tabarka avec des adolescents ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.74215710000135}
+{"id": "q_002950", "lang": "fr", "text": "Quelles activités de plein air sont disponibles à Monastir ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8493926000082865}
+{"id": "q_002956", "lang": "fr", "text": "Quelles sorties sont possibles à Marseille le dimanche ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8080858000321314}
+{"id": "q_002957", "lang": "fr", "text": "Que peut-on faire à Genève avec un petit budget ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.788367599947378}
+{"id": "q_002959", "lang": "fr", "text": "Existe-t-il des circuits à vélo à Tunis ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8656858999747783}
+{"id": "q_002963", "lang": "fr", "text": "Existe-t-il des excursions en bateau à Sidi Bou Said ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8109614999266341}
+{"id": "q_002964", "lang": "fr", "text": "Peut-on faire une balade à cheval à Djerba ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8609016999835148}
+{"id": "q_002970", "lang": "fr", "text": "Y a-t-il des visites gastronomiques à Sfax ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8294204999692738}
+{"id": "q_002974", "lang": "fr", "text": "Je voudrais découvrir les environs de Bizerte avec un guide.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8655182999791577}
+{"id": "q_002985", "lang": "fr", "text": "Quel est le tarif pour un excédent de bagages ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8409636999713257}
+{"id": "q_002986", "lang": "fr", "text": "Est-ce que je peux enregistrer une poussette gratuitement ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8561189000029117}
+{"id": "q_002989", "lang": "fr", "text": "Combien de bagages sont compris dans un billet en classe économique ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7652979999547824}
+{"id": "q_002991", "lang": "fr", "text": "Puis-je transporter des liquides dans mon bagage cabine ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7622672999277711}
+{"id": "q_003007", "lang": "fr", "text": "Y a-t-il une franchise spéciale pour les bagages des bébés ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8668789999792352}
+{"id": "q_003016", "lang": "fr", "text": "Est-ce que le kilométrage est illimité pour une location à Paris ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8177561000920832}
+{"id": "q_003024", "lang": "fr", "text": "Avez-vous des véhicules électriques disponibles à Amsterdam ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8459759999532253}
+{"id": "q_003030", "lang": "fr", "text": "Quels modèles sont proposés pour une location à la journée à Sfax ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9379679999547079}
+{"id": "q_003044", "lang": "fr", "text": "Je cherche un véhicule sept places à Bruxelles.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7358232999686152}
+{"id": "q_003074", "lang": "fr", "text": "Combien valent 2 500 euros en dollars américains ?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5995240999618545}
+{"id": "q_003077", "lang": "fr", "text": "Peut-on convertir des dirhams marocains en dinars tunisiens ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8601005000527948}
+{"id": "q_003089", "lang": "fr", "text": "Combien coûte un billet pour Istanbul demain ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8003419999731705}
+{"id": "q_003092", "lang": "fr", "text": "Quel est le tarif d'un aller-retour Tunis-Malte pour une personne ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9617094000568613}
+{"id": "q_003117", "lang": "fr", "text": "Combien coûte un vol de Monastir à Lyon cet été ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7698504000436515}
+{"id": "q_003121", "lang": "fr", "text": "Quel serait le prix de trois billets entre Tunis et Bruxelles ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9266364000504836}
+{"id": "q_003123", "lang": "fr", "text": "Combien coûte un billet en classe affaires pour Londres ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.696918600006029}
+{"id": "q_003134", "lang": "fr", "text": "Un aller-retour entre Sousse et Paris, s'il vous plaît.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8243228999199346}
+{"id": "q_003135", "lang": "fr", "text": "Est-ce possible de trouver un vol Tunis-Rome ce soir ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8115909000625834}
+{"id": "q_003136", "lang": "fr", "text": "Je voudrais partir de Tunis pour Bruxelles le 20 décembre.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8285404000198469}
+{"id": "q_003140", "lang": "fr", "text": "Quels vols relient Tunis à Marseille sans escale ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.773950400063768}
+{"id": "q_003141", "lang": "fr", "text": "Y a-t-il des vols directs de Tunis à Istanbul ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8099293999839574}
+{"id": "q_003154", "lang": "fr", "text": "Je cherche un vol de Tunis à Paris pour deux personnes.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7379580000415444}
+{"id": "q_003162", "lang": "fr", "text": "Quels sont les vols les plus pratiques pour aller de Tunis à Londres ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.828869599965401}
+{"id": "q_003167", "lang": "fr", "text": "L'hôtel propose-t-il un service de navette ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7539284999947995}
+{"id": "q_003179", "lang": "fr", "text": "L'établissement dispose-t-il d'un club pour enfants ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7929505999200046}
+{"id": "q_003182", "lang": "fr", "text": "L'hôtel possède-t-il des salles de réunion à Tunis ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8330932999961078}
+{"id": "q_003183", "lang": "fr", "text": "Est-ce que le restaurant propose des menus végétariens ?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5406390000134706}
+{"id": "q_003213", "lang": "fr", "text": "Avez-vous des offres spéciales pour les hôtels à Marseille ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8922580999787897}
+{"id": "q_003218", "lang": "fr", "text": "Combien coûte un séjour de sept nuits à Monastir ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7982660999987274}
+{"id": "q_003220", "lang": "fr", "text": "Quel est le tarif d'un hôtel cinq étoiles à Dubaï ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8770100000547245}
+{"id": "q_003224", "lang": "fr", "text": "Quel est le tarif d'un hôtel quatre étoiles à Madrid ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6371974000940099}
+{"id": "q_003228", "lang": "fr", "text": "Quel est le prix d'une chambre avec vue sur mer à Mahdia ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8021551999263465}
+{"id": "q_003230", "lang": "fr", "text": "Quel est le supplément pour une chambre avec vue sur mer à Hammamet ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9208013999741524}
+{"id": "q_003236", "lang": "fr", "text": "Combien coûte une nuit dans un hôtel près de la plage à Nabeul ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9231021000305191}
+{"id": "q_003240", "lang": "fr", "text": "Avez-vous des hébergements disponibles à Tozeur pour le week-end prochain ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9728864999487996}
+{"id": "q_003243", "lang": "fr", "text": "Avez-vous des hôtels avec piscine à Dubaï ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6404243999859318}
+{"id": "q_003258", "lang": "fr", "text": "Quels hôtels sont disponibles à Djerba ce week-end ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.813823499949649}
+{"id": "q_003261", "lang": "fr", "text": "Quels hôtels proposent des chambres familiales à Istanbul ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.681389799923636}
+{"id": "q_003263", "lang": "fr", "text": "Quels hôtels sont adaptés aux familles à Mahdia ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.628830699948594}
+{"id": "q_003270", "lang": "fr", "text": "Je voudrais un hôtel de luxe à New York.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7432829999597743}
+{"id": "q_003275", "lang": "fr", "text": "Je cherche un hôtel proche du centre de Milan.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7108489000238478}
+{"id": "q_003284", "lang": "fr", "text": "Mon riz est toujours trop collant, tu as une astuce ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5354967000894248}
+{"id": "q_003290", "lang": "fr", "text": "Comment fonctionne le système de points au tennis ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4414027000311762}
+{"id": "q_003291", "lang": "fr", "text": "Je débute la course à pied, comment progresser sans me blesser ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6374272999819368}
+{"id": "q_003295", "lang": "fr", "text": "Quelles sont les règles principales du volley-ball ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5695091999368742}
+{"id": "q_003296", "lang": "fr", "text": "Comment améliorer mon endurance en natation ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5039441999979317}
+{"id": "q_003299", "lang": "fr", "text": "Peux-tu m'expliquer les fractions avec des exemples faciles ?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8643192000454292}
+{"id": "q_003307", "lang": "fr", "text": "Que faire pour soulager un léger mal de tête ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5117688999744132}
+{"id": "q_003317", "lang": "fr", "text": "Mon téléphone chauffe beaucoup pendant la recharge, est-ce normal ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6941615999676287}
+{"id": "q_003320", "lang": "fr", "text": "Mon ordinateur portable se bloque sans raison apparente.", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5128728999989107}
+{"id": "q_003333", "lang": "fr", "text": "Comment mieux organiser mes tâches professionnelles ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5094305000966415}
+{"id": "q_003339", "lang": "fr", "text": "Est-ce qu'un clavier mécanique est utile pour écrire longtemps ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.8034646000014618}
+{"id": "q_003342", "lang": "fr", "text": "Comment vérifier si une boutique en ligne est fiable ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5098885999759659}
+{"id": "q_003349", "lang": "fr", "text": "Des idées de jeux à faire en famille sans écran ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5505213999422267}
+{"id": "q_003354", "lang": "fr", "text": "Que dire à une amie qui traverse une période difficile ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5369326000800356}
+{"id": "q_003365", "lang": "fr", "text": "Comment commencer à apprendre le dessin avec peu de matériel ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6021517999470234}
+{"id": "q_003374", "lang": "fr", "text": "Peux-tu expliquer simplement le principe de l'offre et de la demande ?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9128932000603527}
+{"id": "q_003383", "lang": "fr", "text": "Salut, tu peux m'aider à résoudre un petit problème ?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8670778999803588}
+{"id": "q_003384", "lang": "fr", "text": "Quelle compétence serait la plus utile à apprendre selon toi ?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9110445999540389}
+{"id": "q_003386", "lang": "fr", "text": "Comment établir un budget mensuel pour les dépenses du foyer ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6416042000055313}
+{"id": "q_003388", "lang": "fr", "text": "Que s'est-il passé le 20 décembre dans l'histoire des sciences ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.67327629995998}
+{"id": "q_003390", "lang": "fr", "text": "J'aimerais apprendre à mieux gérer mon temps libre.", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.757446700008586}
+{"id": "q_003401", "lang": "fr", "text": "Comment éviter que les légumes perdent leur couleur à la cuisson ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6837305000517517}
+{"id": "q_003405", "lang": "fr", "text": "Comment améliorer ma technique de tir au basketball ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5142306999769062}
+{"id": "q_003412", "lang": "fr", "text": "Peux-tu me donner des exercices pour réviser les verbes irréguliers anglais ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.8596603999612853}
+{"id": "q_003422", "lang": "fr", "text": "J'ai une toux sèche, quelles mesures simples peuvent m'aider ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.7966817000415176}
+{"id": "q_003428", "lang": "fr", "text": "Est-ce que la caféine peut perturber le sommeil ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6224329000106081}
+{"id": "q_003447", "lang": "fr", "text": "Peux-tu rédiger une courte description de mon profil LinkedIn ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.684963500010781}
+{"id": "q_003449", "lang": "fr", "text": "Comment demander un délai supplémentaire pour terminer une tâche ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.665492600062862}
+{"id": "q_003461", "lang": "fr", "text": "Comment comparer les garanties de deux appareils électroménagers ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6336784999584779}
+{"id": "q_003470", "lang": "fr", "text": "Que faire quand deux enfants se disputent constamment ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4994578999467194}
+{"id": "q_003483", "lang": "fr", "text": "Pourquoi les océans sont-ils salés ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5867229999275878}
+{"id": "q_003487", "lang": "fr", "text": "Pourquoi les volcans entrent-ils en éruption ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4682934999000281}
+{"id": "q_003493", "lang": "fr", "text": "Quel est le rôle des musées dans la préservation du patrimoine ?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8278700999217108}
+{"id": "q_003494", "lang": "fr", "text": "Peux-tu me raconter un fait historique intéressant sur Tunis ?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8777660001069307}
+{"id": "q_003506", "lang": "fr", "text": "Que s'est-il passé le 20 décembre dans l'histoire de la littérature ?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.8068515999475494}
+{"id": "q_003518", "lang": "fr", "text": "Les paiements en ligne sont-ils sécurisés lors d'une réservation auprès d'une agence ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0764978000661358}
+{"id": "q_003525", "lang": "fr", "text": "Puis-je utiliser PayPal pour payer mon billet d'avion ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9369480999885127}
+{"id": "q_003526", "lang": "fr", "text": "Est-il possible de verser un acompte maintenant et le solde plus tard ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8895527999848127}
+{"id": "q_003527", "lang": "fr", "text": "Acceptez-vous les paiements sans contact ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7475905000464991}
+{"id": "q_003531", "lang": "fr", "text": "Acceptez-vous les cartes American Express pour les paiements d'hôtel ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.80476730002556}
+{"id": "q_003534", "lang": "fr", "text": "Puis-je payer mon vol en espèces dans votre agence à Tunis ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9932631000410765}
+{"id": "q_003545", "lang": "fr", "text": "Y a-t-il un supplément selon le moyen de paiement choisi ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9610626000212505}
+{"id": "q_003546", "lang": "fr", "text": "Puis-je payer deux chambres d'hôtel avec deux cartes bancaires différentes ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0801318000303581}
+{"id": "q_003549", "lang": "fr", "text": "Quels moyens de paiement sont proposés pour réserver un vol à la dernière minute ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9460737999761477}
+{"id": "q_003558", "lang": "fr", "text": "Combien coûte le transport public de Tunis à Hammamet ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9139563998905942}
+{"id": "q_003563", "lang": "fr", "text": "Y a-t-il des bus entre Sfax et Tunis aujourd'hui ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9838599999202415}
+{"id": "q_003569", "lang": "fr", "text": "Où prendre un louage pour aller de Sousse à Kairouan ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8991901999106631}
+{"id": "q_003582", "lang": "fr", "text": "Je cherche une liaison en transport public entre Mahdia et Monastir.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8431169999530539}
+{"id": "q_003583", "lang": "fr", "text": "Je voudrais connaître les horaires des louages à Sousse.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7901701000519097}
+{"id": "q_003593", "lang": "fr", "text": "Je voudrais réserver un transfert privé à Rome ce week-end.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7886816000100225}
+{"id": "q_003594", "lang": "fr", "text": "Je cherche un taxi disponible à Kairouan ce soir.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7566499999957159}
+{"id": "q_003596", "lang": "fr", "text": "Je voudrais réserver une navette privée pour deux personnes à Hammamet.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8608299000188708}
+{"id": "q_003598", "lang": "fr", "text": "Combien coûte un taxi de Djerba à Zarzis ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8195634000003338}
+{"id": "q_003600", "lang": "fr", "text": "Je cherche un taxi pour deux personnes avec beaucoup de bagages à Sfax.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9034846998983994}
+{"id": "q_003602", "lang": "fr", "text": "Je cherche un transfert pour quatre adultes avec plusieurs valises.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.656618700013496}
+{"id": "q_003627", "lang": "fr", "text": "Pouvez-vous estimer le budget pour des vacances en famille à Hammamet ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9524062999989837}
+{"id": "q_003633", "lang": "fr", "text": "Combien dois-je économiser pour deux semaines de vacances à Montréal ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.930259200045839}
+{"id": "q_003634", "lang": "fr", "text": "Est-ce que 600 euros suffisent pour l'hébergement, les repas et les activités à Lisbonne ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.5535911000333726}
+{"id": "q_003637", "lang": "fr", "text": "Pouvez-vous préparer un budget pour un voyage professionnel à Francfort ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.807165400008671}
+{"id": "q_003641", "lang": "fr", "text": "Pouvez-vous estimer le coût de cinq jours de vacances à Mahdia ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7462746000383049}
+{"id": "q_003642", "lang": "fr", "text": "Combien d'argent de poche emporter pour une semaine à Rome ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7974058000836521}
+{"id": "q_003643", "lang": "fr", "text": "Puis-je visiter Genève pendant quatre jours avec 500 euros ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8504369000438601}
+{"id": "q_003646", "lang": "fr", "text": "Quel est le coût d'une excursion de trois jours à Tozeur, transport compris ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9161693999776617}
+{"id": "q_003664", "lang": "fr", "text": "Mon enfant peut-il voyager à Paris avec une autorisation parentale ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7715967999538407}
+{"id": "q_003674", "lang": "fr", "text": "Ai-je besoin d'un visa pour un séjour touristique à Lisbonne ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.895003900048323}
+{"id": "q_003676", "lang": "fr", "text": "Mon passeport doit-il être valable six mois pour aller à Dubaï ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8441955000162125}
+{"id": "q_003694", "lang": "fr", "text": "Faut-il prendre rendez-vous pour déposer un dossier de visa à Bruxelles ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9920549000380561}
+{"id": "q_003695", "lang": "fr", "text": "Quels documents sont nécessaires pour un séjour touristique à Lisbonne ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7859970000572503}
+{"id": "q_003697", "lang": "fr", "text": "Dois-je fournir des relevés bancaires pour un visa à Paris ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8293127999641001}
+{"id": "q_003703", "lang": "fr", "text": "Est-ce qu'il pleut souvent à Londres en décembre ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7280016000149772}
+{"id": "q_003704", "lang": "fr", "text": "Faut-il prévoir des vêtements chauds pour un séjour à Rome ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9696970999939367}
+{"id": "q_003721", "lang": "fr", "text": "Les températures seront-elles élevées à Madrid cet été ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7744097000686452}
+{"id": "q_003723", "lang": "fr", "text": "Quelle météo est prévue à Genève pour les prochains jours ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8396785999648273}
+{"id": "q_003726", "lang": "fr", "text": "Est-ce que la météo sera favorable pour une excursion à Douz demain ?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9058952000923455}
+{"id": "q_003738", "lang": "tn_latin", "text": "win najjem nemchi lel plage fi hammamet?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7230268999701366}
+{"id": "q_003744", "lang": "tn_latin", "text": "chnowa najjem nzour fi kairouan?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6988315000198781}
+{"id": "q_003751", "lang": "tn_latin", "text": "fama parc aquatique fi hammamet?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6813959000864998}
+{"id": "q_003755", "lang": "tn_latin", "text": "win nal9a plage calme fi kelibia?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7560461000539362}
+{"id": "q_003759", "lang": "tn_latin", "text": "nheb na3mel tour fi matmata", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.621524199959822}
+{"id": "q_003766", "lang": "tn_latin", "text": "fama balade à cheval fi hammamet?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.699415999930352}
+{"id": "q_003767", "lang": "tn_latin", "text": "nheb nzour les oasis fi tozeur", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.671485000057146}
+{"id": "q_003770", "lang": "tn_latin", "text": "chnowa les activités elli najmou na3mlouhom fi djerba?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8572795999934897}
+{"id": "q_003781", "lang": "tn_latin", "text": "9adech frais excédent bagage?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.4695454000029713}
+{"id": "q_003783", "lang": "tn_latin", "text": "najjem ne7ot pc portable fi bagage cabine?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7322101999307051}
+{"id": "q_003786", "lang": "tn_latin", "text": "najjem nkhalles bagage zeyed fel matar?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6812208999181166}
+{"id": "q_003787", "lang": "tn_latin", "text": "najjem ne5ou liquides fi bagage cabine?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6614194000139832}
+{"id": "q_003812", "lang": "tn_latin", "text": "nheb automatique men tunis l jem3a ejjeya", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8202130000572652}
+{"id": "q_003817", "lang": "tn_latin", "text": "9adech caution mta3 location karhba fi djerba?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7313584999646991}
+{"id": "q_003819", "lang": "tn_latin", "text": "fama voiture familiale disponible fi monastir?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6824849999975413}
+{"id": "q_003828", "lang": "tn_latin", "text": "9adech location karhba fi sousse pour 3 jours?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7039234000258148}
+{"id": "q_003836", "lang": "tn_latin", "text": "fama voiture électrique lel location fi tunis?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7249649000586942}
+{"id": "q_003842", "lang": "tn_latin", "text": "najem nekri karhba b carte bancaire mta3 omi?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8504139999859035}
+{"id": "q_003846", "lang": "tn_latin", "text": "nheb karhba men sfax ba3d ghodwa", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6825377000495791}
+{"id": "q_003862", "lang": "tn_latin", "text": "Chnowa taux de change mta3 pound sterling?", "truth": true, "pred": false, "raw": "OTHER (Exchange rate", "unclear": false, "seconds": 0.8061728000175208}
+{"id": "q_003867", "lang": "tn_latin", "text": "9adech ya3mel euro bel dinar tounsi lyoum?", "truth": true, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6328376999590546}
+{"id": "q_003868", "lang": "tn_latin", "text": "Taux euro yetbaddel barcha bin nhar w nhar?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7595068999798968}
+{"id": "q_003874", "lang": "tn_latin", "text": "9adech yji 250 euro bel dinar tounsi?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8053797000320628}
+{"id": "q_003885", "lang": "tn_latin", "text": "9adech le prix bech nemchi l new york?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6566436000866815}
+{"id": "q_003887", "lang": "tn_latin", "text": "9adech billet tunis barcelona m3a valise en soute?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7601189999841154}
+{"id": "q_003893", "lang": "tn_latin", "text": "9adech zouz aller retour bin tunis w paris?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6576750000240281}
+{"id": "q_003897", "lang": "tn_latin", "text": "chnowa ar5es vol men tunis l marseille?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6860366000328213}
+{"id": "q_003913", "lang": "tn_latin", "text": "9adech 3 billets men tunis l bruxelles?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7267554000718519}
+{"id": "q_003916", "lang": "tn_latin", "text": "aller retour paris b 250 euro, fama prix hakka?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9605508999666199}
+{"id": "q_003920", "lang": "tn_latin", "text": "9adech billet business class l london?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6223026999505237}
+{"id": "q_003921", "lang": "tn_latin", "text": "tarif billet tunis casa nhar el tnin 9adech?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8105782000347972}
+{"id": "q_003923", "lang": "tn_latin", "text": "nheb vol men tunis l milano avec départ fel sif", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7341504000360146}
+{"id": "q_003927", "lang": "tn_latin", "text": "chnowa les vols men djerba l lyon?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6809514999622479}
+{"id": "q_003930", "lang": "tn_latin", "text": "fama vols men tunis l geneve pour zouz adultes?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7957615999039263}
+{"id": "q_003936", "lang": "tn_latin", "text": "vol men tunis l casa nhar el tnin, fama disponibilité?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8441533999284729}
+{"id": "q_003938", "lang": "tn_latin", "text": "najjem nal9a vol men tunis l new york b escale wa7da?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9555869000032544}
+{"id": "q_003939", "lang": "tn_latin", "text": "fama vol direct bin tunis w frankfurt?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6418751999735832}
+{"id": "q_003940", "lang": "tn_latin", "text": "nheb nerja3 men paris l tunis", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6953672000672668}
+{"id": "q_003949", "lang": "tn_latin", "text": "fama vols men tunis l bruxelles lyoum?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8085803999565542}
+{"id": "q_003950", "lang": "tn_latin", "text": "billet aller retour men sousse l paris pour zouz personnes", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8185393000021577}
+{"id": "q_003963", "lang": "tn_latin", "text": "chnowa les équipements fi chambre fi monastir?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7741076999809593}
+{"id": "q_003970", "lang": "tn_latin", "text": "fama ascenseur fi hotel fi kairouan?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7323320000432432}
+{"id": "q_003972", "lang": "tn_latin", "text": "hotel fi nabeul fih club enfants?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6816984999459237}
+{"id": "q_003975", "lang": "tn_latin", "text": "hotel fi tozeur fih piscine chauffée?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6936944999033585}
+{"id": "q_003976", "lang": "tn_latin", "text": "nheb na3ref ken fama service room service fi monastir", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7897300999611616}
+{"id": "q_003984", "lang": "tn_latin", "text": "les chambres fi tataouine fihom chauffage?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.828659399994649}
+{"id": "q_003987", "lang": "tn_latin", "text": "nheb hotel fi matmata fih wifi fi les chambres", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8028417000314221}
+{"id": "q_003989", "lang": "tn_latin", "text": "hotel fi nabel fih salle de conférence?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6913805999793112}
+{"id": "q_003990", "lang": "tn_latin", "text": "est-ce que hotel fi monastir fih animation lel sghar?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8106495999963954}
+{"id": "q_003991", "lang": "tn_latin", "text": "najem nesta3mel piscine hotel fi djerba bla ma nokhles extra?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0173767999513075}
+{"id": "q_003995", "lang": "tn_latin", "text": "fama kitchenette w frigo fi chambre fi hotel fi tunis?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9002919999184087}
+{"id": "q_004004", "lang": "tn_latin", "text": "prix total 4 nuits fi hotel fi zarzis 9adech?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8548045000061393}
+{"id": "q_004013", "lang": "tn_latin", "text": "prix chambre triple fi nabeul 9adech?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.790261400048621}
+{"id": "q_004014", "lang": "tn_latin", "text": "tarif nuit fi hotel 5 etoiles fi monastir?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8726628000149503}
+{"id": "q_004030", "lang": "tn_latin", "text": "9adech tetkalef chambre pour zouz fi tunis fi sif?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9824478999944404}
+{"id": "q_004035", "lang": "tn_latin", "text": "fama hotel fi sfax ynajem y9abel groupe mta3 6 personnes?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9631910999305546}
+{"id": "q_004036", "lang": "tn_latin", "text": "nheb hotel 5 etoiles fi djerba", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8032796999905258}
+{"id": "q_004042", "lang": "tn_latin", "text": "nheb hotel 9rib lel b7ar fi djerba", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7637539999559522}
+{"id": "q_004050", "lang": "tn_latin", "text": "nheb reservation fi hammamet pour zouz adultes", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8424020999809727}
+{"id": "q_004051", "lang": "tn_latin", "text": "hotel fi bizerte l zouz personnes, fama disponibilité?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9118910999968648}
+{"id": "q_004055", "lang": "tn_latin", "text": "3andkom suggestions mta3 hotels fi sfax?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6980323999887332}
+{"id": "q_004059", "lang": "tn_latin", "text": "nheb chambre double fi hammamet ghodwa", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8607123999390751}
+{"id": "q_004071", "lang": "tn_latin", "text": "chnowa najm na3mel bel batata w 3adhma 3ala 3cha?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.7868608999997377}
+{"id": "q_004076", "lang": "tn_latin", "text": "fama salle de sport behia fi tunis b abonnement mahouche ghaly?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.7722323999041691}
+{"id": "q_004079", "lang": "tn_latin", "text": "3lech el wifi ywalli bti2 ki barcha nes yesta3mlouh?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0985700999153778}
+{"id": "q_004086", "lang": "tn_latin", "text": "sma3t chanson jdida w 3ajbetni barcha, a3tini suggestions kifha", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0802145999623463}
+{"id": "q_004089", "lang": "tn_latin", "text": "nheb application gratuite bech net3alem anglais", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7521678999764845}
+{"id": "q_004090", "lang": "tn_latin", "text": "el clavier mta3 pc ma3adech yekteb ba3dh les lettres", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9363153000595048}
+{"id": "q_004091", "lang": "tn_latin", "text": "kifech na3mel sauce tomate lel pasta b dho9 behi?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.7047186000272632}
+{"id": "q_004104", "lang": "tn_latin", "text": "a3tini recette salade mechouia bel goût mta3 dar", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.7624393999576569}
+{"id": "q_004109", "lang": "tn_latin", "text": "kifech n3amel budget mensuel w n9allel masroufi?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8570047999965027}
+{"id": "q_004110", "lang": "tn_latin", "text": "nheb recette mlawi maison yji mor9a9 w bnine", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9222860999871045}
+{"id": "q_004116", "lang": "tn_latin", "text": "kifech na3mel compte professionnel 3al linkedin?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5510709000518546}
+{"id": "q_004117", "lang": "tn_latin", "text": "3andi entretien nhar 20 decembre, a3tini questions possibles", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8699840999906883}
+{"id": "q_004122", "lang": "tn_latin", "text": "fi paris fama magasin ybi3 accessoires dessin? nlawwej 3la cadeau", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.9485359999816865}
+{"id": "q_004128", "lang": "tn_latin", "text": "fama magasin chaussures sport behi fi djerba?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6401054000016302}
+{"id": "q_004147", "lang": "tn_latin", "text": "fama club natation behi fi bizerte?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6157771000871435}
+{"id": "q_004159", "lang": "tn_latin", "text": "fama cours soutien physique fi sfax?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6120002999668941}
+{"id": "q_004167", "lang": "tn_latin", "text": "kifech n7assen prononciation mte3i fel anglais?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8404969999101013}
+{"id": "q_004196", "lang": "tn_latin", "text": "fama club équestre fi sousse?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6430887000169605}
+{"id": "q_004204", "lang": "tn_latin", "text": "fama club athlétisme fi monastir?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6511185000417754}
+{"id": "q_004206", "lang": "tn_latin", "text": "echhar ejjey bech nabda formation design, chnowa matériel lezemni?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.7745595999294892}
+{"id": "q_004214", "lang": "tn_latin", "text": "nheb netfarrej fi match tennis, fasarli système de points", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6600385999772698}
+{"id": "q_004216", "lang": "tn_latin", "text": "fama cours couture fi mahdia?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.46318170009180903}
+{"id": "q_004226", "lang": "tn_latin", "text": "chnowa najm na3mel bel banane elli wallat tayba barcha?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9004293999169022}
+{"id": "q_004241", "lang": "tn_latin", "text": "nheb film romantique ma fihouch fin triste", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7741790999425575}
+{"id": "q_004250", "lang": "tn_latin", "text": "fama cours pâtisserie fi sousse?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.5158850000007078}
+{"id": "q_004253", "lang": "tn_latin", "text": "nheb n3aref kifech na3mel tri lel déchets fel dar", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.021579600055702}
+{"id": "q_004264", "lang": "tn_latin", "text": "Chnowa a7sen tari9a bech n3allem kalbi yesta3mel el laisse?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0726617000764236}
+{"id": "q_004265", "lang": "tn_latin", "text": "Nheb nechri cage lel 3asfour, chnowa lezemni nra3i?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9969486000481993}
+{"id": "q_004266", "lang": "tn_latin", "text": "Kifech na3ref ken el 7out mte3i fi aquarium merte7?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9348980999784544}
+{"id": "q_004269", "lang": "tn_latin", "text": "Chnowa na3mel bech n9allel consommation mta3 el me fel dar?", "truth": false, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8931940000038594}
+{"id": "q_004275", "lang": "tn_latin", "text": "Kifech nratteb placard sghir b barcha 7weyej?", "truth": false, "pred": true, "raw": "TRAVEL (Sign", "unclear": false, "seconds": 0.9997999999905005}
+{"id": "q_004278", "lang": "tn_latin", "text": "El machine a laver ta3mel vibration barcha, 3lech?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.7307132000569254}
+{"id": "q_004286", "lang": "tn_latin", "text": "Chnowa far9 bin peinture acrylique w peinture a l'huile?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.675068199983798}
+{"id": "q_004291", "lang": "tn_latin", "text": "Chnowa a7sen tari9a bech net3allem calligraphie?", "truth": false, "pred": false, "raw": "OTHER", "unclear": false, "seconds": 0.6328415999887511}
+{"id": "q_004297", "lang": "tn_latin", "text": "Kifech najjem nkhalles reservation mta3 hotel?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8417748999781907}
+{"id": "q_004305", "lang": "tn_latin", "text": "Nheb n5alles reservation b carte edahabia.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.844990500016138}
+{"id": "q_004309", "lang": "tn_latin", "text": "Najjem n9assem paiement 3la zouz marat?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8228416000492871}
+{"id": "q_004311", "lang": "tn_latin", "text": "Chnowa les cartes elli ta9blouhom?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7235856000334024}
+{"id": "q_004313", "lang": "tn_latin", "text": "Lezemni carte bancaire bech na3mel reservation?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7747209999943152}
+{"id": "q_004320", "lang": "tn_latin", "text": "Chnowa na3mel ken carte mte3i ma t3addich?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9073040999937803}
+{"id": "q_004323", "lang": "tn_latin", "text": "Nheb nbadal moyen de paiement mta3 reservation.", "truth": true, "pred": true, "raw": "PAYMENT", "unclear": true, "seconds": 0.851405099965632}
+{"id": "q_004324", "lang": "tn_latin", "text": "Fama commission 3al paiement bel carte?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6907786000519991}
+{"id": "q_004331", "lang": "tn_latin", "text": "Najjem n5alles b Mastercard?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6512958999956027}
+{"id": "q_004332", "lang": "tn_latin", "text": "Chnowa el 7al ken ma3andich carte bancaire?", "truth": true, "pred": false, "raw": "OTHER (In this case", "unclear": false, "seconds": 0.9606970000313595}
+{"id": "q_004336", "lang": "tn_latin", "text": "Nheb na3ref ken paiement b cheque bancaire ma9boul.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9323100000619888}
+{"id": "q_004341", "lang": "tn_latin", "text": "nheb nemchi men zarzis l gabes b louage", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8387843000236899}
+{"id": "q_004348", "lang": "tn_latin", "text": "fama train rapide men sfax l tunis?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7153768000425771}
+{"id": "q_004352", "lang": "tn_latin", "text": "kifech nemchi men bizerte l tunis b transport public?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8231872000033036}
+{"id": "q_004357", "lang": "tn_latin", "text": "nheb na3ref tarif train men sfax l gabes", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.751092900056392}
+{"id": "q_004360", "lang": "tn_latin", "text": "fama transport public fi djerba?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6046131999464706}
+{"id": "q_004365", "lang": "tn_latin", "text": "fama bus men sousse l kairouan nhar el jem3a?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7998600999126211}
+{"id": "q_004367", "lang": "tn_latin", "text": "fama train men sfax l mahdia?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6089676000410691}
+{"id": "q_004376", "lang": "tn_latin", "text": "kifech nal9a taxi fi sousse ellila?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.724919099942781}
+{"id": "q_004378", "lang": "tn_latin", "text": "9adech course taxi men sfax l centre?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6312280999263749}
+{"id": "q_004381", "lang": "tn_latin", "text": "taxi collectif men nabeul l sousse, win nal9ah?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8244496999541298}
+{"id": "q_004386", "lang": "tn_latin", "text": "nheb chauffeur yestanna fi sousse pendant 3 sweya3", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8637001999886706}
+{"id": "q_004390", "lang": "tn_latin", "text": "9adech taxi privé men zarzis l djerba?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7373390999855474}
+{"id": "q_004400", "lang": "tn_latin", "text": "najjem na3mel réservation taxi pour nhar 20 decembre?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8500694000395015}
+{"id": "q_004402", "lang": "tn_latin", "text": "nheb transfert aller simple men djerba l zarzis", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7112034000456333}
+{"id": "q_004403", "lang": "tn_latin", "text": "9adech ykallef taxi men mahdia l monastir?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8695031000534073}
+{"id": "q_004414", "lang": "tn_latin", "text": "Nheb budget l 3otla mta3 10 iyem.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8522744999499992}
+{"id": "q_004420", "lang": "tn_latin", "text": "Tkalef akther safra fi sif wala fi chte?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8637656999053434}
+{"id": "q_004427", "lang": "tn_latin", "text": "Nnajjem n3addi 4 iyem fi Djerba b 400 dinar?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.005046800011769}
+{"id": "q_004437", "lang": "tn_latin", "text": "Nheb na3ref ken 700 euro yekfiw l jem3a fi Milan.", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9870298999594525}
+{"id": "q_004440", "lang": "tn_latin", "text": "Kifech na9sem budget mta3 vacances?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.707839599926956}
+{"id": "q_004445", "lang": "tn_latin", "text": "Chnowa budget ma39oul l 5 iyem fi Istanbul?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9299147999845445}
+{"id": "q_004447", "lang": "tn_latin", "text": "Ken nemchi l Djerba 5 iyem, 9adech na7seb?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9520786000648513}
+{"id": "q_004449", "lang": "tn_latin", "text": "chnowa les documents lel voyage l london?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.6259799000108615}
+{"id": "q_004450", "lang": "tn_latin", "text": "kifech na3mel demande visa l istanbul?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7570374000351876}
+{"id": "q_004453", "lang": "tn_latin", "text": "nheb na3ref ken lazem rendez-vous lel visa l lyon", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.919549300102517}
+{"id": "q_004474", "lang": "tn_latin", "text": "najem n9addem dossier visa l madrid nhar el khmis?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8918789000017568}
+{"id": "q_004491", "lang": "tn_latin", "text": "fama chte fi sfax nhar el tnin?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.7671795999631286}
+{"id": "q_004496", "lang": "tn_latin", "text": "fi kelibia fama barcha soleil lyoum?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8424409999279305}
+{"id": "q_004511", "lang": "tn_latin", "text": "fama différence fel température bin tunis w sousse?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.8140621000202373}
+{"id": "q_004516", "lang": "tn_latin", "text": "chnowa prévisions mta3 ri7 fi kelibia lyoum?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 0.9312667999183759}
+{"id": "q_004518", "lang": "tn_latin", "text": "fama chte prévue fi hammamet nhar 20 decembre?", "truth": true, "pred": true, "raw": "TRAVEL", "unclear": false, "seconds": 1.0895947999088094}

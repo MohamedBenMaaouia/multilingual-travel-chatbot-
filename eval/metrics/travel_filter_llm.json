@@ -1,0 +1,176 @@
+{
+  "model": "mistral:7b-instruct",
+  "prompt_version": 2,
+  "prompt": "You are a strict classifier for a travel agency chatbot. Label the user's message TRAVEL or OTHER.\nTRAVEL = anything a travel agency would answer: flights and airlines, luggage and baggage rules, hotels and their services, local transport (taxis, car rental, trains, buses, louages), the weather or temperature in a city, things to do at a destination, visas, passports and vaccines for a trip, currency exchange and converting amounts of money, trip costs and budgets, and how to pay (cards, cash, bank transfer).\nOTHER = everything else: cooking, health, school, work, technology, sport, pets, home, music, films, writing messages, general knowledge, greetings, even when the message mentions a city.\nMessages are in English, French, or Tunisian Arabic written in Latin letters (Arabizi).\nReply with one word only: TRAVEL or OTHER. Never write anything else.",
+  "few_shot": [
+    [
+      "What's the value of 100 Swiss francs in Tunisian dinars?",
+      "TRAVEL"
+    ],
+    [
+      "My soup is too salty. How can I fix it?",
+      "OTHER"
+    ],
+    [
+      "fama orages fi gabes fel weekend?",
+      "TRAVEL"
+    ],
+    [
+      "fama psychologue behi fi sousse?",
+      "OTHER"
+    ],
+    [
+      "Quel temps fera-t-il à Tunis demain ?",
+      "TRAVEL"
+    ],
+    [
+      "Comment transférer mes photos vers un nouvel ordinateur ?",
+      "OTHER"
+    ],
+    [
+      "Can I put perfume bottles in my checked suitcase?",
+      "TRAVEL"
+    ],
+    [
+      "nheb recette houmous bel tahini, chnowa les quantités?",
+      "OTHER"
+    ],
+    [
+      "najjem ne5ou bagage cabine sghir w valise en soute?",
+      "TRAVEL"
+    ],
+    [
+      "Hey, are you there?",
+      "OTHER"
+    ],
+    [
+      "Puis-je payer mon hôtel à Tunis avec une carte bancaire étrangère ?",
+      "TRAVEL"
+    ],
+    [
+      "fama réparateur télé behi fi bizerte?",
+      "OTHER"
+    ],
+    [
+      "El paiement cash ma9boul?",
+      "TRAVEL"
+    ],
+    [
+      "kifech n9allel stress 9bal examen?",
+      "OTHER"
+    ],
+    [
+      "Is there a children's swimming pool at the resort in Zarzis?",
+      "TRAVEL"
+    ],
+    [
+      "Fama commission ki nbaddel flous?",
+      "TRAVEL"
+    ]
+  ],
+  "set": "val",
+  "metrics": {
+    "all": {
+      "n": 684,
+      "accuracy": 0.9342105263157895,
+      "precision_non_travel": 0.7265625,
+      "recall_non_travel": 0.9029126213592233,
+      "f1_non_travel": 0.8051948051948051,
+      "false_rejection_rate": 0.060240963855421686,
+      "false_rejections": 35,
+      "missed_non_travel": 10,
+      "unclear_answers": 0
+    },
+    "en": {
+      "n": 225,
+      "accuracy": 0.9422222222222222,
+      "precision_non_travel": 0.723404255319149,
+      "recall_non_travel": 1.0,
+      "f1_non_travel": 0.8395061728395062,
+      "false_rejection_rate": 0.06806282722513089,
+      "false_rejections": 13,
+      "missed_non_travel": 0,
+      "unclear_answers": 0
+    },
+    "fr": {
+      "n": 231,
+      "accuracy": 0.9437229437229437,
+      "precision_non_travel": 0.7291666666666666,
+      "recall_non_travel": 1.0,
+      "f1_non_travel": 0.8433734939759037,
+      "false_rejection_rate": 0.0663265306122449,
+      "false_rejections": 13,
+      "missed_non_travel": 0,
+      "unclear_answers": 0
+    },
+    "tn_latin": {
+      "n": 228,
+      "accuracy": 0.9166666666666666,
+      "precision_non_travel": 0.7272727272727273,
+      "recall_non_travel": 0.7058823529411765,
+      "f1_non_travel": 0.7164179104477613,
+      "false_rejection_rate": 0.04639175257731959,
+      "false_rejections": 9,
+      "missed_non_travel": 10,
+      "unclear_answers": 0
+    }
+  },
+  "speed": {
+    "mean_s": 1.3817466188602392,
+    "median_s": 1.3594232999603264,
+    "p95_s": 1.7153284000232816
+  },
+  "v1_for_comparison": {
+    "metrics": {
+      "all": {
+        "n": 684,
+        "accuracy": 0.8874269005847953,
+        "precision_non_travel": 0.6160714285714286,
+        "recall_non_travel": 0.6699029126213593,
+        "f1_non_travel": 0.6418604651162791,
+        "false_rejection_rate": 0.07401032702237521,
+        "false_rejections": 43,
+        "missed_non_travel": 34,
+        "unclear_answers": 14
+      },
+      "en": {
+        "n": 225,
+        "accuracy": 0.8355555555555556,
+        "precision_non_travel": 0.4727272727272727,
+        "recall_non_travel": 0.7647058823529411,
+        "f1_non_travel": 0.5842696629213483,
+        "false_rejection_rate": 0.1518324607329843,
+        "false_rejections": 29,
+        "missed_non_travel": 8,
+        "unclear_answers": 9
+      },
+      "fr": {
+        "n": 231,
+        "accuracy": 0.935064935064935,
+        "precision_non_travel": 0.7631578947368421,
+        "recall_non_travel": 0.8285714285714286,
+        "f1_non_travel": 0.7945205479452055,
+        "false_rejection_rate": 0.04591836734693878,
+        "false_rejections": 9,
+        "missed_non_travel": 6,
+        "unclear_answers": 3
+      },
+      "tn_latin": {
+        "n": 228,
+        "accuracy": 0.8903508771929824,
+        "precision_non_travel": 0.7368421052631579,
+        "recall_non_travel": 0.4117647058823529,
+        "f1_non_travel": 0.5283018867924528,
+        "false_rejection_rate": 0.02577319587628866,
+        "false_rejections": 5,
+        "missed_non_travel": 20,
+        "unclear_answers": 2
+      }
+    },
+    "speed": {
+      "mean_s": 0.7297946190048276,
+      "median_s": 0.7278845999971963,
+      "p95_s": 0.9555869000032544
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "model": "mistral:7b-instruct",
+  "prompt": "You are a classifier for a travel agency chatbot. Decide whether the user's message is about travel: flights, hotels and accommodation, local transport (taxis, car rental, trains, buses, louages), weather at a destination, things to do at a destination, visas and travel documents, currency exchange, trip budget, or how to pay for a trip. Messages may be written in English, French, or Tunisian Arabic in Latin letters (Arabizi, for example '9adech el billet l paris?' or 'nheb hotel f jerba'). Answer with exactly one word: TRAVEL or OTHER.",
+  "set": "val",
+  "metrics": {
+    "all": {
+      "n": 684,
+      "accuracy": 0.8874269005847953,
+      "precision_non_travel": 0.6160714285714286,
+      "recall_non_travel": 0.6699029126213593,
+      "f1_non_travel": 0.6418604651162791,
+      "false_rejection_rate": 0.07401032702237521,
+      "false_rejections": 43,
+      "missed_non_travel": 34,
+      "unclear_answers": 14
+    },
+    "en": {
+      "n": 225,
+      "accuracy": 0.8355555555555556,
+      "precision_non_travel": 0.4727272727272727,
+      "recall_non_travel": 0.7647058823529411,
+      "f1_non_travel": 0.5842696629213483,
+      "false_rejection_rate": 0.1518324607329843,
+      "false_rejections": 29,
+      "missed_non_travel": 8,
+      "unclear_answers": 9
+    },
+    "fr": {
+      "n": 231,
+      "accuracy": 0.935064935064935,
+      "precision_non_travel": 0.7631578947368421,
+      "recall_non_travel": 0.8285714285714286,
+      "f1_non_travel": 0.7945205479452055,
+      "false_rejection_rate": 0.04591836734693878,
+      "false_rejections": 9,
+      "missed_non_travel": 6,
+      "unclear_answers": 3
+    },
+    "tn_latin": {
+      "n": 228,
+      "accuracy": 0.8903508771929824,
+      "precision_non_travel": 0.7368421052631579,
+      "recall_non_travel": 0.4117647058823529,
+      "f1_non_travel": 0.5283018867924528,
+      "false_rejection_rate": 0.02577319587628866,
+      "false_rejections": 5,
+      "missed_non_travel": 20,
+      "unclear_answers": 2
+    }
+  },
+  "speed": {
+    "mean_s": 0.7297946190048276,
+    "median_s": 0.7278845999971963,
+    "p95_s": 0.9555869000032544
+  }
+}
