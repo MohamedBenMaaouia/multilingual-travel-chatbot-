@@ -1,0 +1,322 @@
+{
+  "model": "MLP on TF-IDF (scikit-learn)",
+  "settings": {
+    "one_copy_per_template": false,
+    "features": "words+chars",
+    "alpha": 0.0001,
+    "hidden": 64,
+    "best_epoch": 20
+  },
+  "set": "val",
+  "accuracy": 0.9311531841652324,
+  "macro_f1": 0.9318980672225933,
+  "category_accuracy": 0.9707401032702238,
+  "accuracy_per_language": {
+    "en": 0.9109947643979057,
+    "fr": 0.9285714285714286,
+    "tn_latin": 0.9536082474226805
+  },
+  "per_subcategory": {
+    "flight_search": {
+      "precision": 0.7058823529411765,
+      "recall": 0.9230769230769231,
+      "f1-score": 0.8,
+      "support": 39.0
+    },
+    "flight_price": {
+      "precision": 0.9032258064516129,
+      "recall": 0.7,
+      "f1-score": 0.7887323943661971,
+      "support": 40.0
+    },
+    "baggage": {
+      "precision": 0.9487179487179487,
+      "recall": 1.0,
+      "f1-score": 0.9736842105263158,
+      "support": 37.0
+    },
+    "hotel_search": {
+      "precision": 0.9047619047619048,
+      "recall": 0.95,
+      "f1-score": 0.926829268292683,
+      "support": 40.0
+    },
+    "hotel_price": {
+      "precision": 0.972972972972973,
+      "recall": 0.9473684210526315,
+      "f1-score": 0.96,
+      "support": 38.0
+    },
+    "hotel_facilities": {
+      "precision": 0.9166666666666666,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9166666666666666,
+      "support": 36.0
+    },
+    "car_rental": {
+      "precision": 0.9736842105263158,
+      "recall": 0.9487179487179487,
+      "f1-score": 0.961038961038961,
+      "support": 39.0
+    },
+    "transfer_taxi": {
+      "precision": 1.0,
+      "recall": 0.9473684210526315,
+      "f1-score": 0.972972972972973,
+      "support": 38.0
+    },
+    "public_transport": {
+      "precision": 0.9743589743589743,
+      "recall": 0.926829268292683,
+      "f1-score": 0.95,
+      "support": 41.0
+    },
+    "weather": {
+      "precision": 0.9736842105263158,
+      "recall": 1.0,
+      "f1-score": 0.9866666666666667,
+      "support": 37.0
+    },
+    "activities": {
+      "precision": 0.9024390243902439,
+      "recall": 0.925,
+      "f1-score": 0.9135802469135802,
+      "support": 40.0
+    },
+    "visa_documents": {
+      "precision": 0.9487179487179487,
+      "recall": 0.925,
+      "f1-score": 0.9367088607594937,
+      "support": 40.0
+    },
+    "exchange_rate": {
+      "precision": 0.975609756097561,
+      "recall": 1.0,
+      "f1-score": 0.9876543209876543,
+      "support": 40.0
+    },
+    "trip_cost": {
+      "precision": 0.9743589743589743,
+      "recall": 0.9743589743589743,
+      "f1-score": 0.9743589743589743,
+      "support": 39.0
+    },
+    "payment_methods": {
+      "precision": 0.9705882352941176,
+      "recall": 0.8918918918918919,
+      "f1-score": 0.9295774647887324,
+      "support": 37.0
+    }
+  },
+  "grid": [
+    {
+      "one_copy_per_template": false,
+      "features": "words+chars",
+      "alpha": 0.0001,
+      "hidden": 64,
+      "train_rows": 2680,
+      "best_epoch": 20,
+      "val_loss": 0.276692857205691,
+      "val_acc": 0.9311531841652324,
+      "val_macro_f1": 0.9318980672225933
+    },
+    {
+      "one_copy_per_template": true,
+      "features": "words+chars",
+      "alpha": 0.0001,
+      "hidden": 64,
+      "train_rows": 1731,
+      "best_epoch": 20,
+      "val_loss": 0.2888641117889464,
+      "val_acc": 0.9259896729776248,
+      "val_macro_f1": 0.9256616755248793
+    },
+    {
+      "one_copy_per_template": false,
+      "features": "words+chars",
+      "alpha": 0.0001,
+      "hidden": 256,
+      "train_rows": 2680,
+      "best_epoch": 18,
+      "val_loss": 0.2664787651081627,
+      "val_acc": 0.9242685025817556,
+      "val_macro_f1": 0.9247541702986004
+    },
+    {
+      "one_copy_per_template": false,
+      "features": "words+chars",
+      "alpha": 0.001,
+      "hidden": 64,
+      "train_rows": 2680,
+      "best_epoch": 20,
+      "val_loss": 0.2909048392587976,
+      "val_acc": 0.919104991394148,
+      "val_macro_f1": 0.9200845040712609
+    },
+    {
+      "one_copy_per_template": true,
+      "features": "words+chars",
+      "alpha": 0.001,
+      "hidden": 64,
+      "train_rows": 1731,
+      "best_epoch": 20,
+      "val_loss": 0.3021144273503225,
+      "val_acc": 0.919104991394148,
+      "val_macro_f1": 0.9189224394892983
+    },
+    {
+      "one_copy_per_template": true,
+      "features": "words+chars",
+      "alpha": 0.01,
+      "hidden": 64,
+      "train_rows": 1731,
+      "best_epoch": 20,
+      "val_loss": 0.37126428820595303,
+      "val_acc": 0.9173838209982789,
+      "val_macro_f1": 0.9172397381815641
+    },
+    {
+      "one_copy_per_template": false,
+      "features": "words+chars",
+      "alpha": 0.01,
+      "hidden": 64,
+      "train_rows": 2680,
+      "best_epoch": 20,
+      "val_loss": 0.351468603210924,
+      "val_acc": 0.9104991394148021,
+      "val_macro_f1": 0.911378668549559
+    },
+    {
+      "one_copy_per_template": false,
+      "features": "words",
+      "alpha": 0.01,
+      "hidden": 64,
+      "train_rows": 2680,
+      "best_epoch": 20,
+      "val_loss": 0.45156042564352394,
+      "val_acc": 0.8932874354561101,
+      "val_macro_f1": 0.8935527086245554
+    },
+    {
+      "one_copy_per_template": false,
+      "features": "words",
+      "alpha": 0.0001,
+      "hidden": 64,
+      "train_rows": 2680,
+      "best_epoch": 20,
+      "val_loss": 0.4082637116840807,
+      "val_acc": 0.8846815834767642,
+      "val_macro_f1": 0.8846712052827096
+    },
+    {
+      "one_copy_per_template": false,
+      "features": "words",
+      "alpha": 0.001,
+      "hidden": 64,
+      "train_rows": 2680,
+      "best_epoch": 20,
+      "val_loss": 0.413428255728971,
+      "val_acc": 0.8846815834767642,
+      "val_macro_f1": 0.8846712052827096
+    },
+    {
+      "one_copy_per_template": true,
+      "features": "words",
+      "alpha": 0.0001,
+      "hidden": 64,
+      "train_rows": 1731,
+      "best_epoch": 20,
+      "val_loss": 0.4464134764181205,
+      "val_acc": 0.8674698795180723,
+      "val_macro_f1": 0.86822309952344
+    },
+    {
+      "one_copy_per_template": true,
+      "features": "words",
+      "alpha": 0.01,
+      "hidden": 64,
+      "train_rows": 1731,
+      "best_epoch": 20,
+      "val_loss": 0.4950532464179645,
+      "val_acc": 0.8640275387263339,
+      "val_macro_f1": 0.8648486494889629
+    },
+    {
+      "one_copy_per_template": true,
+      "features": "words",
+      "alpha": 0.001,
+      "hidden": 64,
+      "train_rows": 1731,
+      "best_epoch": 20,
+      "val_loss": 0.4510966352609708,
+      "val_acc": 0.8588640275387264,
+      "val_macro_f1": 0.8591596198371066
+    },
+    {
+      "one_copy_per_template": false,
+      "features": "words+pairs",
+      "alpha": 0.01,
+      "hidden": 64,
+      "train_rows": 2680,
+      "best_epoch": 20,
+      "val_loss": 0.5227949817554953,
+      "val_acc": 0.846815834767642,
+      "val_macro_f1": 0.8489946897464061
+    },
+    {
+      "one_copy_per_template": false,
+      "features": "words+pairs",
+      "alpha": 0.0001,
+      "hidden": 64,
+      "train_rows": 2680,
+      "best_epoch": 20,
+      "val_loss": 0.48912674328100725,
+      "val_acc": 0.8382099827882961,
+      "val_macro_f1": 0.8402005237436393
+    },
+    {
+      "one_copy_per_template": true,
+      "features": "words+pairs",
+      "alpha": 0.01,
+      "hidden": 64,
+      "train_rows": 1731,
+      "best_epoch": 20,
+      "val_loss": 0.5648858812573829,
+      "val_acc": 0.8364888123924269,
+      "val_macro_f1": 0.8384029263001427
+    },
+    {
+      "one_copy_per_template": false,
+      "features": "words+pairs",
+      "alpha": 0.001,
+      "hidden": 64,
+      "train_rows": 2680,
+      "best_epoch": 20,
+      "val_loss": 0.4887824683892617,
+      "val_acc": 0.8364888123924269,
+      "val_macro_f1": 0.8383305235538495
+    },
+    {
+      "one_copy_per_template": true,
+      "features": "words+pairs",
+      "alpha": 0.001,
+      "hidden": 64,
+      "train_rows": 1731,
+      "best_epoch": 20,
+      "val_loss": 0.5208700239375291,
+      "val_acc": 0.8364888123924269,
+      "val_macro_f1": 0.8382430353346357
+    },
+    {
+      "one_copy_per_template": true,
+      "features": "words+pairs",
+      "alpha": 0.0001,
+      "hidden": 64,
+      "train_rows": 1731,
+      "best_epoch": 20,
+      "val_loss": 0.5159636830409964,
+      "val_acc": 0.8313253012048193,
+      "val_macro_f1": 0.8335752971152284
+    }
+  ]
+}
