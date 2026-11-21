@@ -20,3 +20,4 @@ torch==2.15.0
 transformers==5.24.0
 sentencepiece==0.2.3
 seqeval==1.2.2
+dateparser==1.5.1     # Module 4 rules: general French/English date expressions
