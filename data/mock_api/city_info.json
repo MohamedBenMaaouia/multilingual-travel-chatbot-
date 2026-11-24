@@ -1,0 +1,220 @@
+{
+  "_note": "MOCK data for the project, realistic but not authoritative. Prices in TND. airport_transfer = from the nearest airport (places.json 'airport') to the city. Used by src/mock_api/service.py (get_activities, get_airport_transfer, get_public_transport).",
+  "cities": {
+    "Tunis": {
+      "activities": ["walk the Medina and its souks", "Bardo Museum (Roman mosaics)", "ruins of Carthage", "day trip to Sidi Bou Said"],
+      "airport_transfer": {"airport": "Tunis-Carthage", "taxi_tnd": [15, 25], "minutes": 20, "alternative": "bus 35 to the city centre, about 1 TND"},
+      "public_transport": {"modes": ["light metro", "TGM train to La Marsa", "buses", "louages", "yellow taxis"], "ticket_tnd": 1, "note": "Taxis use the meter; ask the driver to switch it on."}
+    },
+    "Djerba": {
+      "activities": ["Houmt Souk market", "El Ghriba synagogue", "Djerbahood street art in Erriadh", "beaches of Sidi Mahrez", "pottery village of Guellala"],
+      "airport_transfer": {"airport": "Djerba-Zarzis", "taxi_tnd": [20, 35], "minutes": 25, "alternative": "hotel shuttle (ask the hotel)"},
+      "public_transport": {"modes": ["taxis", "louages", "a few local buses", "bike and scooter rental"], "ticket_tnd": 1, "note": "Buses are rare: taxis or a rented car are easier on the island."}
+    },
+    "Sousse": {
+      "activities": ["the Medina (UNESCO) and the Ribat", "Port El Kantaoui marina", "beaches along Boujaafar", "Sousse Archaeological Museum"],
+      "airport_transfer": {"airport": "Enfidha-Hammamet", "taxi_tnd": [60, 80], "minutes": 45, "alternative": "Monastir airport is closer: taxi 25-35 TND, 20 min"},
+      "public_transport": {"modes": ["Sahel metro (train to Monastir and Mahdia)", "buses", "louages", "taxis"], "ticket_tnd": 1.5, "note": null}
+    },
+    "Hammamet": {
+      "activities": ["beaches of Hammamet and Yasmine", "the old Medina and its kasbah", "Medina Mediterranea in Yasmine Hammamet", "Friguia animal park"],
+      "airport_transfer": {"airport": "Enfidha-Hammamet", "taxi_tnd": [50, 70], "minutes": 40, "alternative": "hotel shuttle (ask the hotel)"},
+      "public_transport": {"modes": ["taxis", "louages", "small tourist train in Yasmine"], "ticket_tnd": 2, "note": null}
+    },
+    "Monastir": {
+      "activities": ["the Ribat of Monastir", "Bourguiba Mausoleum", "beaches and the marina", "boat trip to the Kuriat islands"],
+      "airport_transfer": {"airport": "Monastir Habib Bourguiba", "taxi_tnd": [10, 15], "minutes": 10, "alternative": "Sahel metro stop at the airport, about 1 TND"},
+      "public_transport": {"modes": ["Sahel metro", "buses", "louages", "taxis"], "ticket_tnd": 1, "note": null}
+    },
+    "Mahdia": {
+      "activities": ["the Medina and Skifa Kahla gate", "Borj El Kebir fortress", "long sandy beaches", "Friday market"],
+      "airport_transfer": {"airport": "Monastir Habib Bourguiba", "taxi_tnd": [50, 70], "minutes": 45, "alternative": "Sahel metro to Mahdia, about 2 TND, 1h15"},
+      "public_transport": {"modes": ["Sahel metro", "louages", "taxis"], "ticket_tnd": 2, "note": null}
+    },
+    "Sfax": {
+      "activities": ["the walled Medina", "Dar Jellouli museum", "ferry trip to the Kerkennah islands", "fish market"],
+      "airport_transfer": {"airport": "Sfax-Thyna", "taxi_tnd": [10, 15], "minutes": 15, "alternative": null},
+      "public_transport": {"modes": ["buses", "louages", "taxis", "ferry to Kerkennah"], "ticket_tnd": 1.5, "note": "The Kerkennah ferry takes about 1h15."}
+    },
+    "Tozeur": {
+      "activities": ["the palm grove and oasis", "mountain oases of Chebika, Tamerza and Mides", "Chott el Jerid salt lake", "desert film sets near Ong Jmel"],
+      "airport_transfer": {"airport": "Tozeur-Nefta", "taxi_tnd": [5, 10], "minutes": 10, "alternative": null},
+      "public_transport": {"modes": ["taxis", "horse carriages (caleche)", "louages", "4x4 tours"], "ticket_tnd": 2, "note": "4x4 tours are the easiest way to see the mountain oases."}
+    },
+    "Tabarka": {
+      "activities": ["the Genoese fort", "scuba diving and coral reefs", "Les Aiguilles rock needles", "Tabarka Jazz Festival (summer)"],
+      "airport_transfer": {"airport": "Tabarka-Ain Draham", "taxi_tnd": [25, 40], "minutes": 15, "alternative": null},
+      "public_transport": {"modes": ["louages", "taxis", "buses"], "ticket_tnd": 2, "note": null}
+    },
+    "Bizerte": {
+      "activities": ["the old port and kasbah", "Corniche beaches", "Ichkeul National Park (birds)", "Cap Blanc"],
+      "airport_transfer": {"airport": "Tunis-Carthage", "taxi_tnd": [90, 120], "minutes": 60, "alternative": "louage from Tunis, about 5 TND"},
+      "public_transport": {"modes": ["buses", "louages", "taxis", "train from Tunis"], "ticket_tnd": 1, "note": null}
+    },
+    "Nabeul": {
+      "activities": ["pottery and ceramics shops", "Friday market", "Nabeul beaches", "stone carvers of Dar Chaabane"],
+      "airport_transfer": {"airport": "Enfidha-Hammamet", "taxi_tnd": [60, 80], "minutes": 45, "alternative": null},
+      "public_transport": {"modes": ["louages", "taxis", "train from Tunis"], "ticket_tnd": 2, "note": null}
+    },
+    "Kairouan": {
+      "activities": ["the Great Mosque of Kairouan (Okba)", "Aghlabid basins", "the Medina and makroudh pastries", "carpet shops"],
+      "airport_transfer": {"airport": "Enfidha-Hammamet", "taxi_tnd": [60, 80], "minutes": 50, "alternative": null},
+      "public_transport": {"modes": ["louages", "buses", "taxis"], "ticket_tnd": 1, "note": "A single ticket gives access to the main monuments."}
+    },
+    "Gabes": {
+      "activities": ["the seaside oasis", "Chenini Gabes", "henna and spice market (Jara)", "day trip to Matmata"],
+      "airport_transfer": {"airport": "Gabes-Matmata", "taxi_tnd": [10, 15], "minutes": 15, "alternative": null},
+      "public_transport": {"modes": ["buses", "louages", "taxis", "train"], "ticket_tnd": 1, "note": null}
+    },
+    "Tataouine": {
+      "activities": ["Ksar Ouled Soltane granaries", "Berber village of Chenini", "desert film sets", "Earth Memory museum (dinosaurs)"],
+      "airport_transfer": {"airport": "Djerba-Zarzis", "taxi_tnd": [180, 220], "minutes": 120, "alternative": "louage via Medenine"},
+      "public_transport": {"modes": ["louages", "taxis", "4x4 tours"], "ticket_tnd": 3, "note": "The ksour are spread out: a car or a tour is needed."}
+    },
+    "Douz": {
+      "activities": ["camel rides in the Sahara", "Festival of the Sahara (December)", "night in a desert camp", "trip to Ksar Ghilane"],
+      "airport_transfer": {"airport": "Tozeur-Nefta", "taxi_tnd": [150, 180], "minutes": 90, "alternative": "louage via Kebili"},
+      "public_transport": {"modes": ["louages", "taxis", "4x4 tours"], "ticket_tnd": 3, "note": null}
+    },
+    "Kelibia": {
+      "activities": ["Kelibia fortress", "Mansoura beach", "the fishing port", "Kerkouane Punic ruins nearby"],
+      "airport_transfer": {"airport": "Enfidha-Hammamet", "taxi_tnd": [120, 150], "minutes": 90, "alternative": null},
+      "public_transport": {"modes": ["louages", "taxis"], "ticket_tnd": 2, "note": null}
+    },
+    "Sidi Bou Said": {
+      "activities": ["blue and white streets", "Cafe des Delices sea view", "Dar Ennejma Ezzahra palace", "the marina"],
+      "airport_transfer": {"airport": "Tunis-Carthage", "taxi_tnd": [20, 30], "minutes": 20, "alternative": null},
+      "public_transport": {"modes": ["TGM train to Tunis", "taxis"], "ticket_tnd": 1, "note": null}
+    },
+    "Ain Draham": {
+      "activities": ["hiking in the cork-oak forests", "Beni Mtir lake", "cool mountain climate, snow some winters", "local mountain cuisine"],
+      "airport_transfer": {"airport": "Tabarka-Ain Draham", "taxi_tnd": [40, 60], "minutes": 40, "alternative": null},
+      "public_transport": {"modes": ["louages", "taxis"], "ticket_tnd": 2, "note": null}
+    },
+    "Matmata": {
+      "activities": ["troglodyte (underground) houses", "Hotel Sidi Driss film set", "Berber villages of Tamezret and Toujane", "local museum"],
+      "airport_transfer": {"airport": "Djerba-Zarzis", "taxi_tnd": [150, 180], "minutes": 120, "alternative": "Gabes airport is closer: taxi about 60 TND, 45 min"},
+      "public_transport": {"modes": ["louages from Gabes", "taxis"], "ticket_tnd": 3, "note": null}
+    },
+    "Zarzis": {
+      "activities": ["long beaches", "the marina and fishing port", "olive groves", "day trip to Djerba over the Roman causeway"],
+      "airport_transfer": {"airport": "Djerba-Zarzis", "taxi_tnd": [50, 70], "minutes": 50, "alternative": null},
+      "public_transport": {"modes": ["louages", "taxis"], "ticket_tnd": 2, "note": null}
+    },
+    "Paris": {
+      "activities": ["Eiffel Tower", "the Louvre", "Montmartre and Sacre-Coeur", "boat cruise on the Seine"],
+      "airport_transfer": {"airport": "Paris-Charles de Gaulle", "taxi_tnd": [190, 220], "minutes": 50, "alternative": "RER B train, about 40 TND, 35 min"},
+      "public_transport": {"modes": ["metro", "RER trains", "buses", "trams"], "ticket_tnd": 8.5, "note": "One ticket works on metro, bus and tram inside Paris."}
+    },
+    "Marseille": {
+      "activities": ["the Vieux-Port", "Notre-Dame de la Garde", "boat trip to the Calanques", "MuCEM museum"],
+      "airport_transfer": {"airport": "Marseille Provence", "taxi_tnd": [190, 220], "minutes": 30, "alternative": "shuttle bus, about 34 TND, 25 min"},
+      "public_transport": {"modes": ["metro", "trams", "buses", "ferry across the Vieux-Port"], "ticket_tnd": 7, "note": null}
+    },
+    "Lyon": {
+      "activities": ["Vieux Lyon and its traboules", "Fourviere basilica", "traditional bouchon restaurants", "Parc de la Tete d'Or"],
+      "airport_transfer": {"airport": "Lyon Saint-Exupery", "taxi_tnd": [200, 240], "minutes": 35, "alternative": "Rhonexpress tram, about 55 TND, 30 min"},
+      "public_transport": {"modes": ["metro", "trams", "buses", "funicular"], "ticket_tnd": 7.5, "note": null}
+    },
+    "Rome": {
+      "activities": ["the Colosseum", "Vatican Museums and St Peter's", "Trevi Fountain", "the Pantheon"],
+      "airport_transfer": {"airport": "Rome Fiumicino", "taxi_tnd": [185, 195], "minutes": 45, "alternative": "Leonardo Express train, about 48 TND, 32 min"},
+      "public_transport": {"modes": ["metro", "buses", "trams"], "ticket_tnd": 5, "note": "The centre is best visited on foot."}
+    },
+    "Milan": {
+      "activities": ["the Duomo and its rooftop", "Galleria Vittorio Emanuele II", "The Last Supper (book ahead)", "Navigli canals"],
+      "airport_transfer": {"airport": "Milan Malpensa", "taxi_tnd": [360, 390], "minutes": 50, "alternative": "Malpensa Express train, about 45 TND, 50 min"},
+      "public_transport": {"modes": ["metro", "trams", "buses"], "ticket_tnd": 7.5, "note": null}
+    },
+    "Istanbul": {
+      "activities": ["Hagia Sophia and the Blue Mosque", "the Grand Bazaar", "Bosphorus boat cruise", "Topkapi Palace"],
+      "airport_transfer": {"airport": "Istanbul Airport", "taxi_tnd": [50, 80], "minutes": 50, "alternative": "Havaist bus, about 19 TND, 60-90 min"},
+      "public_transport": {"modes": ["metro", "trams", "ferries", "buses", "Marmaray train"], "ticket_tnd": 2, "note": "Buy an Istanbulkart card: it works on all transport."}
+    },
+    "Dubai": {
+      "activities": ["Burj Khalifa observation deck", "Dubai Mall and fountain show", "desert safari", "Old Dubai, the Creek and abra boats"],
+      "airport_transfer": {"airport": "Dubai International", "taxi_tnd": [50, 75], "minutes": 20, "alternative": "metro red line, about 7 TND, 30 min"},
+      "public_transport": {"modes": ["metro", "tram", "buses", "abra boats"], "ticket_tnd": 5, "note": "Buy a Nol card for metro, tram and buses."}
+    },
+    "London": {
+      "activities": ["British Museum (free)", "Tower of London", "Buckingham Palace", "a West End show"],
+      "airport_transfer": {"airport": "London Heathrow", "taxi_tnd": [320, 435], "minutes": 60, "alternative": "Elizabeth line train, about 51 TND, 35 min"},
+      "public_transport": {"modes": ["Underground (tube)", "buses", "Overground", "Elizabeth line"], "ticket_tnd": 12, "note": "Pay with a contactless card: daily cost is capped."}
+    },
+    "Madrid": {
+      "activities": ["Prado Museum", "Retiro Park", "Royal Palace", "Plaza Mayor and tapas"],
+      "airport_transfer": {"airport": "Madrid Barajas", "taxi_tnd": [110, 115], "minutes": 30, "alternative": "metro with airport supplement, about 17 TND, 40 min"},
+      "public_transport": {"modes": ["metro", "buses", "Cercanias trains"], "ticket_tnd": 6, "note": null}
+    },
+    "Barcelona": {
+      "activities": ["Sagrada Familia (book ahead)", "Park Guell", "the Gothic Quarter", "Barceloneta beach"],
+      "airport_transfer": {"airport": "Barcelona El Prat", "taxi_tnd": [120, 135], "minutes": 30, "alternative": "Aerobus, about 24 TND, 35 min"},
+      "public_transport": {"modes": ["metro", "buses", "trams", "funicular to Montjuic"], "ticket_tnd": 9, "note": "A 10-trip card is much cheaper per ride."}
+    },
+    "Berlin": {
+      "activities": ["Brandenburg Gate", "East Side Gallery (Berlin Wall)", "Museum Island", "Reichstag glass dome (free, book ahead)"],
+      "airport_transfer": {"airport": "Berlin Brandenburg", "taxi_tnd": [170, 205], "minutes": 45, "alternative": "FEX train or S-Bahn, about 16 TND, 30 min"},
+      "public_transport": {"modes": ["U-Bahn", "S-Bahn", "trams", "buses"], "ticket_tnd": 13, "note": null}
+    },
+    "Frankfurt": {
+      "activities": ["Romerberg old town square", "skyline view from the Main Tower", "Museumsufer (museum embankment)", "Palmengarten botanical garden"],
+      "airport_transfer": {"airport": "Frankfurt am Main", "taxi_tnd": [120, 155], "minutes": 20, "alternative": "S-Bahn train, about 20 TND, 15 min"},
+      "public_transport": {"modes": ["U-Bahn", "S-Bahn", "trams", "buses"], "ticket_tnd": 12, "note": null}
+    },
+    "Brussels": {
+      "activities": ["Grand-Place", "the Atomium", "Manneken Pis", "chocolate shops and waffles"],
+      "airport_transfer": {"airport": "Brussels Airport", "taxi_tnd": [155, 170], "minutes": 25, "alternative": "train, about 37 TND, 20 min"},
+      "public_transport": {"modes": ["metro", "trams", "buses"], "ticket_tnd": 9, "note": null}
+    },
+    "Geneva": {
+      "activities": ["the Jet d'Eau fountain", "lake promenade", "old town and St Pierre Cathedral", "visit to CERN"],
+      "airport_transfer": {"airport": "Geneva Airport", "taxi_tnd": [125, 160], "minutes": 15, "alternative": "free public transport ticket from the machine in the baggage hall, train 7 min"},
+      "public_transport": {"modes": ["trams", "buses", "trains", "lake boats (mouettes)"], "ticket_tnd": 11, "note": "Hotels give a free Geneva Transport Card."}
+    },
+    "Amsterdam": {
+      "activities": ["canal cruise", "Rijksmuseum", "Anne Frank House (book ahead)", "Van Gogh Museum"],
+      "airport_transfer": {"airport": "Amsterdam Schiphol", "taxi_tnd": [170, 205], "minutes": 25, "alternative": "train, about 20 TND, 15 min"},
+      "public_transport": {"modes": ["trams", "metro", "buses", "free ferries"], "ticket_tnd": 12, "note": "Renting a bike is the local way to move."}
+    },
+    "Lisbon": {
+      "activities": ["Alfama and tram 28", "Belem Tower and pasteis de nata", "day trip to Sintra", "city viewpoints (miradouros)"],
+      "airport_transfer": {"airport": "Lisbon Humberto Delgado", "taxi_tnd": [50, 85], "minutes": 20, "alternative": "metro red line, about 6 TND, 25 min"},
+      "public_transport": {"modes": ["metro", "trams", "buses", "funiculars", "ferries"], "ticket_tnd": 6, "note": null}
+    },
+    "Malta": {
+      "activities": ["Valletta old city", "the silent city of Mdina", "Blue Lagoon on Comino", "day trip to Gozo"],
+      "airport_transfer": {"airport": "Malta International", "taxi_tnd": [70, 120], "minutes": 20, "alternative": "bus X4 to Valletta, about 9 TND, 25 min"},
+      "public_transport": {"modes": ["buses", "ferries to Gozo and Comino"], "ticket_tnd": 9, "note": "There are no trains in Malta; buses cover the whole island."}
+    },
+    "Algiers": {
+      "activities": ["the Casbah (UNESCO)", "Notre-Dame d'Afrique basilica", "Martyrs' Memorial (Maqam Echahid)", "Jardin d'Essai botanical garden"],
+      "airport_transfer": {"airport": "Algiers Houari Boumediene", "taxi_tnd": [35, 60], "minutes": 30, "alternative": "airport bus, about 2 TND"},
+      "public_transport": {"modes": ["metro", "tram", "cable cars", "buses", "taxis"], "ticket_tnd": 1.5, "note": null}
+    },
+    "Casablanca": {
+      "activities": ["Hassan II Mosque", "Ain Diab Corniche", "the old Medina", "Morocco Mall"],
+      "airport_transfer": {"airport": "Casablanca Mohammed V", "taxi_tnd": [85, 100], "minutes": 40, "alternative": "Al Bidaoui train, about 16 TND, 40 min"},
+      "public_transport": {"modes": ["tram", "buses", "petits taxis (red)", "busway"], "ticket_tnd": 2.5, "note": null}
+    },
+    "Jeddah": {
+      "activities": ["Al-Balad historic district", "Jeddah Corniche and King Fahd's Fountain", "Red Sea diving", "gateway to Mecca for Umrah"],
+      "airport_transfer": {"airport": "Jeddah King Abdulaziz", "taxi_tnd": [50, 80], "minutes": 35, "alternative": "Haramain high-speed train to Mecca from the airport station"},
+      "public_transport": {"modes": ["taxis and ride-hailing apps", "buses", "Haramain train to Mecca and Medina"], "ticket_tnd": 2.5, "note": "Most visitors use ride-hailing apps."}
+    },
+    "Doha": {
+      "activities": ["Museum of Islamic Art", "Souq Waqif", "The Pearl island", "desert trip to the Inland Sea"],
+      "airport_transfer": {"airport": "Doha Hamad International", "taxi_tnd": [45, 60], "minutes": 20, "alternative": "metro red line, about 2 TND, 20 min"},
+      "public_transport": {"modes": ["metro", "buses", "taxis"], "ticket_tnd": 2, "note": null}
+    },
+    "Montreal": {
+      "activities": ["Old Montreal", "Mount Royal park", "Notre-Dame Basilica", "Jean-Talon market"],
+      "airport_transfer": {"airport": "Montreal-Trudeau", "taxi_tnd": [105, 115], "minutes": 30, "alternative": "bus 747, about 24 TND, 45 min"},
+      "public_transport": {"modes": ["metro", "buses"], "ticket_tnd": 8, "note": "Montreal is French-speaking."}
+    },
+    "New York": {
+      "activities": ["Times Square", "Central Park", "Statue of Liberty", "Empire State Building"],
+      "airport_transfer": {"airport": "New York JFK", "taxi_tnd": [260, 305], "minutes": 55, "alternative": "AirTrain + subway, about 35 TND, 60 min"},
+      "public_transport": {"modes": ["subway", "buses", "ferries"], "ticket_tnd": 9, "note": "The subway runs 24 hours a day."}
+    }
+  }
+}

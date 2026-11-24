@@ -8,6 +8,9 @@ The NER model (src/ner/extract.py) only says WHERE the places and dates are. The
        counts:     people = 2
        currencies: TND, amount 300
 
+Places can be cities (places.json), countries or regions (countries.json: "fransa" -> France,
+"orouba" -> Schengen area); each place gets a "kind" (city / country / region).
+
 Strategy for everything: clean the text -> exact lookup in our lexicons -> fuzzy match -> if unsure, mark it
 "ask" so the chatbot asks the user; if nothing is found, the chatbot asks for the missing information.
 No slang list (user decision): unknown expressions are not guessed.
@@ -15,8 +18,10 @@ No slang list (user decision): unknown expressions are not guessed.
 
 import calendar
 import difflib
+import json
 import re
 from datetime import date, timedelta
+from pathlib import Path
 
 import dateparser
 
@@ -47,23 +52,77 @@ def best_match(text, candidates):
 
 # ============================================================================ places
 
-PLACE_INDEX = build_place_index()                    # cleaned spelling -> canonical name
-ARTICLES = ("el ", "la ", "le ", "the ")
+PLACE_INDEX = build_place_index()                    # cleaned spelling -> canonical city name
+
+
+def _build_country_index():
+    """cleaned country / region word -> (canonical name, "country" | "region").
+    A spelling that is already a city in places.json stays a city ('malta')."""
+    with open(Path(__file__).resolve().parents[2] / "data" / "lexicons" / "countries.json", encoding="utf-8") as f:
+        lex = json.load(f)
+    idx = {}
+    for kind, entries in (("country", lex["countries"]), ("region", lex["regions"])):
+        for name, by_lang in entries.items():
+            idx.setdefault(clean(name), (name, kind))
+            for lang in LANGS:
+                for sp in by_lang.get(lang, []):
+                    idx.setdefault(clean(sp), (name, kind))
+    return {k: v for k, v in idx.items() if k not in PLACE_INDEX}
+
+
+COUNTRY_INDEX = _build_country_index()
+ALL_PLACES = {**{k: (v, "city") for k, v in PLACE_INDEX.items()}, **COUNTRY_INDEX}   # spelling -> (name, kind)
+ARTICLES = ("el ", "la ", "le ", "les ", "the ", "l'")
 
 
 def normalize_place(text):
-    """-> {"canonical", "score", "status"}; status: ok | ask (confirm with the user) | unknown (not in our data)"""
+    """-> {"canonical", "kind", "score", "status"}
+    kind:   city | country | region  (region = "Schengen area" or "Gulf")
+    status: ok | ask (confirm with the user) | unknown (not in our data)"""
     c = clean(text)
     forms = [c] + [c[len(a):] for a in ARTICLES if c.startswith(a)]
     for f in forms:
-        if f in PLACE_INDEX:
-            return {"canonical": PLACE_INDEX[f], "score": 1.0, "status": "ok"}
-    spelling, score = max((best_match(f, PLACE_INDEX) for f in forms), key=lambda t: t[1])
+        if f in ALL_PLACES:
+            name, kind = ALL_PLACES[f]
+            return {"canonical": name, "kind": kind, "score": 1.0, "status": "ok"}
+    spelling, score = max((best_match(f, ALL_PLACES) for f in forms), key=lambda t: t[1])
+    name, kind = ALL_PLACES[spelling]
     if score >= ACCEPT:
-        return {"canonical": PLACE_INDEX[spelling], "score": round(score, 2), "status": "ok"}
+        return {"canonical": name, "kind": kind, "score": round(score, 2), "status": "ok"}
     if score >= ASK:
-        return {"canonical": PLACE_INDEX[spelling], "score": round(score, 2), "status": "ask"}
-    return {"canonical": None, "score": round(score, 2), "status": "unknown"}
+        return {"canonical": name, "kind": kind, "score": round(score, 2), "status": "ask"}
+    return {"canonical": None, "kind": None, "score": round(score, 2), "status": "unknown"}
+
+
+AIRLINE_NEIGHBOURS = {"air", "airways", "airlines"}   # "Air France", "Qatar Airways" are airlines, not places
+
+
+def find_country_words(text):
+    """Safety net when the NER found no place: exact country / region words in the text
+    ('visa process to europe'). Exact matches only, to avoid false alarms on ordinary words."""
+    norm = norm_text(text)                                       # same length as text: offsets stay valid
+    tokens = [(m.start(), m.end()) for m in WORD_RE.finditer(norm)]
+    found, i = [], 0
+    while i < len(tokens):
+        hit = None
+        for n in (3, 2, 1):                                      # longest first: "united arab emirates"
+            if i + n <= len(tokens):
+                s, e = tokens[i][0], tokens[i + n - 1][1]
+                if clean(norm[s:e]) in COUNTRY_INDEX:
+                    hit = (s, e, n)
+                    break
+        if hit:
+            s, e, n = hit
+            prev = clean(norm[tokens[i - 1][0]:tokens[i - 1][1]]) if i > 0 else ""
+            nxt = clean(norm[tokens[i + n][0]:tokens[i + n][1]]) if i + n < len(tokens) else ""
+            if prev not in AIRLINE_NEIGHBOURS and nxt not in AIRLINE_NEIGHBOURS:
+                name, kind = COUNTRY_INDEX[clean(norm[s:e])]
+                found.append({"text": text[s:e], "start": s, "canonical": name, "kind": kind,
+                              "score": 1.0, "status": "ok", "how": "rule (no NER place)"})
+            i += n
+        else:
+            i += 1
+    return found
 
 
 ORIGIN_WORDS = {"men", "mel", "mn", "from", "de", "du", "d", "depuis"}
@@ -330,6 +389,8 @@ def extract_slots(text, today=None, entities=None):
     for e in entities:
         if e["label"] == "LOC":
             places.append({"text": e["text"], "start": e["start"], **normalize_place(e["text"])})
+    if not places:                                      # safety net: our NER data only had cities, not countries
+        places = find_country_words(text)
     place_roles(text, places)
     dates = []
     for e in entities:
@@ -341,7 +402,8 @@ def extract_slots(text, today=None, entities=None):
             if found:
                 dates.append({"text": m.group(), **found, "how": "rule (no NER date)"})
                 break
-    countries = [PLACES[p["canonical"]]["country"] for p in places if p["canonical"]]
+    countries = [PLACES[p["canonical"]]["country"] if p["kind"] == "city" else p["canonical"]
+                 for p in places if p["kind"] in ("city", "country")]
     slots = {"places": places, "dates": dates, "currencies": find_currencies(text, countries),
              "counts": find_counts(text), "airlines": find_airlines(text)}
     slots["to_confirm"] = [p["text"] for p in places if p["status"] == "ask"] + \

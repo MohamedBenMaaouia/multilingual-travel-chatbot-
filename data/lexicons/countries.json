@@ -1,0 +1,29 @@
+{
+  "_note": "Country and region names, used by src/ner/rules.py (normalize_place + safety net) so that 'visa l fransa' or 'visa for Europe' resolve. Only the DIFFERENT words are listed (one per language form); typos around them are caught by fuzzy matching. City names stay in places.json (a spelling already there wins: 'malta' = the Malta entry). Words that are also common words or airline names are left out on purpose ('us', 'emirates', 'saudia', 'tounes' = the city Tunis). tn_latin spellings approved by the user.",
+  "countries": {
+    "Tunisia":      {"en": ["Tunisia"], "fr": ["Tunisie"], "tn_latin": ["tunisie", "tunisia"]},
+    "France":       {"en": ["France"], "fr": ["France"], "tn_latin": ["fransa", "franssa", "france"]},
+    "Italy":        {"en": ["Italy"], "fr": ["Italie"], "tn_latin": ["italia", "etalia", "talyen", "italie"]},
+    "Spain":        {"en": ["Spain"], "fr": ["Espagne"], "tn_latin": ["espanya", "sbanya", "spania", "espagne"]},
+    "Germany":      {"en": ["Germany"], "fr": ["Allemagne"], "tn_latin": ["almania", "alemania", "allemagne"]},
+    "Belgium":      {"en": ["Belgium"], "fr": ["Belgique"], "tn_latin": ["belgique", "beljika"]},
+    "Switzerland":  {"en": ["Switzerland"], "fr": ["Suisse"], "tn_latin": ["suisse", "swisra"]},
+    "Netherlands":  {"en": ["Netherlands", "Holland"], "fr": ["Pays-Bas", "Hollande"], "tn_latin": ["holanda", "hollande"]},
+    "Portugal":     {"en": ["Portugal"], "fr": ["Portugal"], "tn_latin": ["portugal", "bortugal"]},
+    "UK":           {"en": ["UK", "United Kingdom", "England", "Britain", "Great Britain"], "fr": ["Royaume-Uni", "Angleterre"], "tn_latin": ["angleterre", "ingliterra", "britania"]},
+    "Turkey":       {"en": ["Turkey", "Turkiye"], "fr": ["Turquie"], "tn_latin": ["torkia", "turkia", "turquie"]},
+    "UAE":          {"en": ["UAE", "United Arab Emirates"], "fr": ["Emirats", "Emirats arabes unis"], "tn_latin": ["emarat", "emirats"]},
+    "Algeria":      {"en": ["Algeria"], "fr": ["Algerie"], "tn_latin": ["dzayer", "jazayer", "algerie"]},
+    "Morocco":      {"en": ["Morocco"], "fr": ["Maroc"], "tn_latin": ["maroc", "marok"]},
+    "Saudi Arabia": {"en": ["Saudi Arabia", "Saudi"], "fr": ["Arabie saoudite", "Arabie"], "tn_latin": ["sa3oudia", "s3oudia", "saoudia"]},
+    "Qatar":        {"en": ["Qatar"], "fr": ["Qatar"], "tn_latin": ["qatar", "9atar"]},
+    "Canada":       {"en": ["Canada"], "fr": ["Canada"], "tn_latin": ["canada", "kanada"]},
+    "USA":          {"en": ["USA", "United States", "America"], "fr": ["Etats-Unis", "Amerique"], "tn_latin": ["amrika", "merika", "etats unis"]}
+  },
+  "regions": {
+    "Schengen area": {"members": ["France", "Italy", "Spain", "Germany", "Belgium", "Switzerland", "Netherlands", "Portugal", "Malta"],
+                      "en": ["Europe", "Schengen", "Schengen area"], "fr": ["Europe", "espace Schengen"], "tn_latin": ["orouba", "ourouba", "europe", "schengen"]},
+    "Gulf":          {"members": ["UAE", "Qatar", "Saudi Arabia"],
+                      "en": ["Gulf", "Gulf countries"], "fr": ["Golfe", "pays du Golfe"], "tn_latin": ["khalij", "el khalij", "dowal el khalij"]}
+  }
+}

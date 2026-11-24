@@ -1,0 +1,225 @@
+{
+  "_note": "MOCK data for the project, realistic but not authoritative. Visa rules are for a TUNISIAN passport. Prices in TND. Used by src/mock_api/service.py (get_visa_info, get_payment_info, get_car_rental).",
+  "countries": {
+    "Tunisia": {
+      "currency": "TND",
+      "visa": {"needed": "no", "type": "domestic travel", "max_stay_days": null,
+               "documents": ["national ID card (CIN)"], "fee_tnd": 0, "processing_days": 0,
+               "where": null, "note": "No visa or passport needed for travel inside Tunisia."},
+      "payment": {"cards": "accepted in hotels, big shops, malls and many restaurants",
+                  "cash": "needed in souks, small cafes, louages and most taxis",
+                  "atm": "common in cities and tourist areas, rare in small villages",
+                  "tipping": "round up in cafes and taxis, about 10% in tourist restaurants",
+                  "note": "The dinar is a closed currency: it cannot be bought abroad. Exchange at the airport or a bank and keep the receipts to change money back."},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian driving licence held for at least 2 years",
+                  "car_rental_per_day_tnd": [100, 150], "note": "Fuel is cheap; watch for speed checks on main roads."}
+    },
+    "France": {
+      "currency": "EUR",
+      "visa": {"needed": "yes", "type": "Schengen short-stay visa (type C)", "max_stay_days": 90,
+               "documents": ["passport valid 3 months after return", "application form", "2 photos", "travel insurance (min. 30,000 EUR)", "hotel booking or invitation", "return ticket", "bank statements (last 3 months)", "proof of work or studies"],
+               "fee_tnd": 305, "processing_days": 15, "where": "visa application centre in Tunis (appointment online)",
+               "note": "A Schengen visa from France is valid in all Schengen countries."},
+      "payment": {"cards": "accepted almost everywhere, contactless even for small amounts",
+                  "cash": "rarely needed, useful for markets and small bakeries",
+                  "atm": "everywhere",
+                  "tipping": "service is included; leaving a few euros is a nice extra",
+                  "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [135, 205], "note": "Motorways have tolls; city centres have paid parking."}
+    },
+    "Italy": {
+      "currency": "EUR",
+      "visa": {"needed": "yes", "type": "Schengen short-stay visa (type C)", "max_stay_days": 90,
+               "documents": ["passport valid 3 months after return", "application form", "2 photos", "travel insurance (min. 30,000 EUR)", "hotel booking or invitation", "return ticket", "bank statements (last 3 months)", "proof of work or studies"],
+               "fee_tnd": 305, "processing_days": 15, "where": "visa application centre in Tunis (appointment online)",
+               "note": "A Schengen visa from Italy is valid in all Schengen countries."},
+      "payment": {"cards": "widely accepted in cities", "cash": "still common in small bars, markets and in the south",
+                  "atm": "everywhere (called Bancomat)", "tipping": "not expected; a 'coperto' cover charge is often on the bill", "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit required",
+                  "car_rental_per_day_tnd": [120, 190], "note": "Many city centres are restricted zones (ZTL) with fines for cars."}
+    },
+    "Spain": {
+      "currency": "EUR",
+      "visa": {"needed": "yes", "type": "Schengen short-stay visa (type C)", "max_stay_days": 90,
+               "documents": ["passport valid 3 months after return", "application form", "2 photos", "travel insurance (min. 30,000 EUR)", "hotel booking or invitation", "return ticket", "bank statements (last 3 months)", "proof of work or studies"],
+               "fee_tnd": 305, "processing_days": 15, "where": "visa application centre in Tunis (appointment online)",
+               "note": "A Schengen visa from Spain is valid in all Schengen countries."},
+      "payment": {"cards": "accepted almost everywhere", "cash": "useful for tapas bars and markets",
+                  "atm": "everywhere", "tipping": "not expected; round up or leave 5-10% for good service", "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [100, 170], "note": null}
+    },
+    "Germany": {
+      "currency": "EUR",
+      "visa": {"needed": "yes", "type": "Schengen short-stay visa (type C)", "max_stay_days": 90,
+               "documents": ["passport valid 3 months after return", "application form", "2 photos", "travel insurance (min. 30,000 EUR)", "hotel booking or invitation", "return ticket", "bank statements (last 3 months)", "proof of work or studies"],
+               "fee_tnd": 305, "processing_days": 15, "where": "visa application centre in Tunis (appointment online)",
+               "note": "A Schengen visa from Germany is valid in all Schengen countries."},
+      "payment": {"cards": "accepted in most shops, but not everywhere", "cash": "still needed in some restaurants, bakeries and small shops (\"nur Bargeld\")",
+                  "atm": "everywhere", "tipping": "about 5-10%, said when paying", "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [135, 205], "note": "Some motorway sections have no speed limit."}
+    },
+    "Belgium": {
+      "currency": "EUR",
+      "visa": {"needed": "yes", "type": "Schengen short-stay visa (type C)", "max_stay_days": 90,
+               "documents": ["passport valid 3 months after return", "application form", "2 photos", "travel insurance (min. 30,000 EUR)", "hotel booking or invitation", "return ticket", "bank statements (last 3 months)", "proof of work or studies"],
+               "fee_tnd": 305, "processing_days": 15, "where": "visa application centre in Tunis (appointment online)",
+               "note": "A Schengen visa from Belgium is valid in all Schengen countries."},
+      "payment": {"cards": "accepted almost everywhere (Bancontact, Visa, Mastercard)", "cash": "rarely needed",
+                  "atm": "everywhere", "tipping": "service included; rounding up is enough", "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [135, 205], "note": null}
+    },
+    "Switzerland": {
+      "currency": "CHF",
+      "visa": {"needed": "yes", "type": "Schengen short-stay visa (type C)", "max_stay_days": 90,
+               "documents": ["passport valid 3 months after return", "application form", "2 photos", "travel insurance (min. 30,000 EUR)", "hotel booking or invitation", "return ticket", "bank statements (last 3 months)", "proof of work or studies"],
+               "fee_tnd": 305, "processing_days": 15, "where": "visa application centre in Tunis (appointment online)",
+               "note": "Switzerland is in Schengen even though it is not in the EU."},
+      "payment": {"cards": "accepted almost everywhere", "cash": "Swiss francs; euros sometimes accepted at a poor rate",
+                  "atm": "everywhere", "tipping": "service included; rounding up is enough", "note": "Switzerland is expensive: budget more than for France."},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [250, 355], "note": "A motorway sticker (vignette) is required."}
+    },
+    "Netherlands": {
+      "currency": "EUR",
+      "visa": {"needed": "yes", "type": "Schengen short-stay visa (type C)", "max_stay_days": 90,
+               "documents": ["passport valid 3 months after return", "application form", "2 photos", "travel insurance (min. 30,000 EUR)", "hotel booking or invitation", "return ticket", "bank statements (last 3 months)", "proof of work or studies"],
+               "fee_tnd": 305, "processing_days": 15, "where": "visa application centre in Tunis (appointment online)",
+               "note": "A Schengen visa from the Netherlands is valid in all Schengen countries."},
+      "payment": {"cards": "debit cards everywhere; some shops refuse credit cards", "cash": "some places are card-only and refuse cash",
+                  "atm": "common", "tipping": "not expected; 5-10% for good service", "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [155, 220], "note": "Watch out for cyclists; parking in Amsterdam is very expensive."}
+    },
+    "Portugal": {
+      "currency": "EUR",
+      "visa": {"needed": "yes", "type": "Schengen short-stay visa (type C)", "max_stay_days": 90,
+               "documents": ["passport valid 3 months after return", "application form", "2 photos", "travel insurance (min. 30,000 EUR)", "hotel booking or invitation", "return ticket", "bank statements (last 3 months)", "proof of work or studies"],
+               "fee_tnd": 305, "processing_days": 15, "where": "visa application centre in Tunis (appointment online)",
+               "note": "A Schengen visa from Portugal is valid in all Schengen countries."},
+      "payment": {"cards": "widely accepted", "cash": "some small cafes and shops are cash only",
+                  "atm": "everywhere (called Multibanco)", "tipping": "not expected; 5-10% for good service", "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [85, 155], "note": "Motorways have electronic tolls: ask the rental company for a toll device."}
+    },
+    "Malta": {
+      "currency": "EUR",
+      "visa": {"needed": "yes", "type": "Schengen short-stay visa (type C)", "max_stay_days": 90,
+               "documents": ["passport valid 3 months after return", "application form", "2 photos", "travel insurance (min. 30,000 EUR)", "hotel booking or invitation", "return ticket", "bank statements (last 3 months)", "proof of work or studies"],
+               "fee_tnd": 305, "processing_days": 15, "where": "visa application centre in Tunis (appointment online)",
+               "note": "A Schengen visa from Malta is valid in all Schengen countries."},
+      "payment": {"cards": "widely accepted", "cash": "useful in small villages and on Gozo",
+                  "atm": "common", "tipping": "5-10% in restaurants", "note": null},
+      "driving": {"side": "left", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [85, 135], "note": "Cars drive on the LEFT in Malta."}
+    },
+    "UK": {
+      "currency": "GBP",
+      "visa": {"needed": "yes", "type": "Standard Visitor visa", "max_stay_days": 180,
+               "documents": ["valid passport", "online application form", "biometrics appointment", "bank statements (last 6 months)", "proof of work or studies", "hotel booking or invitation"],
+               "fee_tnd": 500, "processing_days": 21, "where": "online application, then biometrics at the visa centre in Tunis",
+               "note": "The UK is not in Schengen: a Schengen visa is not valid there."},
+      "payment": {"cards": "contactless accepted almost everywhere, including buses", "cash": "rarely needed; some places are card-only",
+                  "atm": "everywhere (cash machines)", "tipping": "10-12.5% in restaurants if service is not included", "note": null},
+      "driving": {"side": "left", "min_age": 23, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [140, 215], "note": "Cars drive on the LEFT; central London has a congestion charge."}
+    },
+    "Turkey": {
+      "currency": "TRY",
+      "visa": {"needed": "no", "type": "visa-free for Tunisian passports", "max_stay_days": 90,
+               "documents": ["passport valid 6 months", "return ticket", "hotel booking"], "fee_tnd": 0, "processing_days": 0,
+               "where": null, "note": "Up to 90 days in any 180 days without a visa."},
+      "payment": {"cards": "widely accepted in cities", "cash": "needed in bazaars, small shops and street food",
+                  "atm": "everywhere", "tipping": "5-10% in restaurants",
+                  "note": "Bargaining is normal in the Grand Bazaar. Prices change often because of inflation."},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [70, 110], "note": "Istanbul traffic is very heavy: public transport is easier."}
+    },
+    "UAE": {
+      "currency": "AED",
+      "visa": {"needed": "yes", "type": "tourist e-visa (30 days)", "max_stay_days": 30,
+               "documents": ["passport valid 6 months", "passport scan", "photo", "return ticket", "hotel booking"],
+               "fee_tnd": 350, "processing_days": 5, "where": "online, through an airline, a hotel or a travel agency",
+               "note": "The visa must be approved before boarding."},
+      "payment": {"cards": "accepted everywhere, including taxis", "cash": "useful only in old souks",
+                  "atm": "everywhere", "tipping": "about 10% in restaurants", "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit required",
+                  "car_rental_per_day_tnd": [85, 125], "note": "Many speed cameras; fines are high."}
+    },
+    "Algeria": {
+      "currency": "DZD",
+      "visa": {"needed": "no", "type": "visa-free for Tunisian passports", "max_stay_days": 90,
+               "documents": ["valid passport"], "fee_tnd": 0, "processing_days": 0, "where": null,
+               "note": "Border crossing by road is also possible (e.g. Babouch, Melloula)."},
+      "payment": {"cards": "rarely accepted; foreign cards often do not work", "cash": "cash is the norm: bring euros to exchange",
+                  "atm": "in cities, mostly for local cards", "tipping": "small tips appreciated", "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence accepted",
+                  "car_rental_per_day_tnd": [90, 140], "note": "Expect police checkpoints on main roads."}
+    },
+    "Morocco": {
+      "currency": "MAD",
+      "visa": {"needed": "no", "type": "visa-free for Tunisian passports", "max_stay_days": 90,
+               "documents": ["passport valid 6 months"], "fee_tnd": 0, "processing_days": 0, "where": null, "note": null},
+      "payment": {"cards": "accepted in hotels, malls and bigger restaurants", "cash": "needed in medinas, souks, petits taxis",
+                  "atm": "common in cities", "tipping": "about 10% in restaurants; small tips for guides",
+                  "note": "The dirham is a closed currency, like the dinar. Bargaining is normal in souks."},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence accepted",
+                  "car_rental_per_day_tnd": [80, 125], "note": null}
+    },
+    "Saudi Arabia": {
+      "currency": "SAR",
+      "visa": {"needed": "yes", "type": "Umrah visa through an approved agency, or tourist visa at the embassy", "max_stay_days": 90,
+               "documents": ["passport valid 6 months", "photo", "vaccination certificate (meningitis) for Umrah", "booking through an approved agency for Umrah"],
+               "fee_tnd": 450, "processing_days": 7, "where": "approved Umrah travel agency, or the Saudi embassy in Tunis",
+               "note": "Umrah packages usually include the visa, flights and hotel."},
+      "payment": {"cards": "widely accepted, including mobile payments", "cash": "useful in small shops and old markets",
+                  "atm": "everywhere", "tipping": "not expected; 10% in restaurants is appreciated", "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit required",
+                  "car_rental_per_day_tnd": [100, 145], "note": null}
+    },
+    "Qatar": {
+      "currency": "QAR",
+      "visa": {"needed": "yes", "type": "tourist e-visa (Hayya platform)", "max_stay_days": 30,
+               "documents": ["passport valid 6 months", "hotel booking", "return ticket"],
+               "fee_tnd": 85, "processing_days": 5, "where": "online (Hayya platform)", "note": null},
+      "payment": {"cards": "accepted everywhere", "cash": "rarely needed", "atm": "everywhere",
+                  "tipping": "about 10% in restaurants", "note": null},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit required",
+                  "car_rental_per_day_tnd": [100, 155], "note": null}
+    },
+    "Canada": {
+      "currency": "CAD",
+      "visa": {"needed": "yes", "type": "visitor visa (temporary resident visa)", "max_stay_days": 180,
+               "documents": ["valid passport", "online application", "biometrics", "bank statements", "proof of work or studies", "travel plan"],
+               "fee_tnd": 410, "processing_days": 60, "where": "online, biometrics at the visa centre in Tunis",
+               "note": "Processing can be long: apply early."},
+      "payment": {"cards": "accepted everywhere", "cash": "rarely needed", "atm": "everywhere",
+                  "tipping": "15-20% in restaurants and taxis", "note": "Prices are shown without tax; tax is added at the till."},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [110, 175], "note": "Winter tyres are needed in Quebec in winter."}
+    },
+    "USA": {
+      "currency": "USD",
+      "visa": {"needed": "yes", "type": "B1/B2 visitor visa", "max_stay_days": 180,
+               "documents": ["valid passport", "DS-160 online form", "photo", "interview at the US embassy", "bank statements", "proof of work or studies"],
+               "fee_tnd": 565, "processing_days": 90, "where": "US embassy in Tunis (interview)",
+               "note": "Waiting times for an interview can be several months."},
+      "payment": {"cards": "accepted everywhere", "cash": "rarely needed", "atm": "everywhere",
+                  "tipping": "18-20% in restaurants, about 15% for taxis", "note": "Prices are shown without sales tax."},
+      "driving": {"side": "right", "min_age": 21, "licence": "Tunisian licence + international driving permit recommended",
+                  "car_rental_per_day_tnd": [135, 215], "note": "Drivers under 25 usually pay an extra fee."}
+    }
+  },
+  "regions": {
+    "_note": "Members are listed in data/lexicons/countries.json. A region with a common 'visa' block returns it; otherwise get_visa_info returns one summary per member country.",
+    "Schengen area": {
+      "visa": {"needed": "yes", "type": "Schengen short-stay visa (type C)", "max_stay_days": 90,
+               "documents": ["passport valid 3 months after return", "application form", "2 photos", "travel insurance (min. 30,000 EUR)", "hotel booking or invitation", "return ticket", "bank statements (last 3 months)", "proof of work or studies"],
+               "fee_tnd": 305, "processing_days": 15, "where": "visa application centre in Tunis, at the consulate of the country where you spend the most nights",
+               "note": "One Schengen visa is valid in all Schengen countries. The UK is not in Schengen."}
+    }
+  }
+}
