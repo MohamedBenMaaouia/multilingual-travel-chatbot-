@@ -4,6 +4,7 @@ __pycache__/
 .venv/
 venv/
 .ipynb_checkpoints/
+.pytest_cache/
 
 # Trained models (large binaries; downloaded from Colab or trained locally)
 models/*

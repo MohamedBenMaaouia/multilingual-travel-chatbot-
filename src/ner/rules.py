@@ -351,12 +351,14 @@ def find_counts(text):
     counts = {}
     for i, tok in enumerate(tokens):
         n = to_number(tok)
-        if n is None or i + 1 >= len(tokens):
+        if n is None:
             continue
-        for unit, words in UNITS.items():
-            if tokens[i + 1] in words:
-                counts.setdefault(unit, n)
-        if i > 0 and tokens[i - 1] in ("a7na", "on est", "we are"):
+        if i + 1 < len(tokens):                      # "3 lyeli": the unit is the next word
+            for unit, words in UNITS.items():
+                if tokens[i + 1] in words:
+                    counts.setdefault(unit, n)
+        before = tokens[max(0, i - 2):i]                # "a7na 4", "on est 3", "we are 3", even at the end
+        if before[-1:] == ["a7na"] or " ".join(before) in ("on est", "we are"):
             counts.setdefault("people", n)
     return counts
 

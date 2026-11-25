@@ -25,3 +25,6 @@ dateparser==1.5.1     # Module 4 rules: general French/English date expressions
 # Module 5: orchestration (LangGraph) and LLM integration
 langgraph==1.2.24
 langchain-ollama==1.1.0
+
+# tests:  pytest tests -m "not slow"   (add -m slow for the end-to-end tests with the real Mistral answers)
+pytest==9.2.0
