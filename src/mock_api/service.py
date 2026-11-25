@@ -2,7 +2,7 @@
 
   weather.csv          -> get_weather
   exchange_rates.json  -> get_exchange_rate
-  flights.csv          -> search_flights
+  flights.csv          -> search_flights, get_baggage_rules
   hotels.csv           -> search_hotels
   country_info.json    -> get_visa_info, get_payment_info, get_car_rental
   city_info.json       -> get_activities, get_airport_transfer, get_public_transport
@@ -213,6 +213,19 @@ def search_flights(origin, destination, date=None):
     if not next_dates and seasons == {"winter"}:
         return {**base, "found": False, "reason": "this route only flies in winter (November to March)"}
     return {**base, "found": False, "reason": "no flight on this date", "next_dates": next_dates}
+
+
+def get_baggage_rules(airline):
+    """Baggage allowance of an airline (the same on all its flights in flights.csv)."""
+    rows = [r for r in _read_csv("flights.csv") if _same(r["airline"], airline)]
+    if not rows:
+        known = sorted({r["airline"] for r in _read_csv("flights.csv")})
+        return {"found": False, "airline": airline, "reason": "no data for this airline", "known_airlines": known}
+    r = rows[0]
+    return {"found": True, "airline": r["airline"],
+            "cabin_bag_kg": int(r["cabin_bag_kg"]),
+            "checked_bag_kg": int(r["checked_bag_kg"]),            # 0 = checked bag not included in the ticket
+            "extra_bag_price_tnd": int(r["extra_bag_price_tnd"])}
 
 
 # ---------- 4. hotels ----------

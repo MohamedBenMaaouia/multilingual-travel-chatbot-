@@ -74,3 +74,32 @@ def chat(model, messages, *, temperature=0.0, max_tokens=200, think=None, keep_a
     with urllib.request.urlopen(request, timeout=timeout) as response:
         data = json.load(response)
     return data["message"]["content"].strip(), time.perf_counter() - start
+
+
+def chat_stream(model, messages, *, temperature=0.0, max_tokens=200, keep_alive="15m", seed=42, total_timeout=60):
+    """Same as chat(), but yields the answer piece by piece WHILE Mistral writes it (for the UI).
+
+    Ollama sends one JSON line per piece: {"message": {"content": "..."}, "done": false}, the last one has done=true.
+    total_timeout is NOT a speed limit: it only stops a call that is really stuck (normal answers take ~5-10 s).
+    """
+    ensure_ollama_running()
+    payload = {
+        "model": model,
+        "messages": messages,
+        "stream": True,
+        "keep_alive": keep_alive,
+        "options": {"temperature": temperature, "num_predict": max_tokens, "seed": seed},
+    }
+    request = urllib.request.Request(OLLAMA_URL, data=json.dumps(payload).encode("utf-8"),
+                                     headers={"Content-Type": "application/json"})
+    start = time.perf_counter()
+    with urllib.request.urlopen(request, timeout=total_timeout) as response:
+        for line in response:
+            if time.perf_counter() - start > total_timeout:
+                raise TimeoutError(f"no complete answer after {total_timeout} s")
+            data = json.loads(line)
+            piece = data.get("message", {}).get("content", "")
+            if piece:
+                yield piece
+            if data.get("done"):
+                return

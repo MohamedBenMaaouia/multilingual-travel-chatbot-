@@ -9,7 +9,10 @@ refusing a real customer (false rejection) is the worst mistake for the chatbot.
 Two prompt versions (both kept so the report can compare them):
   v1 - a short instruction only (zero-shot). On val: accuracy 88.7%, 7.4% of travel questions refused.
   v2 - a stricter definition + 16 solved examples taken from the TRAIN set (few-shot), and the answer is
-       FORCED to be {"label": "TRAVEL"} or {"label": "OTHER"} with a JSON schema (no unclear answers). Default.
+       FORCED to be {"label": "TRAVEL"} or {"label": "OTHER"} with a JSON schema (no unclear answers).
+  v3 - v2 + one sentence: greetings, thanks and acknowledgements are OTHER. Used by the chatbot
+       (src/pipeline/understanding.py). Small-talk check: 14/15 OTHER (v2: 9/15), short travel questions 8/8.
+       Not re-measured on val (user's choice).
 """
 
 import json
@@ -38,6 +41,13 @@ PROMPT_V2 = (
     "messages, general knowledge, greetings, even when the message mentions a city.\n"
     "Messages are in English, French, or Tunisian Arabic written in Latin letters (Arabizi).\n"
     "Reply with one word only: TRAVEL or OTHER. Never write anything else."
+)
+
+# v3 = v2 + one sentence: thanks and acknowledgements ("merci", "ok", "behi") were labelled TRAVEL by v2.
+PROMPT_V3 = PROMPT_V2.replace(
+    "Messages are in English",
+    "Greetings, thanks, goodbyes and short acknowledgements ('ok', 'merci', 'perfect') are OTHER: "
+    "they are not a travel request.\nMessages are in English",
 )
 
 # Solved examples, all taken from data/processed/train.jsonl (never from val or test).
@@ -70,7 +80,7 @@ LABEL_SCHEMA = {"type": "object", "properties": {"label": {"type": "string", "en
 def build_messages(text, version=2):
     if version == 1:
         return [{"role": "system", "content": PROMPT_V1}, {"role": "user", "content": text}]
-    messages = [{"role": "system", "content": PROMPT_V2}]
+    messages = [{"role": "system", "content": PROMPT_V3 if version == 3 else PROMPT_V2}]   # v2 and v3: same examples
     for example, label in FEW_SHOT_V2:
         messages += [{"role": "user", "content": example},
                      {"role": "assistant", "content": json.dumps({"label": label})}]
@@ -83,7 +93,7 @@ def classify_travel(text, model=DEFAULT_MODEL, version=2):
         raw, seconds = chat(model, build_messages(text, 1), temperature=0.0, max_tokens=5)
         answer = raw.strip().upper()
     else:
-        raw, seconds = chat(model, build_messages(text, 2), temperature=0.0, max_tokens=20, format=LABEL_SCHEMA)
+        raw, seconds = chat(model, build_messages(text, version), temperature=0.0, max_tokens=20, format=LABEL_SCHEMA)
         try:
             answer = json.loads(raw)["label"]
         except (json.JSONDecodeError, KeyError, TypeError):

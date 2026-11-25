@@ -1,6 +1,6 @@
 # Agentic architecture of the travel chatbot (LangGraph)
 
-> Status: **proposal v2** (simpler and clearer than v1). Not built yet.
+> Status: **v2, approved**, being built (v2.1: the travel filter stays as in Module 2; the Chat agent lets Mistral write; the Supervisor handles follow-ups with memory rules).
 > LangGraph concepts used here are explained in [`langgraph_guide.md`](langgraph_guide.md).
 > Diagrams are in Mermaid: they render on GitHub, or in VS Code with the "Markdown Preview Mermaid Support" extension.
 
@@ -60,7 +60,7 @@ That's the whole system: **6 kinds of agent, 4 stages, 3 routes.**
 flowchart LR
     M([message]) --> L[Language<br/>fastText]
     M --> N[Places & dates<br/>XLM-R NER + rules]
-    M --> I[Intent check<br/>Mistral, JSON]
+    M --> I[Travel filter<br/>Mistral, JSON]
     N --> K[Subcategory<br/>MLP classifier]
     L --> CARD[(message card)]
     K --> CARD
@@ -77,13 +77,16 @@ The three branches run **at the same time** (in parallel), so the slow one (Mist
 | Language | `detect_language()` — Module 1 | `en` / `fr` / `tn_latin` + confidence |
 | Places & dates | `extract_entities()` + `extract_slots()` — Module 4 | Djerba (destination), 2026-11-27, 2 people, 300 TND... |
 | Subcategory | `classify()` — Module 3 | `flight_price` + confidence + 2nd choice |
-| Intent check | **Mistral, one JSON answer** — replaces the Module 2 travel filter | is it travel? what kind of message? (new question / follow-up / correction / answer to our question / greeting / thanks / off-topic) |
+| Travel filter | `classify_travel()` — Module 2, **unchanged** (Mistral, JSON, 93.4% on val) | travel or other |
+
+The filter looks at the message **alone**. Short messages that continue the conversation ("ghodwa", "w f sousse?")
+are recognised by the Supervisor with the memory (section 3), not by the filter.
 
 **The message card (example):**
 ```
 text:        "9adech el billet men tunis l jarba nhar el jem3a?"
 language:    tn_latin (100%)
-travel:      yes        kind: new question
+travel:      yes
 subcategory: flight_price (96%)
 places:      Tunis (origin), Djerba (destination)
 dates:       2026-11-27
@@ -93,26 +96,35 @@ dates:       2026-11-27
 
 ## 3. Stage ② — the Supervisor (the orchestrator)
 
-**Job:** look at the card and the memory, and choose **one route**. It decides with **simple rules first**; only if the rules can't decide, it asks Mistral (structured JSON answer).
+**Job:** look at the card and the memory, and choose **one route**. It decides with **simple rules, memory first**; only if the rules can't decide, it asks Mistral (structured JSON answer).
 
 ```mermaid
 flowchart TD
-    CARD[(message card<br/>+ memory)] --> Q1{greeting, thanks,<br/>or off-topic?}
+    CARD[(message card<br/>+ memory)] --> M1{did the bot ask a question,<br/>and the message answers it?}
+    M1 -->|yes| FILL[fill the slot,<br/>keep the topic]
+    M1 -->|no| M2{topic in memory, new place/date,<br/>no clear new subcategory?}
+    M2 -->|yes| FILL2[follow-up or correction:<br/>new values replace old ones,<br/>keep the topic]
+    M2 -->|no| Q1{travel filter<br/>says OTHER?}
     Q1 -->|yes| CHAT[Chat agent]
-    Q1 -->|no| Q2{needed info missing,<br/>or a doubtful value?}
+    Q1 -->|no| NEWQ[new question:<br/>topic = subcategory]
+    FILL --> Q2
+    FILL2 --> Q2
+    NEWQ --> Q2{needed info missing,<br/>or a doubtful value?}
     Q2 -->|yes| CLAR[Clarifier]
-    Q2 -->|no| Q3{signals clear?<br/>models agree, confident}
-    Q3 -->|yes| EXP[Travel expert<br/>for this subcategory]
-    Q3 -->|no| LLM[ask Mistral to decide<br/>JSON: route + reason] --> EXP & CLAR & CHAT
+    Q2 -->|no| EXP[Travel expert<br/>for this topic]
 
     classDef decide fill:#fef3c7,stroke:#d97706,color:#111
-    class Q1,Q2,Q3,LLM decide
+    class M1,M2,Q1,Q2,FILL,FILL2,NEWQ decide
 ```
 
-It also uses the **memory** to understand short messages:
+The two **memory rules** come first, because short messages that continue the conversation make no sense alone
+(the travel filter could even call them "other"):
+- **answer to our question** — the bot asked "when?", the user says "ghodwa" → fill the date and continue;
 - **follow-up** — "w f sousse?" (and in Sousse?) → same topic as before, only the city changes;
-- **correction** — "la, ba3d ghodwa" (no, the day after tomorrow) → replace the date, redo;
-- **answer to our question** — the bot asked "when?", the user says "ghodwa" → fill the date and continue.
+- **correction** — "la, ba3d ghodwa" (no, the day after tomorrow) → the new date replaces the old one, redo.
+  A follow-up and a correction are the same operation: **new values overwrite the old slots**.
+
+If the rules are not sure (e.g. the classifier hesitates between two subcategories), the Supervisor asks Mistral to decide (added last, step 6 of the build).
 
 ---
 
@@ -154,10 +166,14 @@ flowchart LR
 
 ### 4c. The Chat agent
 
-**Job:** everything that is not a travel request — instant template replies, no LLM:
+**Job:** everything that is not a travel request. **Mistral writes a short reply** (streamed) in the user's language,
+so it adapts by itself:
 - greeting / thanks / goodbye → friendly reply + "how can I help with your trip?"
 - off-topic → polite "I can only help with travel questions"
 - frustration ("ma fhemtnich!") → apologise and offer to rephrase
+
+If Mistral fails or is too slow: **one neutral template** per language that fits all cases
+("I'm your travel assistant, how can I help with your trip?").
 
 ---
 
@@ -210,16 +226,16 @@ Kept by LangGraph's **checkpointer**, one conversation per `thread_id`:
 **B. Missing information** — "nheb billet l paris"
 1. ① card: flight_search · destination Paris · **no date**
 2. ② info missing → **Clarifier** → "Wa9tech t7eb tsafer?" (pause)
-3. user: "ghodwa" → ① card: answer to our question · date 2026-11-25
-4. ② memory now has Paris + date → **Flights expert** → ④ reply
+3. user: "ghodwa" → ① card: date 2026-11-25 (no topic of its own)
+4. ② memory rule: the bot was waiting for a date and got one → fill it; memory has Paris + date → **Flights expert** → ④ reply
 
 **C. A follow-up** — after a weather answer for Djerba, the user writes "w f sousse?"
-1. ① card: kind = follow-up · place Sousse · no subcategory signal
-2. ② memory: topic = weather → **Destination expert** with city = Sousse → ④ reply
+1. ① card: place Sousse · no clear subcategory
+2. ② memory rule: topic = weather, new place → Sousse replaces Djerba → **Destination expert** → ④ reply
 
 **D. Off-topic** — "a3tini recette mlou5iya"
-1. ① card: not travel
-2. ② → **Chat agent** → "Najem n3awnek ken fel safar ..." (instant)
+1. ① card: not travel · no topic in memory to continue
+2. ② → **Chat agent** → Mistral: "Samahni, najem n3awnek ken fel safar ..."
 
 ---
 
@@ -239,19 +255,20 @@ Each can be added later as one extra node without changing the 4 stages.
 
 | Case | Mistral calls | What the user waits for |
 |---|---|---|
-| Clear travel question | 2 (intent check, in parallel + reply, streamed) | ~1.5 s, then words start appearing |
+| Clear travel question | 2 (travel filter, in parallel + reply, streamed) | ~1.5 s, then words start appearing |
 | Unclear message | 3 (+ Supervisor decision) | ~3 s, then words appear |
-| Clarification / greeting / off-topic | 1 (intent check only) | ~1.5 s, template reply |
+| Greeting / thanks / off-topic | 2 (travel filter + Chat agent reply, streamed) | ~1.5 s, then words appear |
+| Clarification question | 1 (travel filter only) | ~1.5 s, template question |
 | Mistral down | 0 effective | template reply |
 
 ---
 
 ## 10. Build order
 
-1. Mock-API functions (+ info files once decided).
-2. The state + memory, and the **Understanding agent** (our 4 models + the intent check).
-3. The **Supervisor** (rules), the **Chat agent** and the **Clarifier** (templates in 3 languages, Tunisian ones validated by the user).
-4. The **5 Travel experts** (sub-graphs with their tools).
-5. The **Responder** (streamed, check, fallback).
+1. ✅ Travel data tools (`src/mock_api/service.py`) + info files.
+2. ✅ The state + memory (`src/pipeline/state.py`), and the **Understanding agent** (`understanding.py`; travel filter prompt v3).
+3. ✅ The **Supervisor** (`supervisor.py`), the **Chat agent** (`chat_agent.py`: Mistral, streamed, one fallback) and the **Clarifier** (`clarifier.py`: fixed questions, no `interrupt`).
+4. ✅ The **5 Travel experts** (`experts.py`: one node each, sharing the same 4 steps — plain functions, not sub-graphs, since each is ~1 ms of Python) + the main graph (`graph.py`).
+5. ✅ The **Responder** (`responder.py`: streamed; numbers check → replace by a data card; language check flagged only).
 6. The Supervisor's LLM decision for unclear cases; follow-ups and corrections.
 7. Scenario tests (the 4 examples above and more) + the graph drawn from the code for the report.
